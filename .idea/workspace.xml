@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9fdb5cc9-0969-4556-9b87-718e8c2e5138" name="Changes" comment="" />
+    <list default="true" id="9fdb5cc9-0969-4556-9b87-718e8c2e5138" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +92,9 @@
       <workItem from="1646803591622" duration="707000" />
       <workItem from="1647311183251" duration="9263000" />
       <workItem from="1647396501484" duration="878000" />
-      <workItem from="1647397400193" duration="36000" />
+      <workItem from="1647397400193" duration="227000" />
+      <workItem from="1647397639205" duration="8000" />
+      <workItem from="1647397729732" duration="43000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1647359049895</created>
@@ -98,13 +103,22 @@
       <option name="project" value="LOCAL" />
       <updated>1647359049895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1647397610667</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647397610667</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="First commit" />
     <option name="LAST_COMMIT_MESSAGE" value="First commit" />
