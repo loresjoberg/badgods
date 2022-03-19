@@ -1,0 +1,229 @@
+19970101|third|fs|bowling|Aspects of Bowling|ratings
+19970101|third|fs|swvillains|Star Wars Villains|ratings
+19970601|third|fs|superfriends|Superfriends|moviestv:ratings
+19970609|third|fs|cereal|Breakfast Cereals|ratings
+19970616|third|fs|potato|Uses for Potatoes|ratings
+19970623|third|fs|sstreet|Sesame Street Characters|moviestv:ratings
+19970630|third|fs|rockstars|Rock Stars with One Name|music:ratings
+19970707|third|fs|sins|Deadly Sins|ratings
+19970714|third|fs|hostess|Hostess Products|ratings
+19970721|third|fs|dinos|Dinosaurs|ratings
+19970728|third|fs|pizza|Pizza Toppings|ratings
+19970804|third|fs|monopoly|Monopoly Tokens|ratings
+19970811|third|fs|kitchen|Kitchen Appliances That Only Do One Thing|ratings
+19970818|third|fs|trekaliens|Star Trek Alien Makeup|moviestv:ratings
+19970825|third|fs|rodents|Pet Rodents|ratings
+19970901|third|fs|earlyvideo|Classic Video Games|ratings
+19970908|third|fs|crayons|Crayola Colors|ratings
+19970915|third|fs|kidvehicles|Kid Vehicles|ratings
+19970922|third|fs|cereal2|More Breakfast Cereal|ratings
+19970929|third|fs|pooh|Winnie-the-Pooh Characters|ratings
+19971006|third|fs|superpowersrating|Superman's Powers|ratings
+19971013|third|fs|clue|Clue Suspects|ratings
+19971020|third|fs|invaders|Alien Invaders|ratings
+19971027|third|fs|halloweencandy|Halloween Treats|ratings
+19971103|third|fs|hotthings|Hot Things|ratings
+19971110|third|fs|cookies|Cookies|ratings
+19971117|third|fs|scooby|Scooby-Doo Characters|moviestv:ratings
+19971124|third|fs|koolaid|Kool-Aid Flavors|ratings
+19971201|third|fs|bandaids|Types of Band-Aids|ratings
+19971208|third|fs|threes|Three's Company Characters|ratings
+19971215|third|fs|batmanvillains|Batman Villains|ratings
+19971222|third|fs|christmassongs|Christmas Songs|ratings
+19971229|third|fs|cardgames|Card Games|ratings
+19980105|third|fs|mcfood|McDonald's Food|ratings
+19980112|third|fs|popeye|Popeye and Entourage|moviestv:ratings
+19980127|third|fs|boardgames|Board Games|ratings
+19980202|third|fs|laundry|Aspects of the Laundromat|ratings
+19980209|third|fs|creatures|Mythical Creatures|ratings
+19980223|third|fs|moresuperfriends|More Superfriends|moviestv:ratings
+19980302|third|fs|cereal3|Still More Breakfast Cereal|ratings
+19980309|third|fs|benandjerry|Ben and Jerry's Ice Cream Flavors|ratings
+19980316|third|fs|swissarmy|Swiss Army Knife Items|ratings
+19980323|third|fs|alice|'Alice's Adventures' Characters|ratings
+19980330|third|fs|gamesforkids|Schoolyard Games|ratings
+19980406|third|fs|2600games|Atari 2600 Games|computers:ratings
+19980413|third|fs|constellations|Constellations|ratings
+19980420|third|fs|heman|He-Man Characters|moviestv:ratings
+19980427|third|fs|officesupplies|Office Supplies|ratings
+19980504|third|fs|speedracer|Speed Racer Characters|moviestv:ratings
+19980511|third|fs|dogtricks|Dog Tricks|ratings
+19980518|third|fs|morecookies|More Cookies|ratings
+19980601|third|fs|marvelheroes|Marvel Superheroes|ratings
+19980608|third|fs|cokeslogans|Coca-Cola Slogans|ratings
+19980615|third|fs|morepizza|More Pizza Toppings|ratings
+19980622|third|fs|pooltoys|Pool Toys|ratings
+19980629|third|fs|cocktails|Cocktails|ratings
+19980707|third|fs|moreearlyvideo|More Classic Video Games|computers:ratings
+19980713|third|fs|references|References From Last Week's Ratings|ratings
+19980720|third|fs|wonka|Characters From Willy Wonka and the Chocolate Factory|ratings
+19980727|third|fs|doughnuts|Doughnuts and Doughnut-like Foods|ratings
+19980810|third|fs|ninjaweapons|Ninja Weapons|ratings
+19980817|third|fs|vendingitems|Supermarket Vending Machine Items|ratings
+19980824|third|fs|norsegods|Norse Gods|ratings
+19980827|features|fs|lawrating|The Law Rating System|politics
+19980831|third|fs|crap|Crap We Got In the Mail|ratings
+19980915|third|fs|football|Aspects of Televised Football|ratings
+19980922|third|fs|scoutbadges|Boy Scout Merit Badges|ratings
+19980928|third|fs|deodorant|Deodorant Scents|ratings
+19981005|third|fs|hannabarbera|Hanna Barbera Cartoons|moviestv:ratings
+19981012|third|fs|schoolhouse|Schoolhouse Rock|moviestv:ratings
+19981019|third|fs|cattoys|Cat Toys|ratings
+19981028|third|fs|paulisdead|Paul is Dead Clues|music:ratings
+19981102|third|fs|cereal4|Yet More Breakfast Cereal|ratings
+19981109|third|fs|carparts|Car Options|ratings
+19981116|third|fs|thanksgivingfoods|Thanksgiving Foods|ratings
+19981124|third|fs|thundercats|ThunderCats|moviestv:ratings
+19981207|third|fs|sushi|Aspects of Sushi Restaurants|ratings
+19981214|third|fs|morechristmassongs|More Christmas Songs|ratings
+19981222|third|fs|chess|Chess Pieces|ratings
+19990104|third|fs|lawnornaments|Lawn Ornaments|ratings
+19990113|third|fs|dnd|Dungeons and Dragons Character Classes|ratings
+19990125|third|fs|moreschoolhouse|Schoolhouse Rock Part II|moviestv:ratings
+19990201|third|fs|caraccessories|Car Accessories|ratings
+19990209|third|fs|coins|Coins|ratings
+19990222|third|fs|jabberwocky|Aspects of Jabberwocky|ratings
+19990301|third|fs|cereal5|Are You There, God? It's More Breakfast Cereal|ratings
+19990308|third|fs|dinerfood|Diner Food|ratings
+19990315|third|fs|morednd|More Dungeons and Dragons Character Classes|ratings
+19990322|third|fs|greekgods|Greek Gods|ratings
+19990331|third|fs|farmanimals|Farm Animals|ratings
+19990405|third|fs|stillmoreearlyvideo|Still More Classic Video Games|ratings
+19990419|third|fs|chinesefood|Chinese Food|ratings
+19990426|third|fs|kidssongs|Kids' Songs|ratings
+19990504|third|fs|streetsigns|Street Signs|ratings
+19990511|third|fs|urbanlegends|Urban Legends|ratings
+19990517|third|fs|schoolhouse3|Schoolhouse Rock Part III|ratings
+19990526|third|fs|phantommenacerating|Phantom Menace Speed Ratings|moviestv:ratings
+19990607|third|fs|japanesesnacks|Japanese Snack Foods|ratings
+19990614|third|fs|hostess2|More Hostess Products|ratings
+19990621|third|fs|plagues1|Plagues of Egypt|religion:ratings
+19990628|third|fs|plagues2|The Rest of the Plagues of Egypt|religion:ratings
+19990713|third|fs|morecrap|More Crap We Got In the Mail|ratings
+19990719|third|fs|dairy|Dairy Products|ratings
+19990726|third|fs|objectcandy|Inanimate Object Candy|ratings
+19990805|third|fs|moreobjectcandy|More Inanimate Object Candy|ratings
+19990816|third|fs|coffeedrinks|Coffeeshop Drinks|ratings
+19990823|third|fs|australiansnacks|Australian Snack Foods|ratings
+19990830|third|fs|folksongs|Folk Songs|music:ratings
+19990913|third|fs|godzillaenemies|Godzilla Enemies|moviestv:ratings
+19990920|third|fs|cereal6|G&ouml;del, Escher, Breakfast Cereal|ratings
+19990927|third|fs|extinctanimals|Extinct Animals|ratings
+19991004|third|fs|oldweb|Paleolithic Web Pages|computers:ratings
+19991011|third|fs|koreansnacks|Korean Snack Foods|ratings
+19991018|third|fs|playground|Playground Equipment|ratings
+19991025|third|fs|remotecontrol|VCR Remote Buttons|ratings
+19991101|third|fs|weddings|Wedding Traditions|ratings
+19991108|third|fs|amusementfoods|Amusement Park Foods|ratings
+19991115|third|fs|streetnames|Street Names|ratings
+19991122|third|fs|miracles|Miracles of Christ|religion:ratings
+19991129|third|fs|insects|Insects|ratings
+19991213|third|fs|footwear|Footwear|ratings
+19991220|third|fs|morekoreansnacks|More Korean Snacks|ratings
+19991227|third|fs|newquarters|New Quarters|ratings
+20000103|third|fs|icecreamtreats|Ice Cream Novelties|ratings
+20000110|third|fs|goodluck|Good Luck Charms|ratings
+20000117|third|fs|starwarslegos|Star Wars Lego Figures|moviestv:ratings
+20000124|third|fs|jellybellys|Jelly Belly Flavors|ratings
+20000131|third|fs|marsupials|Marsupials|ratings
+20000207|third|fs|czechsnacks|Czech and Romanian Snack Foods|ratings
+20000221|third|fs|sittingthings|Things You Sit On|ratings
+20000228|third|fs|coldremedies|Cold and Flu Remedies|ratings
+20000306|third|fs|piggies|Piggies|ratings
+20000314|third|fs|spacethings|Things in Space|ratings
+20000320|third|fs|neighborhood|The Neighborhood of Make-Believe|moviestv:ratings
+20000328|third|fs|swedishcandy|Swedish Candy|ratings
+20000403|third|fs|magictricks|Magic Tricks|ratings
+20000410|third|fs|raingear|Rain Gear|ratings
+20000417|third|fs|easteraspects|Aspects of Easter|ratings
+20000424|third|fs|fables|Aesop's Fables|ratings
+20000508|third|fs|partyfavors|Party Favors|ratings
+20000515|third|fs|israelisnacks|Israeli Snack Foods|ratings
+20000522|third|fs|lights|Lights|ratings
+20000530|third|fs|catalogstuff|Stuff in the Airline Catalog|ratings
+20000606|third|fs|frenchsuck|French Food You Suck On|ratings
+20000619|third|fs|tld|Top Level Domain Names|ratings
+20000626|third|fs|inputdevices|Input Devices|ratings
+20000703|third|fs|fireworks|Fireworks|ratings
+20000718|third|fs|monopolysets|Monopoly Sets|ratings
+20000724|third|fs|legionofdoom|The Legion of Doom|ratings
+20000816|third|fs|apartmentrules|Rules For My Apartment Complex|ratings
+20000830|third|fs|movieaspects|Aspects of the Movie Theater|moviestv:ratings
+20000906|third|fs|stateplates|State License Plates|ratings
+20000911|third|fs|ateam|The A-Team|moviestv:ratings
+20000920|third|fs|schoolsupplies|School Supplies|ratings
+20001002|third|fs|littlepeople|Fisher-Price Little People|ratings
+20001020|third|fs|camping|Aspects of Camping|ratings
+20001023|third|fs|laborsofhercules|Labors of Hercules|ratings
+20001030|third|fs|laborsofhercules2|More Labors of Hercules|ratings
+20001106|third|fs|stateplates2|State License Plates, Part Two|ratings
+20001120|third|fs|hats|Hats|ratings
+20001127|third|fs|morequarters|State Quarters, Part 2|ratings
+20001205|third|fs|eggdishes|Egg Dishes|ratings
+20001215|third|fs|containers|Containers|ratings
+20001219|third|fs|babytoys|Baby Toys|ratings
+20001226|third|fs|snowthings|Things You Make Out of Snow|ratings
+20010104|third|fs|catnames|Names for Felis Concolor|ratings
+20010108|third|fs|waystoleave|Ways To Leave Your Lover|ratings
+20010205|third|fs|tastes|Tastes|ratings
+20010305|third|fs|barappetizers|Bar Appetizers|ratings
+20010312|third|fs|cereal7|I Don't Want To Be Elfstar Any More. I Want To Be More Breakfast Cereals.|ratings
+20010319|third|fs|pocketgames|Tomy Pocket Games|ratings
+20010328|third|fs|musicmedia|Music Media|ratings
+20010402|third|fs|utensils|Utensils|ratings
+20010409|third|fs|apesandmonkeys|Apes and Monkeys|ratings
+20010416|third|fs|phonefeatures|Phone Features|ratings
+20010529|third|fs|crackers|Crackers|ratings
+20010611|third|fs|seventiescrafts|Seventies Crafts|ratings
+20010710|third|fs|fordummies|For Dummies Books|ratings
+20010724|third|fs|dante1|Dante's Inferno Punishments, Part I|ratings
+20010802|third|fs|dante2|Dante's Inferno Punishments, Part II|ratings
+20010807|third|fs|dante3|Dante's Inferno Punishments, Part III|ratings
+20010814|third|fs|dante4|Dante's Inferno Punishments, Part IV|ratings
+20010820|third|fs|dante5|Dante's Inferno Punishments, Part V|ratings
+20010829|third|fs|worldwonders|Wonders of the World|ratings
+20010906|third|fs|moreairlinecatalog|More Stuff From The Airline Catalog|ratings
+20010906|third|fs|advairlinecatalog|More Stuff From The Airline Catalog|ratings
+20010910|third|fs|psychicpowers|Psychic Powers|ratings
+20010920|third|fs|dollarstore|Things From the Dollar Store|ratings
+20010926|third|fs|dollarstore2|Things From the Dollar Store Part II|ratings
+20011002|third|fs|dollarstore3|Things From the Dollar Store Part III|ratings
+20011008|third|fs|dollarstore4|Things From the Dollar Store Part IV|ratings
+20011022|third|fs|dinosaurs2|Dinosaurs Part II|ratings
+20011107|third|fs|quarters3|State Quarters, Part 3|ratings
+20011213|third|fs|facialhair|Facial Hair|ratings
+20011217|third|fs|postcards|Free Promotional Postcards I Got in LA|ratings
+20020122|third|fs|canadiansnacks|Canadian Snack Foods/Canadiens Casse-Cro&ucirc;te|ratings
+20020204|third|fs|powertools|Power Tools|ratings
+20020228|third|fs|sundaetoppings|Sundae Toppings|ratings
+20020307|third|fs|sodaflavors|Soda Flavors|ratings
+20020318|third|fs|keyboardsymbols|Keyboard Symbols|ratings
+20020330|third|fs|numbers|Numbers|ratings
+20020408|third|fs|goodwords|Slang Words That Mean &quot;Good&quot;|ratings
+20020514|third|fs|futurethings|Aspects of the Future Circa 1953|ratings
+20020528|third|fs|fridgemagnets|Refrigerator Magnets|ratings
+20020603|third|fs|spiderpowers|Spider-Man's Powers|ratings
+20020617|third|fs|utweapons|Unreal Tournament Weapons|ratings
+20020626|third|fs|utweapons2|More Unreal Tournament Weapons|ratings
+20020805|third|fs|ratingmonths|Months (Part I)|ratings
+20020812|third|fs|ratingmonths2|Months (Part II)|ratings
+20020819|third|fs|marvelvillainsrating|Marvel Supervillains (Part I)|ratings
+20020826|third|fs|marvelvillainsrating2|Marvel Supervillains (Part II)|ratings
+20020909|third|fs|statues|Statues|ratings
+20020923|third|fs|streetfighter2|Street Fighter II Characters (Part I)|ratings
+20021021|third|fs|streetfighter2-2|Street Fighter II Characters (Part II)|ratings
+20021111|third|fs|copingwithdeath|Stages of Coping With a Terminal Illness|ratings
+20021230|third|fs|newyearstraditions|New Year's Eve Traditions|ratings
+20030113|third|fs|quarters4|State Quarters, Part 4|ratings
+20030203|third|fs|dangersymbols|Danger Symbols, Part 1|ratings
+20030210|third|fs|dangersymbols2|Danger Symbols, Part 2|ratings
+20030310|third|fs|wartremedies|Wart Remedies|ratings
+20030324|third|fs|fortune1|Fortunetelling Methods, Part 1|ratings
+20030520|third|fs|dndmonsters|D&D Monsters, Part I|ratings
+20030527|third|fs|dndmonsters2|D&D Monsters, Part II|ratings
+20030603|third|fs|dndmonsters3|D&D Monsters, Part III|ratings
+20030616|third|fs|collectibles|Collectibles, Part I|ratings
+20030813|third|fs|fortune2|Fortunetelling Methods, Part II|ratings
+20031117|third|fs|quarters5|State Quarters, Part 5|ratings
+20031125|third|fs|thanksgivingsymbols|Thanksgiving Symbols|ratings
+20031202|third|fs|spycar|Spy Car Accessories|ratings
