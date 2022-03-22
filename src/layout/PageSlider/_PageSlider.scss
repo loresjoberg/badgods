@@ -1,33 +1,29 @@
 .PageSlider {
   background-color: #666;
-  height: 0.5rem;
+  height: 4px;
   margin: auto 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 
   .linkCell {
-
     width: 100%;
     text-decoration: none;
 
     .linkDot {
-
       position: relative;
-      width: 2px;
-      height: 100%;
+      top: -3px;
+      width: 4px;
+      height: 10px;
       margin: auto;
-      //border-radius: 50%;
+      border: 1px solid black;
       background-color: white;
 
       &.active {
         width: 8px;
-        height: 12px;
-        border-radius: 50%;
-        position: relative;
-        top: -6px;
-        border: 4px solid black;
-        background-color: white;
+        height: 14px;
+        border: 2px solid black;
+        top: -5px;
       }
     }
 

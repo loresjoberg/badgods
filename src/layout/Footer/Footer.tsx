@@ -1,41 +1,29 @@
 import React from 'react';
 import './_Footer.scss';
 import FooterNav from "../FooterNav/FooterNav";
-import CatalogButton from "../CatalogButton/CatalogButton";
+import CatalogRow from "../CatalogRow/CatalogRow";
+import {postType, sectionType} from "../../types";
 
 export type FooterProps = {
-  posts: {
-    moniker: string;
-    slug: string;
-    id: string;
-  }[];
-  sections: {
-    moniker: string;
-    slug: string;
-    id: string;
-  }[];
-  activePostSlug: string;
+  posts: postType[];
+  sections: sectionType[];
+  postSlug: string;
   activeSectionSlug: string;
-  nextPostSlug: string;
-  previousPostSlug: string;
+  changePage: Function;
+  changeSection: Function;
 }
 
 export default function Footer({
                                  posts,
                                  sections,
-                                 previousPostSlug,
-                                 nextPostSlug,
-                                 activePostSlug,
+                                 postSlug,
                                  activeSectionSlug,
+                                 changePage,
+                                 changeSection
                                }: FooterProps) {
   return (<footer className="Footer">
-      <FooterNav posts={posts} previousPostSlug={previousPostSlug} nextPostSlug={nextPostSlug}
-                 activePostSlug={activePostSlug} activeSectionSlug={activeSectionSlug}/>
-      <div className={"catalog-row"}>
-        {sections.map(function (section) {
-          return <CatalogButton section={section}/>;
-        })}
-      </div>
+      <FooterNav posts={posts} postSlug={postSlug} changePage={changePage}/>
+      <CatalogRow changeSection={changeSection} sections={sections} activeSectionSlug={activeSectionSlug}/>
     </footer>
   );
 }

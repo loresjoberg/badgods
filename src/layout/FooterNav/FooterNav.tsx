@@ -1,39 +1,42 @@
 import React from 'react';
 import './_FooterNav.scss';
 import PageSlider from "../PageSlider/PageSlider";
+import {postType} from "../../types";
 
 export type FooterNavProps = {
-  posts: {
-    moniker: string;
-    slug: string;
-    id: string;
-  }[];
-  previousPostSlug: string;
-  nextPostSlug: string;
-  activePostSlug: string;
-  activeSectionSlug: string;
+  posts: postType[];
+  postSlug: string;
+  changePage: any;
 }
-export default function FooterNav({
-                                    posts,
-                                    previousPostSlug,
-                                    nextPostSlug,
-                                    activePostSlug,
-                                    activeSectionSlug
-                                  }: FooterNavProps) {
+export default function FooterNav({posts, postSlug, changePage}: FooterNavProps) {
 
+  const [previousSlug, setPreviousSlug] = React.useState<string>('');
+  const [nextSlug, setNextSlug] = React.useState<string>('');
+
+  React.useEffect(() => {
+    if (posts.length > 0) {
+      posts.forEach((post, index) => {
+        if (post.slug === postSlug) {
+          const previousIndex = (index - 1 >= 0) ? index - 1 : 0;
+          const nextIndex = (index + 1 < posts.length) ? index + 1 : index;
+          setPreviousSlug(posts[previousIndex].slug)
+          setNextSlug(posts[nextIndex].slug)
+        }
+      })
+    }
+  }, [postSlug, posts]);
 
   return (<div className={"FooterNav"}>
       <div className={"navButton navLeft"}>
-        <a href={`/posts/${activeSectionSlug}/${previousPostSlug}/`}>
+        <button onClick={() => changePage(previousSlug)}>
           <img className="nav-arrow" alt={"previous"} src={"/images/arrow-left.png"}/>
-        </a>
+        </button>
       </div>
-
-      <PageSlider posts={posts} activePostSlug={activePostSlug} activeSectionSlug={activeSectionSlug}/>
+      <PageSlider changePage={changePage} posts={posts} activePostSlug={postSlug}/>
       <div className={"navButton navRight"}>
-        <a href={`/posts/${activeSectionSlug}/${nextPostSlug}/`}>
+        <button onClick={() => changePage(nextSlug)}>
           <img className="nav-arrow" alt={"next"} src={"/images/arrow-right.png"}/>
-        </a>
+        </button>
       </div>
     </div>
   );

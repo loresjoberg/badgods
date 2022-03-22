@@ -1,67 +1,105 @@
 import React from 'react';
 import './App.scss';
 import axios from 'axios';
-import {pageMe} from "./html/pages";
 import Footer from "./layout/Footer/Footer";
 import Header from "./layout/Header/Header";
+import Main from "./layout/Main/Main";
+import {postType, sectionType} from "./types";
 
-const baseUrl = "http://localhost:3030";
+const restUrl = "http://localhost:3030";
+const baseUrl = "http://localhost:3000";
+const nullPost = {
+  sectionSlug: "",
+  mediaType: "",
+  moniker: "",
+  postDate: "",
+  slug: ""
+};
 
+export type AppProps = {
+  postSlug: string,
+  sectionSlug: string;
+}
 
-function App() {
-  const [sections, setSections] = React.useState<any[]>([]);
-  const [posts, setPosts] = React.useState<any[]>([]);
-  const [activePost, setActivePost] = React.useState<any>([]);
-  const [mainBlock, setMainBlock] = React.useState<any>(null);
-  const [previousPostSlug, setPreviousPostSlug] = React.useState<string>('');
-  const [nextPostSlug, setNextPostSlug] = React.useState<string>('');
+function App({postSlug, sectionSlug}: AppProps) {
+  const [sections, setSections] = React.useState<sectionType[]>([]);
+  const [posts, setPosts] = React.useState<postType[]>([]);
+  const [activePost, setActivePost] = React.useState<postType>(nullPost);
+  const [activeSectionSlug, setActiveSectionSlug] = React.useState<string>('');
 
-  const pathName = window.location.pathname;
-  const segments = pathName.split('/');
-  const sectionSlug = segments[2] ?? 'speakwithmonsters';
-  const postSlug = segments[3];
-
+  React.useEffect(() => loadSections(), []);
   React.useEffect(() => {
-    axios.get(baseUrl + '/sections/').then((response) => {
+    if (postSlug) {
+      loadActivePost(postSlug)
+      return;
+    }
+    loadPostsForSection(sectionSlug)
+  }, [postSlug, sectionSlug]);
+  React.useEffect(() => {
+    normalizeUrl(activePost.sectionSlug, activePost.slug)
+  }, [activePost]);
+  React.useEffect(() => setActiveSectionSlug(activePost.sectionSlug), [activePost]);
+  React.useEffect(() => loadPostsForSection(activePost.sectionSlug), [activePost]);
+  React.useEffect(() => {
+    if (posts.length < 1) {
+      return;
+    }
+    if (activePost.sectionSlug !== posts[0].sectionSlug) {
+      setActivePost(posts[0])
+    }
+
+  }, [activePost.sectionSlug, posts]);
+
+  const loadSections = () => {
+    axios.get(restUrl + '/sections/').then((response) => {
       setSections(response.data);
     });
-    axios.get(`${baseUrl}/sections/${sectionSlug}/posts/`).then((response) => {
+  }
+
+  const loadActivePost = (slug: string) => {
+    axios.get(`${restUrl}/posts/${slug}`).then((response) => {
+      setActivePost(response.data);
+    });
+  }
+
+  const loadPostsForSection = (sectionSlug: string) => {
+    if (!sectionSlug) {
+      return;
+    }
+    axios.get(`${restUrl}/sections/${sectionSlug}/posts`).then((response) => {
       setPosts(response.data);
     });
-  }, [sectionSlug]);
+  }
 
-  React.useEffect(() => {
-    if (posts.length > 0) {
-      setActivePost(posts[0]);
-      posts.forEach((post, index) => {
-        if (post.slug === postSlug) {
-          setPreviousPostSlug(posts[index - 1].slug)
-          setNextPostSlug(posts[index + 1].slug)
-          setActivePost(post);
-        }
-      })
+  const normalizeUrl = (sectionSlug: string, postSlug: string) => {
+    if (!sectionSlug) {
+      return;
     }
-    if (activePost.media_type === 'image') {
-      const element = <img className="main-image" alt="" src={"/images/" + activePost.slug + ".png"}/>;
-      setMainBlock(element);
-    } else if (activePost.media_type === 'html') {
-      setMainBlock(pageMe(activePost.slug));
-    } else if (activePost.media_type === 'animation') {
-      setMainBlock(<h3>animation</h3>);
-    }
-  }, [activePost.media_type, activePost.slug, postSlug, posts]);
+    window.history.replaceState({}, '', `${baseUrl}/posts/${sectionSlug}/${postSlug}`);
+  }
 
-  if (!posts) return null;
+  const changeSection = (newSlug: any) => {
+    loadPostsForSection(newSlug);
+  }
 
+  const changePage = (newSlug: any) => {
+    loadActivePost(newSlug);
+  }
+
+
+  if (!activePost) {
+    return null;
+  }
 
   return (
     <div className="App">
       <Header title={activePost.moniker}/>
-      <main className={"section-" + sectionSlug}>
-        <h2>{activePost.moniker}</h2>
-        {mainBlock}
-      </main>
-      <Footer activePostSlug={postSlug} previousPostSlug={previousPostSlug} nextPostSlug={nextPostSlug} activeSectionSlug={sectionSlug} posts={posts} sections={sections}/>
+      <Main post={activePost}/>
+      <Footer postSlug={activePost.slug}
+              activeSectionSlug={activeSectionSlug}
+              posts={posts}
+              sections={sections}
+              changePage={changePage} changeSection={changeSection}/>
     </div>
   );
 

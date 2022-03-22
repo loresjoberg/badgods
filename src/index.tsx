@@ -4,9 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const pathName = window.location.pathname;
+const segments = pathName.split('/');
+const postSlug = segments[3] ?? 'facialhairtypes';
+const sectionSlug = segments[2];
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App postSlug={postSlug} sectionSlug={sectionSlug}/>
   </React.StrictMode>,
   document.getElementById('root')
 );

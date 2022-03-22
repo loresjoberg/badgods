@@ -3,7 +3,10 @@
   grid-template-columns: 10% 80% 10%;
   justify-content: space-between;
   align-items: center;
-
-
-
+  height: 3rem;
+  margin: auto 1rem;
+  button {
+    background-color: white;
+    border: none;
+  }
 }

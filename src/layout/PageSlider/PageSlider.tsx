@@ -1,28 +1,23 @@
 import React from 'react';
 import './_PageSlider.scss';
+import {postType} from "../../types";
 
 export type PageSliderProps = {
-  posts: {
-    moniker: string;
-    slug: string;
-    id: string;
-  }[];
+  posts: postType[];
   activePostSlug: string;
-  activeSectionSlug: string;
+  changePage: any
 }
 
-
-export default function PageSlider({posts = [], activePostSlug = 'foo', activeSectionSlug = 'bar'}: PageSliderProps) {
+export default function PageSlider({posts = [], activePostSlug, changePage }: PageSliderProps) {
   return (<div className={"PageSlider"}>
     {
       posts.map(function (post) {
         const active = post.slug === activePostSlug ? 'active' : '';
-        return <a className="linkCell" href={`/posts/${activeSectionSlug}/${post.slug}/`}
-                  key={post.id}>
+        return <div className="linkCell" onClick={() => changePage(post.slug)} key={post.slug}>
           <div className={'linkDot ' + active}>
-            <div className="toolTipText">{post.moniker}</div>
+            <div className="toolTipText">{post.moniker} </div>
           </div>
-        </a>;
+        </div>;
       })}
   </div>);
 }
