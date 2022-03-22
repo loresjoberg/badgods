@@ -1,35 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layout/CatalogRow/CatalogRow.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/CatalogRow/CatalogRow.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/CatalogRow/CatalogRow.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/CatalogRow/CatalogRow.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/CatalogRow/_CatalogRow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Main/Main.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Main/Main.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Main/Main.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Main/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Main/_Main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/CatalogButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogButton/CatalogButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/_CatalogButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogButton/_CatalogButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FooterNav/FooterNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FooterNav/FooterNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FooterNav/_FooterNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FooterNav/_FooterNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/_PageSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/PageSlider/_PageSlider.scss" afterDir="false" />
-    </list>
+    <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -152,7 +124,7 @@
       <workItem from="1647733334637" duration="13870000" />
       <workItem from="1647788559215" duration="292000" />
       <workItem from="1647789184497" duration="2026000" />
-      <workItem from="1647912436313" duration="840000" />
+      <workItem from="1647912436313" duration="1161000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -161,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647729358464</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Before eject">
+      <created>1647914611646</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1647914611646</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +151,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Nearly working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nearly working" />
+    <MESSAGE value="Before eject" />
+    <option name="LAST_COMMIT_MESSAGE" value="Before eject" />
   </component>
 </project>
