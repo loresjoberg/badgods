@@ -605,5 +605,5 @@ const pageList = {
 };
 
 export const pageMe = (slug) => {
-  return pageList[slug];
+  return <div className={"content-html"}>{pageList[slug]}</div>;
 }

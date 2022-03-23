@@ -94,7 +94,7 @@ function App({postSlug, sectionSlug}: AppProps) {
   return (
     <div className="App">
       <Header title={activePost.moniker}/>
-      <Main post={activePost}/>
+      <Main activePost={activePost}  posts={posts} changePage={changePage}/>
       <Footer postSlug={activePost.slug}
               activeSectionSlug={activeSectionSlug}
               posts={posts}

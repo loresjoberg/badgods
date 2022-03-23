@@ -23,7 +23,7 @@ export default function Footer({
                                }: FooterProps) {
   return (<footer className="Footer">
       <FooterNav posts={posts} postSlug={postSlug} changePage={changePage}/>
-      <CatalogRow changeSection={changeSection} sections={sections} activeSectionSlug={activeSectionSlug}/>
+      {/*<CatalogRow changeSection={changeSection} sections={sections} activeSectionSlug={activeSectionSlug}/>*/}
     </footer>
   );
 }

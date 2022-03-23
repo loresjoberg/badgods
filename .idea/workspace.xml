@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="" />
+    <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/layout/NavArrow/NavArrow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/NavArrow/NavArrow.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/NavArrow/NavArrow.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/NavArrow/_NavArrow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3fb11461-d8f9-4b7a-958b-3cf5c342b3c5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3fb11461-d8f9-4b7a-958b-3cf5c342b3c5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/CatalogRow/CatalogRow.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FooterNav/FooterNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FooterNav/FooterNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FooterNav/_FooterNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FooterNav/_FooterNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Main/_Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Main/_Main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/direction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/repo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +62,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -32,11 +76,11 @@
     <option name="projectConfigVersion" value="5" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/types/index.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/layout/CatalogButton/_CatalogButton.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/layout/Main/Main.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/types/index.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/index.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/layout/Main/Main.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -145,6 +189,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
