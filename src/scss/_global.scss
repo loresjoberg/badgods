@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Regular.otf") format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Bold.otf") format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Rokkitt';
+  src: local("Rokkitt"), url("../fonts/Rokkitt-Regular.ttf") format('truetype');
+  font-weight: normal;
+}
+
+
+$seeThrough: rgba(255,255,255,0.8);
+
+$sideMargin: 0.75rem;
+
+$maxWidth: 32rem;
+$maxWidthHtml: 34rem;
+$headerHeight: 4rem;
+$footerHeight: 3.5rem;
+$pageHeight: calc(100vh - 6rem);
+
+$zLow: 1;
+$zMed: 10;
+$zHigh: 100;
+$zMega: 1000;
+$zUltra: 10000;

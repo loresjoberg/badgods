@@ -1,29 +1,23 @@
 import React from 'react';
 import './_Footer.scss';
-import FooterNav from "../FooterNav/FooterNav";
-import CatalogRow from "../CatalogRow/CatalogRow";
-import {postType, sectionType} from "../../types";
+import {postType} from "../../types";
+import NavBox from "../NavBox/NavBox";
+import PageSlider from "../PageSlider/PageSlider";
 
 export type FooterProps = {
   posts: postType[];
-  sections: sectionType[];
-  postSlug: string;
-  activeSectionSlug: string;
-  changePage: Function;
-  changeSection: Function;
+  previousSlug: string;
+  nextSlug: string;
+  currentIndex: number;
+  sectionSlug: string;
 }
 
-export default function Footer({
-                                 posts,
-                                 sections,
-                                 postSlug,
-                                 activeSectionSlug,
-                                 changePage,
-                                 changeSection
-                               }: FooterProps) {
-  return (<footer className="Footer">
-      <FooterNav posts={posts} postSlug={postSlug} changePage={changePage}/>
-      {/*<CatalogRow changeSection={changeSection} sections={sections} activeSectionSlug={activeSectionSlug}/>*/}
-    </footer>
+export default function Footer({previousSlug, nextSlug, currentIndex, sectionSlug, posts}: FooterProps) {
+  return (<div className={"Footer"}>
+      <NavBox key={'footerPrevious' + previousSlug} toSlug={previousSlug} direction={'previous'}
+              sectionSlug={sectionSlug}/>
+      <PageSlider pageIndex={currentIndex} max={posts.length - 1} posts={posts}/>
+      <NavBox key={'footerNext' + nextSlug} toSlug={nextSlug} direction={'next'} sectionSlug={sectionSlug}/>
+    </div>
   );
 }

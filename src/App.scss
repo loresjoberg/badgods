@@ -1,17 +1,26 @@
-body, html {
-  box-sizing: border-box;
+@import 'scss/global';
+
+html {
+  z-index: $zLow;
+  font-family: 'Chaparral Pro', serif;
 }
 
-#root {
-  display: flex;
-  margin: 0;
-  padding: 0;
-  width: 100%;
+body {
+  margin: 3.5rem $sideMargin;
 }
+
+
 .App {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Chaparral Pro', serif;
+  min-height: calc(100% - 3.5rem);
+
+  h1, h2, h3 {
+    letter-spacing: normal;
+  }
+
 }
+
 

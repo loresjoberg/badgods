@@ -3,15 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Bookshelf from "./layout/Bookshelf/Bookshelf";
+import './fonts/ChaparralPro-Regular.otf';
+import './fonts/ChaparralPro-Bold.otf';
 
-const pathName = window.location.pathname;
-const segments = pathName.split('/');
-const postSlug = segments[3] ?? 'facialhairtypes';
-const sectionSlug = segments[2];
 
 ReactDOM.render(
   <React.StrictMode>
-    <App postSlug={postSlug} sectionSlug={sectionSlug}/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/posts/:sectionSlug/:postSlug" element={<App/>}/>
+        <Route path="/posts/:sectionSlug/" element={<App/>}/>
+        <Route path="/" element={<Bookshelf/>}/>
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,9 +1,9 @@
 import React from 'react';
 import { expect } from 'chai';
-import Pageslider from './PageSlider';
+import PageSlider from './PageSlider';
 
-describe('Spec Pageslider', function () {
+describe('Spec PageSlider', function () {
     it('it exists', () => {
-        expect(Pageslider).to.be.ok;
+        expect(PageSlider).to.be.ok;
     });
 });

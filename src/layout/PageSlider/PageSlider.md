@@ -2,4 +2,4 @@
 
 Description of component
 
-    <Pageslider/>
+    <PageSlider/>

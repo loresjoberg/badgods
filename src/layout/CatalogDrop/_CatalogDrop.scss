@@ -1,0 +1,49 @@
+@import '../../scss/global';
+
+
+.CatalogDrop {
+  display: none;
+  position: absolute;
+  padding:  0 0.5rem 0.5rem 0.5rem;
+  top: $headerHeight;
+  width: 189px;
+  background-color: $seeThrough;
+
+  .catalogHeader {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+  }
+
+  opacity: 0;
+
+  &.catalog-drop-enter {
+    opacity: 0;
+  }
+
+  &.catalog-drop-enter-active {
+    opacity: 1;
+    display: block;
+
+    transition: opacity 200ms;
+  }
+
+  &.catalog-drop-enter-done {
+    opacity: 1;
+    display: block;
+
+  }
+
+  &.catalog-drop-exit {
+    opacity: 1;
+    display: block;
+
+  }
+
+  &.catalog-drop-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+
+}

@@ -1,20 +1,18 @@
 import React from 'react';
 import './_CatalogButton.scss';
 import {sectionType} from "../../types";
+import {Link} from "react-router-dom";
 
 export type CatalogButtonProps = {
   section: sectionType;
   active: boolean;
-  changeSection: Function;
 }
 
-export default function CatalogButton({section, active, changeSection}: CatalogButtonProps) {
+export default function CatalogButton({section, active}: CatalogButtonProps) {
   const activeClass = active ? 'active' : '';
   return (
-
-    <div onClick={() => changeSection(section.slug)} className={"CatalogButton " + activeClass}
-         data-value={section.slug}>
+    <Link to={`/posts/` + section.slug + '/'} className={"CatalogButton " + activeClass}>
       <div className={'sectionTitle'}>{section.moniker}</div>
-    </div>
+    </Link>
   );
 }

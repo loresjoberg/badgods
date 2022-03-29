@@ -1,52 +1,96 @@
-.Main {
-  display: flex;
-  height: 100%;
+@import '../../scss/global';
 
-  .fullscreen {
-    width: 100%;
-    min-height: 100%;
-    display: flex;
-    justify-content: center;
+main {
+  width: 100%;
 
-    #content {
-      display: flex;
-
-      .imageWrapper {
-        align-self: center;
-      }
-    }
-  }
-
-  .fullScreen-button {
-    color: rgb(0, 0, 0, 0.5);
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    height: 3rem;
-    width: 3rem;
-  }
-
-  .exit-fullScreen-button {
-    color: white;
-    position: fixed;
-    bottom: 1rem;
-    right: 1rem;
-    height: 3rem;
-    width: 3rem;
-  }
-
-  .bigNav {
+  .Main {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     width: 100%;
-    .bigArrow {
-      align-self: center;
-      width: 200px;
-      height: 200px;
-      color: rgba(100,100,100,0.5)
+
+    &.fullscreen-enabled {
+      .exit-fullScreen-button {
+        display: block;
+      }
+
+      .enter-fullScreen-button {
+        display: none;
+      }
+
+
     }
+
+    .NavBox {
+      display: none;
+
+      &.previousBox {
+        a {
+          cursor: url(../../../public/ui/left-arrow.svg), auto;
+
+        }
+      }
+
+      &.nextBox {
+        a {
+          cursor: url(../../../public/ui/right-arrow.svg), auto;
+
+        }
+      }
+    }
+
+    .backButton {
+      position: fixed;
+      opacity: 0.5;
+      bottom: 4rem;
+      left: 3rem;
+      cursor: pointer;
+
+      img {
+        display: block;
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+
+    .fullScreenButton {
+      position: fixed;
+      opacity: 0.5;
+      bottom: 3rem;
+      right: 3rem;
+      cursor: pointer;
+    }
+
+    .enter-fullScreen-button {
+      display: block;
+    }
+
+    .exit-fullScreen-button {
+      color: white;
+      display: none;
+    }
+
+    @media (min-width: 900px) {
+      .NavBox {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+          display: block;
+          top: calc(50vh - 3.5rem);
+          width: 100px;
+          height: 100px;
+          position: fixed;
+          opacity: 0;
+        }
+      }
+    }
+
   }
-
-
 }
+

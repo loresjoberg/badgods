@@ -1,70 +1,38 @@
-import React, {ReactElement} from 'react';
+import React from 'react';
 import './_Main.scss';
-import {pageMe} from "../../html/pages";
 import {postType} from "../../types";
 import {FullScreen, useFullScreenHandle} from "react-full-screen";
 import FullscreenIcon from '@mui/icons-material/Fullscreen';
 import {FullscreenExit} from "@mui/icons-material";
-import ArrowCircleLeftIcon from '@mui/icons-material/ArrowCircleLeft';
-import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
+import NavBox from "../NavBox/NavBox";
+import Content from "../Content/Content";
+import {Link} from "react-router-dom";
 
 export type MainProps = {
-  activePost: postType
-  posts: postType[]
-  changePage: Function
+  activeSectionSlug: string;
+  previousSlug: string;
+  nextSlug: string;
+  activePost: postType;
 }
-export default function Main({activePost, posts, changePage}: MainProps) {
+
+export default function Main({activePost, activeSectionSlug, previousSlug, nextSlug}: MainProps) {
+
   const handle = useFullScreenHandle();
 
-  const [previousSlug, setPreviousSlug] = React.useState<string>('');
-  const [nextSlug, setNextSlug] = React.useState<string>('');
-
-  React.useEffect(() => {
-    if (posts.length > 0) {
-      posts.forEach((post, index) => {
-        if (post.slug === activePost.slug) {
-          const previousIndex = (index - 1 >= 0) ? index - 1 : 0;
-          const nextIndex = (index + 1 < posts.length) ? index + 1 : index;
-          setPreviousSlug(posts[previousIndex].slug)
-          setNextSlug(posts[nextIndex].slug)
-        }
-      })
-    }
-  }, [activePost.slug, posts]);
-
-  const [content, setContent] = React.useState<ReactElement>(<span></span>);
-
-  React.useEffect(() => {
-    if (activePost.mediaType === 'image') {
-      const element = <div className={"imageWrapper"}>
-        <img className="main-image" alt="" src={"/images/" + activePost.slug + ".png"}/>
-      </div>;
-      setContent(element);
-    } else if (activePost.mediaType === 'html') {
-      setContent(pageMe(activePost.slug));
-    } else if (activePost.mediaType === 'animation') {
-      setContent(<h3>animation</h3>);
-    }
-  }, [activePost]);
-
-  return (<main className={"Main"}>
-    {/*<h2>{activePost.moniker}</h2>*/}
-    <FullScreen handle={handle}>
-
-      <div id={"content"}>
-        {content}
-      </div>
-      <div id={"nextBox"} className={"bigNav"} onClick={() => changePage(nextSlug)}>
-        <ArrowCircleRightIcon className={"bigRightArrow bigArrow"}/>
-      </div>
-      <div className="exit-fullScreen-button" onClick={handle.exit}>
+  return (
+    <FullScreen handle={handle} className={"Main"}>
+      <NavBox key={"NavBoxPrev" + previousSlug} direction={'previous'} sectionSlug={activeSectionSlug} toSlug={previousSlug}/>
+      <Content activePost={activePost} activeSectionSlug={activeSectionSlug}/>
+      <NavBox key={"NavBoxNext" + nextSlug} direction={'next'} sectionSlug={activeSectionSlug} toSlug={nextSlug}/>
+      <Link to="/" className="backButton">
+        <img alt="to index" src={"/ui/back-arrow.png"}/>
+      </Link>
+      <div className="exit-fullScreen-button fullScreenButton" onClick={handle.exit}>
         <FullscreenExit fontSize={"large"}/>
       </div>
+      <div className="enter-fullScreen-button fullScreenButton" onClick={handle.enter}>
+        <FullscreenIcon className="hoverIcon" fontSize={"large"}/>
+      </div>
     </FullScreen>
-
-    <div className="fullScreen-button" onClick={handle.enter}>
-      <FullscreenIcon fontSize={"large"}/>
-    </div>
-
-  </main>);
+  );
 }

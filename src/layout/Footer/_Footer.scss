@@ -1,7 +1,31 @@
+@import '../../scss/global';
+
 .Footer {
-    left: 0;
-    right: 0;
-    position: fixed;
-    bottom: 0;
-    background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: $footerHeight;
+  padding: 0.25rem $sideMargin;
+  background-color: $seeThrough;
+  z-index: $zHigh;
+
+
+  .NavBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+    width: 2rem;
+    opacity: 0.6;
+
+  }
+
+
 }
+
