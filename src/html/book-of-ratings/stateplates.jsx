@@ -7,7 +7,7 @@ const stateplates = <div>
 <p>
 	Ohio recently changed the slogan on its plates to "Birthplace of Aviation." North Carolina, being the location of Kitty Hawk, has long had "First in Flight" as its license plate slogan. Now, I appreciate wanting to point out that the Wright Brothers were actually from Ohio and just went to North Carolina for proof-of-concept, but is America really so devoid of history that we need to double up on our claims to fame? What's next, "Phildelphia: Where the Wright Brothers Went For Bagels"? <b>D+</b>
 </p>
-<h3 className="ratingsHeader"></h3>
+<h3 className="ratingsHeader">Rhode Island</h3>
 <p>
 	Rhode Island "The Ocean State," this plate proclaims, with a stylized ocean in the background in case you're saying to yourself "Ocean, ocean...I've heard that word before, but I can't place it." Anyhow, I think it's sad that a state is reduced making a big deal out of what it's surrounded by. <b>C-</b>
 </p>

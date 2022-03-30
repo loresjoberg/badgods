@@ -1,23 +1,23 @@
 import React from 'react';
 import './_Footer.scss';
-import {postType} from "../../types";
+import {folioType} from "../../types";
 import NavBox from "../NavBox/NavBox";
 import PageSlider from "../PageSlider/PageSlider";
 
 export type FooterProps = {
-  posts: postType[];
+  folios: folioType[];
   previousSlug: string;
   nextSlug: string;
   currentIndex: number;
-  sectionSlug: string;
+  volumeSlug: string;
 }
 
-export default function Footer({previousSlug, nextSlug, currentIndex, sectionSlug, posts}: FooterProps) {
+export default function Footer({previousSlug, nextSlug, currentIndex, volumeSlug, folios}: FooterProps) {
   return (<div className={"Footer"}>
       <NavBox key={'footerPrevious' + previousSlug} toSlug={previousSlug} direction={'previous'}
-              sectionSlug={sectionSlug}/>
-      <PageSlider pageIndex={currentIndex} max={posts.length - 1} posts={posts}/>
-      <NavBox key={'footerNext' + nextSlug} toSlug={nextSlug} direction={'next'} sectionSlug={sectionSlug}/>
+              volumeSlug={volumeSlug}/>
+      <PageSlider pageIndex={currentIndex} max={folios.length - 1} folios={folios}/>
+      <NavBox key={'footerNext' + nextSlug} toSlug={nextSlug} direction={'next'} volumeSlug={volumeSlug}/>
     </div>
   );
 }

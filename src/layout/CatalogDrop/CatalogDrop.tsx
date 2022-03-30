@@ -1,19 +1,19 @@
 import React from 'react';
-import {sectionType} from "../../types";
+import {volumeType} from "../../types";
 import './_CatalogDrop.scss';
 import CatalogButton from "../CatalogButton/CatalogButton";
 
 export type CatalogDropProps = {
-    sections: sectionType[];
-    activeSectionSlug: string;
+    volumes: volumeType[];
+    activeVolumeSlug: string;
 }
 
-export default function CatalogDrop({sections, activeSectionSlug}: CatalogDropProps) {
+export default function CatalogDrop({volumes, activeVolumeSlug}: CatalogDropProps) {
     return (<div className="CatalogDrop">
         <div className={"catalogHeader"}>Works</div>
-        {sections.map(function (section) {
-            const active = section.slug === activeSectionSlug;
-            return <CatalogButton key={section.slug} section={section} active={active}/>;
+        {volumes.map(function (volume) {
+            const active = volume._id === activeVolumeSlug;
+            return <CatalogButton key={volume._id} volume={volume} active={active}/>;
         })}
     </div>);
 }

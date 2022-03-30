@@ -19,9 +19,7 @@ const goodluck = <div>
 <p>
 	I imagine most good luck charms have an annoying song associated with them if you look hard enough (e.g. "Lucky Star") but this one is just out of control. I don't know if it was the traditional Sing Along with Mitch version or the gory schoolyard parody that made it impossible for me to consider clover of any variety -- even clover honey -- without hearing "...that I overlooked beFORE!" echoing insanely through my head, but I don't like it. <b>C-</b>
 </p>
-<h3 className="ratingsHeader"></h3>
-<p>
-</p>
+
 </div>
 
 export default goodluck;

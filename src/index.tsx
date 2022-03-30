@@ -13,8 +13,8 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/posts/:sectionSlug/:postSlug" element={<App/>}/>
-        <Route path="/posts/:sectionSlug/" element={<App/>}/>
+        <Route path="/view/:volumeSlug/:folioSlug" element={<App/>}/>
+        <Route path="/view/:volumeSlug/" element={<App/>}/>
         <Route path="/" element={<Bookshelf/>}/>
       </Routes>
     </BrowserRouter>

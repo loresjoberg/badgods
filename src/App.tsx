@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import axios from 'axios';
-import {postType, sectionType} from "./types";
+import {folioType, volumeType} from "./types";
 import {useParams} from "react-router-dom";
 import Header from "./layout/Header/Header";
 import Main from "./layout/Main/Main";
@@ -10,7 +10,7 @@ import Footer from "./layout/Footer/Footer";
 
 const restUrl = "http://localhost:3030";
 
-const verbose = true;
+const verbose = false;
 
 function conLog(...values: any) {
   if (verbose) {
@@ -20,102 +20,105 @@ function conLog(...values: any) {
 
 function App() {
   const params = useParams();
-  const [sections, setSections] = React.useState<sectionType[]>([]);
-  const [posts, setPosts] = React.useState<postType[]>([]);
+  const [volumes, setVolumes] = React.useState<volumeType[]>([]);
+  const [folios, setFolios] = React.useState<folioType[]>([]);
   const [activeIndex, setActiveIndex] = React.useState<number>(-1);
-  const [activeSectionSlug, setActiveSectionSlug] = React.useState<string>('');
+  const [activeVolumeSlug, setActiveVolumeSlug] = React.useState<string>('');
   const [previousSlug, setPreviousSlug] = React.useState<string>('');
   const [nextSlug, setNextSlug] = React.useState<string>('');
 
 
   React.useEffect(() => {
     conLog('useEffect[]')
-    loadSections();
+    loadVolumes();
   }, [])
 
   React.useEffect(() => {
-    conLog('useEffect[params.sectionSlug]')
+    conLog('useEffect[params.volumeSlug]')
 
-    if (params.sectionSlug) {
-      setActiveSectionSlug(params.sectionSlug);
+    if (params.volumeSlug) {
+      setActiveVolumeSlug(params.volumeSlug);
     }
-  }, [params.sectionSlug])
+  }, [params.volumeSlug])
 
   React.useEffect(() => {
-    conLog('useEffect[sections, params.sectionSlug]');
-    if (params.sectionSlug && sections.length > 0) {
-      loadPostsForSection(params.sectionSlug);
+    conLog('useEffect[volumes, params.volumeSlug]');
+    if (params.volumeSlug && volumes.length > 0) {
+      loadFoliosForVolume(params.volumeSlug);
     }
-  }, [sections, params.sectionSlug])
+  }, [volumes, params.volumeSlug])
 
   React.useEffect(() => {
-    conLog('useEffect[posts, params.postSlug]', params);
-    if (!params.postSlug) {
+    conLog('useEffect[folios, params.folioSlug]', params);
+    if (!params.folioSlug) {
       setActiveIndex(0);
 
     }
-    const index = posts.findIndex(element => element.slug === params.postSlug);
+    const index = folios.findIndex(element => element.slug === params.folioSlug);
     if (index >= 0) {
       setActiveIndex(index);
     }
 
-  }, [posts, params]);
+  }, [folios, params]);
 
   React.useEffect(() => {
-    if (posts.length > 0 && activeIndex >= 0) {
-      posts.forEach((post, index) => {
-        console.log('post', post);
-        console.log('posts', posts);
+    if (folios.length > 0 && activeIndex >= 0) {
+      folios.forEach((folio, index) => {
+        console.log('folio', folio);
+        console.log('folios', folios);
         console.log('activeIndex', activeIndex);
-        if (post.slug === posts[activeIndex].slug) {
+        if (folio.slug === folios[activeIndex].slug) {
           const previousIndex = (index - 1 >= 0) ? index - 1 : 0;
-          const nextIndex = (index + 1 < posts.length) ? index + 1 : 0;
-          const nextSlug = nextIndex > 0 ? posts[nextIndex].slug : '';
-          const previousSlug = index > 0 ? posts[previousIndex].slug : '';
+          const nextIndex = (index + 1 < folios.length) ? index + 1 : 0;
+          const nextSlug = nextIndex > 0 ? folios[nextIndex].slug : '';
+          const previousSlug = index > 0 ? folios[previousIndex].slug : '';
           setPreviousSlug(previousSlug)
           setNextSlug(nextSlug)
         }
       })
     }
-  }, [posts, activeIndex]);
+  }, [folios, activeIndex]);
 
-  const loadSections = () => {
-    conLog('loadSections()')
-    axios.get(restUrl + '/sections/').then((response) => {
-      conLog('sections loaded');
-      setSections(response.data);
+
+
+  const loadVolumes = () => {
+    conLog('loadVolumes()')
+    axios.get(restUrl + '/volumes').then((response) => {
+      conLog('volumes loaded');
+      setVolumes(response.data);
     });
   }
 
-  const loadPostsForSection = (sectionSlug: string) => {
-    conLog('loadPostsForSection()');
-    axios.get(`${restUrl}/sections/${sectionSlug}/posts`).then((response) => {
-      conLog('posts loaded');
-      setPosts(response.data);
+  const loadFoliosForVolume = (volumeSlug: string) => {
+    conLog('loadFoliosForVolume()');
+    axios.get(`${restUrl}/volumes/${volumeSlug}/folios`).then((response) => {
+      conLog('folios loaded');
+      setFolios(response.data);
     });
   }
 
-  if (activeIndex === -1 || posts.length === 0) {
+  if (activeIndex === -1 || folios.length === 0) {
     console.log('not rendering');
     return null;
   }
+
 
   console.log('rendering');
 
   return (
     <div className="App">
-      <Header title={posts[activeIndex].moniker}
-              activeSectionSlug={activeSectionSlug}
-              sections={sections}/>
+      <Header title={folios[activeIndex].moniker}
+              activeVolumeSlug={activeVolumeSlug}
+              volumes={volumes}/>
       <main>
-        <Main activePost={posts[activeIndex]}
-              activeSectionSlug={activeSectionSlug}
+        <Main activeFolio={folios[activeIndex]}
+              activeVolumeSlug={activeVolumeSlug}
               nextSlug={nextSlug}
               previousSlug={previousSlug}/>
       </main>
       <Footer currentIndex={activeIndex}
-              posts={posts}
-              sectionSlug={activeSectionSlug}
+              folios={folios}
+              volumeSlug={activeVolumeSlug}
               nextSlug={nextSlug}
               previousSlug={previousSlug}/>
     </div>

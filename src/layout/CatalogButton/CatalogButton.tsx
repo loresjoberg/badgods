@@ -1,18 +1,18 @@
 import React from 'react';
 import './_CatalogButton.scss';
-import {sectionType} from "../../types";
+import {volumeType} from "../../types";
 import {Link} from "react-router-dom";
 
 export type CatalogButtonProps = {
-  section: sectionType;
+  volume: volumeType;
   active: boolean;
 }
 
-export default function CatalogButton({section, active}: CatalogButtonProps) {
+export default function CatalogButton({volume, active}: CatalogButtonProps) {
   const activeClass = active ? 'active' : '';
   return (
-    <Link to={`/posts/` + section.slug + '/'} className={"CatalogButton " + activeClass}>
-      <div className={'sectionTitle'}>{section.moniker}</div>
+    <Link to={`/view/` + volume._id + '/'} className={"CatalogButton " + activeClass}>
+      <div className={'volumeTitle'}>{volume.nomen}</div>
     </Link>
   );
 }

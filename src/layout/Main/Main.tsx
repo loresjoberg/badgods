@@ -1,6 +1,6 @@
 import React from 'react';
 import './_Main.scss';
-import {postType} from "../../types";
+import {folioType} from "../../types";
 import {FullScreen, useFullScreenHandle} from "react-full-screen";
 import FullscreenIcon from '@mui/icons-material/Fullscreen';
 import {FullscreenExit} from "@mui/icons-material";
@@ -9,21 +9,21 @@ import Content from "../Content/Content";
 import {Link} from "react-router-dom";
 
 export type MainProps = {
-  activeSectionSlug: string;
+  activeVolumeSlug: string;
   previousSlug: string;
   nextSlug: string;
-  activePost: postType;
+  activeFolio: folioType;
 }
 
-export default function Main({activePost, activeSectionSlug, previousSlug, nextSlug}: MainProps) {
+export default function Main({activeFolio, activeVolumeSlug, previousSlug, nextSlug}: MainProps) {
 
   const handle = useFullScreenHandle();
 
   return (
     <FullScreen handle={handle} className={"Main"}>
-      <NavBox key={"NavBoxPrev" + previousSlug} direction={'previous'} sectionSlug={activeSectionSlug} toSlug={previousSlug}/>
-      <Content activePost={activePost} activeSectionSlug={activeSectionSlug}/>
-      <NavBox key={"NavBoxNext" + nextSlug} direction={'next'} sectionSlug={activeSectionSlug} toSlug={nextSlug}/>
+      <NavBox key={"NavBoxPrev" + previousSlug} direction={'previous'} volumeSlug={activeVolumeSlug} toSlug={previousSlug}/>
+      <Content activeFolio={activeFolio} activeVolumeSlug={activeVolumeSlug}/>
+      <NavBox key={"NavBoxNext" + nextSlug} direction={'next'} volumeSlug={activeVolumeSlug} toSlug={nextSlug}/>
       <Link to="/" className="backButton">
         <img alt="to index" src={"/ui/back-arrow.png"}/>
       </Link>

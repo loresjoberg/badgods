@@ -1,30 +1,33 @@
 import React from 'react';
 import './_Header.scss';
-import {sectionType} from "../../types";
+import {volumeType} from "../../types";
+import {Link} from "react-router-dom";
 
 export type HeaderProps = {
   title: string;
-  sections: sectionType[];
-  activeSectionSlug: string;
+  volumes: volumeType[];
+  activeVolumeSlug: string;
 }
 
-export default function Header({title, sections, activeSectionSlug}: HeaderProps) {
+export default function Header({title, volumes, activeVolumeSlug}: HeaderProps) {
 
-  let sectionTitle = '';
-  sections.forEach((section) => {
-    if (section.slug === activeSectionSlug) {
-      sectionTitle = section.moniker;
+  let volumeTitle = '';
+  volumes.forEach((volume) => {
+    if (volume._id === activeVolumeSlug) {
+      volumeTitle = volume.nomen;
     }
   })
 
   return (
     <header className="Header">
       <div className={"Header-left Header-cell"} >
-        <img alt={"Bad Gods"} src={"/ui/bad-gods-logo.png"}/>
+        <Link to={"/"}>
+          <img alt={"Bad Gods"} src={"/ui/bad-gods-logo.png"}/>
+        </Link>
       </div>
       <div className={"Header-right Header-cell"}>
         <div className={"title"}>
-          <span className={"titleSpan"}>{sectionTitle}: {title}</span>
+          <span className={"titleSpan"}>{volumeTitle}: {title}</span>
         </div>
       </div>
     </header>

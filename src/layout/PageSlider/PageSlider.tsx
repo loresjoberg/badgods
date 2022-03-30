@@ -2,15 +2,15 @@ import React from 'react';
 import {Slider} from "@mui/material";
 import './_PageSlider.scss';
 import {useNavigate, useParams} from "react-router-dom";
-import {postType} from "../../types";
+import {folioType} from "../../types";
 
 export type PageSliderProps = {
   pageIndex: number,
-  posts: postType[],
+  folios: folioType[],
   max: number
 }
 
-export default function PageSlider({pageIndex, posts, max}: PageSliderProps) {
+export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
 
   const [index, setIndex] = React.useState<number>(pageIndex);
 
@@ -39,20 +39,20 @@ export default function PageSlider({pageIndex, posts, max}: PageSliderProps) {
     }
 
     const label = getSlug(index);
-    navigate('/posts/' + params.sectionSlug + '/' + label)
+    navigate('/view/' + params.volumeSlug + '/' + label)
 
   }
 
   const getSlug = (index: number) => {
-    if (posts.length > 0) {
-      return posts[index].slug;
+    if (folios.length > 0) {
+      return folios[index].slug;
     }
     return '';
   }
 
   const getLabel = (index: number) => {
-    if (posts.length > 0) {
-      return posts[index].moniker;
+    if (folios.length > 0) {
+      return folios[index].moniker;
     }
     return '';
   }

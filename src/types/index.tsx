@@ -1,15 +1,17 @@
 
 
 
-export type postType = {
+export type folioType = {
   slug: string,
   moniker: string,
-  mediaType: string,
-  sectionSlug: string,
-  postDate: string,
+  media_type: string,
+  section_slug: string,
+  post_date: string,
 };
 
-export type sectionType = {
-  slug: string,
-  moniker: string,
+
+export type volumeType = {
+  _id: string,
+  nomen: string,
+  precedence: number
 };

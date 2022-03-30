@@ -1,32 +1,31 @@
 import React from 'react';
-import {sectionType} from "../../types";
+import {volumeType} from "../../types";
 import Header from "../Header/Header";
 import CatalogCover from "../CatalogCover/CatalogCover";
 import './_Bookshelf.scss';
 import axios from "axios";
-import {useParams} from "react-router-dom";
 
 const restUrl = "http://localhost:3030";
 
 export default function Bookshelf() {
-  const [sections, setSections] = React.useState<sectionType[]>([]);
+  const [volumes, setVolumes] = React.useState<volumeType[]>([]);
 
-  React.useEffect(() => loadSections(), []);
+  React.useEffect(() => loadVolumes(), []);
 
-  const loadSections = () => {
-    axios.get(restUrl + '/sections/').then((response) => {
-      setSections(response.data);
+  const loadVolumes = () => {
+    axios.get(restUrl + '/volumes').then((response) => {
+      setVolumes(response.data);
     });
   }
 
   return (<div className="Bookshelf">
     <Header title={''}
-            activeSectionSlug={''}
-            sections={sections}/>
+            activeVolumeSlug={''}
+            volumes={volumes}/>
     <div className={"Wall"}>
       <div className={"Shelves"}>
-      {sections.map(function (section) {
-        return <CatalogCover key={section.slug} section={section}/>;
+      {volumes.map(function (volume) {
+        return <CatalogCover key={volume._id} volume={volume}/>;
       })}
       </div>
     </div>
