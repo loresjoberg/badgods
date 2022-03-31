@@ -8,7 +8,7 @@ import Main from "./layout/Main/Main";
 import Footer from "./layout/Footer/Footer";
 
 
-const restUrl = "http://badgods.com:3030";
+const restUrl = "https://badgods.com:3030";
 
 const verbose = false;
 
