@@ -2,11 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/iron-lion-faygo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/99problems.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/cookielearning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/gotye.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/iron-lion-faygo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/kidnetwork.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/myneighbor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/mywolf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/nevertell.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/obelisk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/sharkweek.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/wiiwarning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/relevations/zanandjayna.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/99problems.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/cookielearning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/gotye_nose.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/iron-lion-faygo.1080px.30q.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/kidnetwork copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/my_neighbor_robocop-wallpaper-widescreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/mywolf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/nevertell.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/obelisk.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/sharkweek.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/wiiwarning.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/zanandjayna.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +91,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -85,11 +107,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/ui" />
       <recent name="$PROJECT_DIR$/src/layout" />
       <recent name="$PROJECT_DIR$/src/html" />
-      <recent name="$PROJECT_DIR$/public/video" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
@@ -155,7 +177,7 @@
       <workItem from="1648351405040" duration="30303000" />
       <workItem from="1648516240743" duration="2726000" />
       <workItem from="1648568068437" duration="779000" />
-      <workItem from="1648614787461" duration="13225000" />
+      <workItem from="1648614787461" duration="14126000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -262,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648751468338</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Removed fullscreen for Bandwidth Theater">
+      <created>1648756793271</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648756793271</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,6 +324,7 @@
     <MESSAGE value="Changed favicons" />
     <MESSAGE value="changed localhost back to badgods.com to avoid CORS errors" />
     <MESSAGE value="Changed http:// to https://" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed http:// to https://" />
+    <MESSAGE value="Removed fullscreen for Bandwidth Theater" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed fullscreen for Bandwidth Theater" />
   </component>
 </project>
