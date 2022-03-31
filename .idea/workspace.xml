@@ -2,362 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/ui/cover-relevations.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/2600games.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/advairlinecatalog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/alice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/allratings.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/alttext1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/alttext2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/alttext3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/alttext4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/alttext5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/alttext6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/amphibians.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/amusementfoods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/angels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/angels2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/apartmentrules.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/apesandmonkeys.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/arrows.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/arrows2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/artifacts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/artificialpeople.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/aspectsofsanta.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/aspectsofsanta2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/ateam.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/atm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/australiansnacks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/babytoys.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/bandaids.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/barappetizers.rtfd/TXT.rtf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/batmanvillains.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/benandjerry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/birthdaycake.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/boardgames.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/bowling.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/brevity.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/camping.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/canadiansnacks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/caraccessories.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cardgames.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/carparts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/catalogstuff.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/catnames.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cattoys.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cereal.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cereal2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cereal3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cereal4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cereal5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cereal6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cereal7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/chakotaysrock.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/chess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/chinesefood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/christmasornaments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/christmassongs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/clowngear.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/clue.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cocktails.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coffeedrinks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-in.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-la.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-maryland.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-massachusetts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-ms.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-newhampshire.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-oh.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-southcarolina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-tn.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coin-virginia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coins.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cokeslogans.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/coldremedies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/collectibles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/conspiracies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/constellations.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/containers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/cookies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/copingwithdeath.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/crackers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/crap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/crayons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/creativething.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/creatures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/czechsnacks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dairy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dangersymbols.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dangersymbols2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dante1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dante2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dante3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dante4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dante5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/deodorant.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dinerfood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dinos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dinosaurs2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dnc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dnc2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dnd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dndmonsters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dndmonsters2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dndmonsters3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dogtricks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dollarstore.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dollarstore2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dollarstore3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dollarstore4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/doodahnews.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/doubleact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/doughnuts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/dramaclub.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/earlyvideo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/easteraspects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/eggdishes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/elements2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/elements3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/elvis.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/ephemeralthing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/extinctanimals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/extract.pl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/fables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/facialhair.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/farmanimals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/finalfantasy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/fireworks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/folksongs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/football.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/footwear.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/fordummies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/fortune1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/fortune2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/frenchsuck.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/fridgemagnets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/futurethings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/gamesforkids.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/gaydar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/godzillaenemies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/goodluck.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/goodwords.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/grasshopperchart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/greekgods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/halloweencandy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hannabarbera.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/heman.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hitman.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hobosigns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hobosigns2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hobosigns3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/homonculi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hostess.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hostess2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/hotthings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/icecreamtreats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/inputdevices.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/insects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/invaders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/israelisnacks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/jabberwocky.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/japanesesnacks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/jellybellys.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/jugsauceelite.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/keyboardsymbols.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/kidssongs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/kidvehicles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/kitchen.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/kitchenfloor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/koolaid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/koreansnacks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/laborsofhercules.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/laborsofhercules2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/lastlines.txt.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/laundry.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/lawnornaments.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/lawrating.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/legionofdoom-text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/legionofdoom-txt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/legionofdoom-video.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/legionofdoom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/lights.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/limerickpoems.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/linkthing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/littlepeople.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/lordofthewarcraft.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/magicfeather.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/magicitems.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/magictricks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/marsupials.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/marvelheroes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/marvelvillainsrating.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/marvelvillainsrating2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/mcfood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/microsoftsplit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/miracles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/monopoly.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/monopolysets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/moreairlinecatalog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morechristmassongs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morecookies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morecrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morednd.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/moreearlyvideo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morekoreansnacks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/moreobjectcandy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morepizza.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morequarters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/moreschoolhouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/moresuperfriends.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/morethan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/movieaspects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/musicmedia.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/neighborhood.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/newagealbums.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/newquarters.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/newyearstraditions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/nineinchnoels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/ninjamassage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/ninjaweapons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/norsegods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/numbers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/objectcandy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/officesupplies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/oldweb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/origami.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/overmom.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/partyfavors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pastashapes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pastashapes2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/paulisdead.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pencilpuzzles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pencilpuzzles2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/personalthing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/phantommenacerating.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/phobias.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/phobias2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/phobias3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/phonefeatures.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/piggies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pirates.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pirates2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pizza.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/plagues1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/plagues2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/playground.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pocketgames.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pooh.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/pooltoys.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/popeye.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/porntitles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/porntitles2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/porntitles3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/postcards.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/potato.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/powertools.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/predictions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/privacy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/probablylose.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/psychicpowers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/quarters3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/quarters4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/quarters5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/quarters6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/quarters7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/quittinggame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/raingear.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/rappresidents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/ratingdb.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/ratingmonths.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/ratingmonths2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/references.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/remotecontrol.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/rockstars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/rodents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/rudolph.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/schoolhouse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/schoolhouse3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/schoolsupplies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/scooby.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/scoutbadges.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/seventiescrafts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/sins.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/sittingthings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/skatemoves.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/snowthings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/sodaflavors.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/spacethings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/speedracer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/spiderpowers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/spycar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/sstreet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/starwarslegos.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/stateplates.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/stateplates2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/statues.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/stillmoreearlyvideo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/straightup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/streetfighter2-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/streetfighter2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/streetnames.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/streetsigns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/sundaetoppings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/superfriends.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/superpowersrating.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/sushi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/swedishcandy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/swissarmy.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/swvillains.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/tastes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/thanksgivingfoods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/thanksgivingsymbols.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/thesemessages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/threes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/thundercats.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/tld.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/tradingcards1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/tradingcards2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/tradingcards3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/trekaliens.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/urbanlegends.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/utensils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/utweapons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/utweapons2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/vendingitems.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/vows.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/wartremedies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/waystoleave.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/webfads1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/webfads2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/weddings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/wonka.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/html/worldwonders.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ui/cover-lore-brand-comics.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/ui/cover-lore-brand-comics.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/video/rudolph-lost.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/video/rudolph-lost.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/goodluck.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/goodluck.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/stateplates.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/stateplates.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/CatalogButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogButton/CatalogButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogCover/CatalogCover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogCover/CatalogCover.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogDrop/CatalogDrop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogDrop/CatalogDrop.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/Content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -506,7 +153,7 @@
       <workItem from="1648351405040" duration="30303000" />
       <workItem from="1648516240743" duration="2726000" />
       <workItem from="1648568068437" duration="779000" />
-      <workItem from="1648614787461" duration="5016000" />
+      <workItem from="1648614787461" duration="6197000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -536,7 +183,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648515383192</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Release Candidate">
+      <created>1648682638229</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648682638229</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Release Candidate">
+      <created>1648682699950</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648682699950</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,6 +222,7 @@
     <MESSAGE value="Before eject" />
     <MESSAGE value="Layout changes" />
     <MESSAGE value="All sorts of stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="All sorts of stuff" />
+    <MESSAGE value="Release Candidate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Release Candidate" />
   </component>
 </project>
