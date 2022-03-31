@@ -3,12 +3,11 @@
 
 export type folioType = {
   slug: string,
-  moniker: string,
-  media_type: string,
-  section_slug: string,
-  post_date: string,
+  nomen: string,
+  mediaType: string,
+  sectionId: string,
+  postDate: string,
 };
-
 
 export type volumeType = {
   _id: string,

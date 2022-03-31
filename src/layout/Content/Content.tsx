@@ -17,18 +17,18 @@ export default function Content({activeFolio, activeVolumeSlug}: ContentProps) {
 
   React.useEffect(() => {
     // console.log('Content.useEffect', activeFolio.slug, new Date());
-    if (activeFolio.media_type === 'image') {
+    if (activeFolio.mediaType === 'image') {
       const dir = activeVolumeSlug === 'apocrypha' ? `images` : `images/${activeVolumeSlug}`;
       const element = <div className={"imageWrapper"}>
         <img className="main-image" alt="" src={`/${dir}/${activeFolio.slug}.png`}/>
       </div>;
       setContent(element);
-    } else if (activeFolio.media_type === 'html') {
-      const title = (activeVolumeSlug === 'book-of-ratings') ? activeFolio.moniker : '';
+    } else if (activeFolio.mediaType === 'html') {
+      const title = (activeVolumeSlug === 'book-of-ratings') ? activeFolio.nomen : '';
       setContent(pageMe(activeFolio.slug, title));
-    } else if (activeFolio.media_type === 'animation') {
+    } else if (activeFolio.mediaType === 'animation') {
       setContent(<h3>animation</h3>);
-    } else if (activeFolio.media_type === 'video') {
+    } else if (activeFolio.mediaType === 'video') {
       const element = <div className={"videoWrapper"}>
         <video key={activeFolio.slug} className={"video"} controls preload={"metadata"}>
           <source src={`/video/${activeFolio.slug}.mp4`}
@@ -38,10 +38,10 @@ export default function Content({activeFolio, activeVolumeSlug}: ContentProps) {
       </div>
       setContent(element);
     }
-  }, [activeFolio.slug, activeFolio.media_type, activeFolio.moniker, activeVolumeSlug])
+  }, [activeFolio.slug, activeFolio.mediaType, activeFolio.nomen, activeVolumeSlug])
 
   return (
-    <div key={activeFolio.slug} className={"Content Content-" + activeFolio.media_type}>
+    <div key={activeFolio.slug} className={"Content Content-" + activeFolio.mediaType}>
       {content}
     </div>
   );

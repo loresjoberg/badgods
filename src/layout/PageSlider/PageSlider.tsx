@@ -52,7 +52,7 @@ export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
 
   const getLabel = (index: number) => {
     if (folios.length > 0) {
-      return folios[index].moniker;
+      return folios[index].nomen;
     }
     return '';
   }

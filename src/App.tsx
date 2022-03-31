@@ -107,7 +107,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header title={folios[activeIndex].moniker}
+      <Header title={folios[activeIndex].nomen}
               activeVolumeSlug={activeVolumeSlug}
               volumes={volumes}/>
       <main>
