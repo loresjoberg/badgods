@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="SshConfigs">
-    <configs>
-      <sshConfig host="badgods.com" id="a7ed3c84-95ed-479f-8ec7-6b41ba4421b9" keyPath="$USER_HOME$/.ssh/aws-ec2-key.pem" port="22" nameFormat="DESCRIPTIVE" username="ec2-user" useOpenSSHConfig="true" />
-    </configs>
-  </component>
-</project>

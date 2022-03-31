@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webroot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/badgods.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +155,7 @@
       <workItem from="1648351405040" duration="30303000" />
       <workItem from="1648516240743" duration="2726000" />
       <workItem from="1648568068437" duration="779000" />
-      <workItem from="1648614787461" duration="11798000" />
+      <workItem from="1648614787461" duration="13225000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -255,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648750913777</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Changed http:// to https://">
+      <created>1648751468338</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648751468338</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +294,7 @@
     <MESSAGE value="Changed favicon" />
     <MESSAGE value="Changed favicons" />
     <MESSAGE value="changed localhost back to badgods.com to avoid CORS errors" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed localhost back to badgods.com to avoid CORS errors" />
+    <MESSAGE value="Changed http:// to https://" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed http:// to https://" />
   </component>
 </project>

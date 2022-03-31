@@ -3,7 +3,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="14d06d78-4a29-49e1-bc4d-b17e641a0909" name="badgods.com" url="http://badgods.com">
-        <fileTransfer rootFolder="/var/www/badgods" accessType="SFTP" host="badgods.com" port="22" sshConfigId="a7ed3c84-95ed-479f-8ec7-6b41ba4421b9" sshConfig="ec2-user@badgods.com:22 key" keyPair="true">
+        <fileTransfer rootFolder="/var/www/badgods" accessType="SFTP" host="badgods.com" port="22" sshConfigId="a7ed3c84-95ed-479f-8ec7-6b41ba4421b9" sshConfig="admin@badgods.com:22 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

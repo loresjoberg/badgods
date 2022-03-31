@@ -10,7 +10,8 @@ import Footer from "./layout/Footer/Footer";
 
 const restUrl = "https://badgods.com:3030";
 
-const verbose = false;
+const verbose = true;
+
 
 function conLog(...values: any) {
   if (verbose) {
@@ -92,7 +93,7 @@ function App() {
   const loadFoliosForVolume = (volumeSlug: string) => {
     conLog('loadFoliosForVolume()');
     axios.get(`${restUrl}/volumes/${volumeSlug}/folios`).then((response) => {
-      conLog('folios loaded');
+      conLog('folios loaded', response.data);
       setFolios(response.data);
     });
   }
