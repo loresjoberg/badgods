@@ -5,7 +5,7 @@ import CatalogCover from "../CatalogCover/CatalogCover";
 import './_Bookshelf.scss';
 import axios from "axios";
 
-const restUrl = "http://badgods.com:3030";
+const restUrl = "http://mongo.badgods.com:3030";
 
 export default function Bookshelf() {
   const [volumes, setVolumes] = React.useState<volumeType[]>([]);
