@@ -2,160 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/relevations/gotye.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BackButton/BackButton.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BackButton/BackButton.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BackButton/BackButton.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenHandle/FullScreenHandle.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenHandle/FullScreenHandle.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenHandle/FullScreenHandle.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FullScreenHandle/_FullScreenHandle.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/MainNav/MainNav.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/MainNav/MainNav.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/MainNav/MainNav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/MainNav/_MainNav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/StageFixed/StageFixed.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/StageScrolling/StageScrolling.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/301 copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/301 copy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/301.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/301.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/adamadrama copy.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/adamadrama copy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/adamadrama.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/adamadrama.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/alternates.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/alternates.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/apostlenicknames.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/apostlenicknames.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/catsanddogs.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/catsanddogs.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/caylus.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/caylus.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/chesscorner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/chesscorner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cowboypanels.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/cowboypanels.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cutestore.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/cutestore.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/cypresshill.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/cypresshill.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dialogoptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/dialogoptions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/dialogueoptions.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/dialogueoptions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/excessiveerror.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/excessiveerror.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/eyeafflictions.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/eyeafflictions.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/facialhairtypes.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/facialhairtypes.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/fallingtemps.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/fallingtemps.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/filterforce.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/filterforce.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/frozenepeas.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/frozenepeas.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/gnome-head.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/gnome-head.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/grasshopperchart.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/grasshopperchart.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hearwho.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/hearwho.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hodorhodorhodor.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/hodorhodorhodor.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/hothpoem.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/hothpoem.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/iron-lion-faygo.4140px.30quality.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/iron-lion-faygo.4140px.30quality.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/iron-lion-faygo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/iron-lion-faygo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/item-beltofscotch.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/item-beltofscotch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/item-chokerofthechicken.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/item-chokerofthechicken.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/item-coatoffreshpaint.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/item-coatoffreshpaint.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/item-polaricecap.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/item-polaricecap.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/item-ringofthedinnerbell.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/item-ringofthedinnerbell.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/item-teachingstaff.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/item-teachingstaff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/jugsauceelite.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/jugsauceelite.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/kidnetwork.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/kidnetwork.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/knob.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/knob.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lamadrama.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/lamadrama.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/lightbehavior.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/lightbehavior.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/livingcolour.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/livingcolour.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/mondaymorning.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/mondaymorning.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/myname.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/myname.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/nirvana.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/nirvana.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/obamadrama.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/obamadrama.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/omj.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/omj.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/oneword-dessicant.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/oneword-dessicant.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/oneword-frustration.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/oneword-frustration.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/oneword-hamburger.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/oneword-hamburger.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/oneword-safety.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/oneword-safety.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/oneword-samaritan.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/oneword-samaritan.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/orc-head.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/orc-head.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/osamadrama.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/osamadrama.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/outlawcomedian.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/outlawcomedian.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/percale.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/percale.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/primitive.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/primitive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/quitfaces-banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/quitfaces-banner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/reversedassumptioncomics.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/reversedassumptioncomics.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/robotjoke.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/robotjoke.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/soundgarden.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/soundgarden.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/sowwy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/sowwy.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/temps40.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/temps40.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/temps40small.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/temps40small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/tempsproduce.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/tempsproduce.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/tempsteeth.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/tempsteeth.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/theremin.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/theremin.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/transformerswatch.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/transformerswatch.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/twilightargument.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/twilightargument.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/whoislittle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/apocrypha/whoislittle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/dramaclub.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/apocrypha/dramaclub.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/grasshopperchart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/apocrypha/grasshopperchart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/jugsauceelite.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/magicitems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/apocrypha/magicitems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/newagealbums.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/apocrypha/newagealbums.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/advairlinecatalog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/advairlinecatalog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/ateam.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/ateam.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/canadiansnacks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/canadiansnacks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/catalogstuff.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/catalogstuff.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/cereal7.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/cereal7.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/collectibles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/collectibles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/czechsnacks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/czechsnacks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore4.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/facialhair.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/facialhair.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/frenchsuck.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/frenchsuck.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/fridgemagnets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/fridgemagnets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/futurethings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/futurethings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/hobosigns.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/hobosigns.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/hobosigns2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/hobosigns2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/hobosigns3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/hobosigns3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/icecreamtreats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/icecreamtreats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/israelisnacks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/israelisnacks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/jellybellys.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/jellybellys.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/littlepeople.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/littlepeople.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/monopolysets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/monopolysets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/moreairlinecatalog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/moreairlinecatalog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/morequarters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/morequarters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/newquarters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/newquarters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/pocketgames.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/pocketgames.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/postcards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/postcards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/quarters3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/quarters3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/quarters4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/quarters4.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/quarters5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/quarters5.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/schoolsupplies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/schoolsupplies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/spiderpowers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/spiderpowers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/starwarslegos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/starwarslegos.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/thanksgivingsymbols.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/thanksgivingsymbols.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/tradingcards1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/tradingcards1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/tradingcards2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/tradingcards2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/tradingcards3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/tradingcards3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/_CatalogButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogButton/_CatalogButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogCover/CatalogCover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogCover/CatalogCover.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogCover/_CatalogCover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogCover/_CatalogCover.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/Content.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Content/_Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/_Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Main/Main.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Main/_Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Main/_Main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/NavBox/_NavBox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/NavBox/_NavBox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/MainNav/_MainNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainNav/_MainNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -316,7 +174,7 @@
       <workItem from="1648861543109" duration="1745000" />
       <workItem from="1648863576020" duration="441000" />
       <workItem from="1648864029655" duration="67000" />
-      <workItem from="1648864107230" duration="10919000" />
+      <workItem from="1648864107230" duration="13123000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -437,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648758497204</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Improved mobile view">
+      <created>1648876167179</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648876167179</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,6 +337,7 @@
     <MESSAGE value="Changed http:// to https://" />
     <MESSAGE value="Removed fullscreen for Bandwidth Theater" />
     <MESSAGE value="Initializing Relevations" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initializing Relevations" />
+    <MESSAGE value="Improved mobile view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved mobile view" />
   </component>
 </project>

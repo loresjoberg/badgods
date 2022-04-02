@@ -27,7 +27,7 @@ export default function Header({title, volumes, activeVolumeSlug}: HeaderProps) 
       </div>
       <div className={"Header-right Header-cell"}>
         <div className={"title"}>
-          <span className={"titleSpan"}>{volumeTitle}: {title}</span>
+          <span className={"titleSpan"}><div className={"volumeTitle"}>{volumeTitle}</div> <div>{title}</div></span>
         </div>
       </div>
     </header>

@@ -6,7 +6,7 @@
   left: 0;
   right: 0;
   //background-color: palegreen;
-  background-color: $seeThrough;
+  //background-color: $seeThrough;
 
   display: flex;
   flex-direction: row;
@@ -17,6 +17,7 @@
 
   @media (screen and screen and min-width: 600px) {
     padding: 0.5rem $sideMargin;
+    column-gap: 10rem;
   }
   height: $headerHeight;
 
@@ -27,14 +28,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
     @media (screen and min-width: 600px) {
-      width: 12em;
+      max-width: 14em;
     }
+    background-color: $seeThrough;
+
     max-width: calc(50% - 0.5rem);
   }
 
   .Header-left {
 
+    padding-right: 1rem;
     a {
       height: 100%;
     }
@@ -48,16 +53,20 @@
   }
 
   .Header-right {
+    padding-left: 0.5rem;
     text-align: right;
     font-size: 0.75rem;
-    @media (screen and min-width: 600px) {
-      max-width: 20vw;
-      font-size: 1rem;
-    }
+
+
 
     .title {
-      color: #666;
+      color: #444;
       font-style: italic;
+      font-weight: 600;
+
+      .volumeTitle {
+        font-weight: normal;
+      }
     }
   }
 

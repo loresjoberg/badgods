@@ -6,8 +6,50 @@
 
 @font-face {
   font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Italic.otf") format('opentype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Chaparral Pro';
   src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Bold.otf") format('opentype');
   font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-BoldIt.otf") format('opentype');
+  font-weight: bold;
+  font-style: italic;
+
+}
+
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Semibold.otf") format('opentype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-SemiboldIt.otf") format('opentype');
+  font-weight: 600;
+  font-style: italic;
+
+}
+
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Light.otf") format('opentype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-LightIt.otf") format('opentype');
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {

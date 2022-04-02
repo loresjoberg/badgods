@@ -110,11 +110,12 @@ function App() {
       <Header title={folios[activeIndex].nomen}
               activeVolumeSlug={activeVolumeSlug}
               volumes={volumes}/>
+      <MainNav activeVolumeSlug={activeVolumeSlug} nextSlug={nextSlug} previousSlug={previousSlug} />
+
       <Main activeFolio={folios[activeIndex]}
             activeVolumeSlug={activeVolumeSlug}
             nextSlug={nextSlug}
             previousSlug={previousSlug}/>
-      <MainNav activeVolumeSlug={activeVolumeSlug} nextSlug={nextSlug} previousSlug={previousSlug} />
       <Footer currentIndex={activeIndex}
               folios={folios}
               volumeSlug={activeVolumeSlug}

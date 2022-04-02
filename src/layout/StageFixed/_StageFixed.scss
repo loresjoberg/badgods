@@ -11,5 +11,9 @@
     max-height: $pageHeight;
     max-width: 100%;
   }
+  video {
+    max-height: $pageHeight;
+    max-width: 40rem;
+  }
 
 }

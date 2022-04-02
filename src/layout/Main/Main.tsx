@@ -5,6 +5,7 @@ import {FullScreen, useFullScreenHandle} from "react-full-screen";
 import Content from "../Content/Content";
 import BackButton from "../BackButton/BackButton";
 import FullScreenButtons from "../FullScreenButtons/FullScreenButtons";
+import MainNav from "../MainNav/MainNav";
 
 export type MainProps = {
   activeVolumeSlug: string;
@@ -21,6 +22,7 @@ export default function Main({activeFolio, activeVolumeSlug, previousSlug, nextS
   return (
     <FullScreen handle={handle} className={"Main"}>
       <Content activeFolio={activeFolio} activeVolumeSlug={activeVolumeSlug}/>
+      <MainNav activeVolumeSlug={activeVolumeSlug} nextSlug={nextSlug} previousSlug={previousSlug} />
       <BackButton/>
       {activeVolumeSlug !== 'bandwidth-theater' &&
         <FullScreenButtons handle={handle}/>}

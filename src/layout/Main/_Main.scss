@@ -5,7 +5,14 @@
   z-index: $zMed;
   max-width: 100%;
 
+  .MainNav {
+    display: none;
+  }
+  position: relative;
   &.fullscreen-enabled {
+    .MainNav {
+      display: flex;
+    }
     .exit-fullScreen-button {
       display: block;
     }

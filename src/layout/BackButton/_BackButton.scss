@@ -4,8 +4,9 @@
   //background-color: silver;
   position: fixed;
   opacity: 0.5;
-  bottom: $footerHeight;
+  bottom: 4rem;
   left: $sideMarginSmall;
+  z-index: $zMega;
 
   cursor: pointer;
   img {
