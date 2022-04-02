@@ -2,7 +2,10 @@
 
 .StageScrolling {
   padding-top: $headerHeight;
-  padding-bottom: $footerHeight;
+  padding-bottom: 8rem;
   //background-color: aliceblue;
   max-width: 36rem;
+  @media (screen and screen and min-width: 600px) {
+    padding-bottom: $footerHeight;
+  }
 }
