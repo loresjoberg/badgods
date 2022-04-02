@@ -12,6 +12,7 @@ export type ContentProps = {
 
 export default function Content({activeFolio, activeVolumeSlug}: ContentProps) {
   const [content, setContent] = React.useState<ReactElement>(<span></span>);
+  window.scrollTo(0, 0);
 
   React.useEffect(() => {
     if (activeFolio.mediaType === 'image') {
