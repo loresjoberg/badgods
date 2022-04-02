@@ -1,7 +1,7 @@
 const postcards = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-sheena.jpg"} width="150" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-sheena.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Sheena</h3>
 <p>
@@ -10,7 +10,7 @@ const postcards = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-candy.jpg"} width="150" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-candy.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Candy</h3>
 <p>
@@ -19,7 +19,7 @@ const postcards = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-ladies.jpg"} width="150" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-ladies.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Ladies</h3>
 <p>
@@ -28,7 +28,7 @@ const postcards = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-unlisted.jpg"} width="150" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-unlisted.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Unlisted</h3>
 <p>
@@ -37,7 +37,7 @@ const postcards = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-pants.jpg"} width="150" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/postcard-pants.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Pants</h3>
 <p>

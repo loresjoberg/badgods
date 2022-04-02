@@ -1,7 +1,7 @@
 const dndmonsters3 = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-shrieker.jpg"} width="125" height="125" alt="[Shrieker]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-shrieker.jpg"} alt="[Shrieker]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Shrieker</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const dndmonsters3 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-rotgrub.jpg"} width="125" height="125" alt="[Rot Grub]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-rotgrub.jpg"} alt="[Rot Grub]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Rot Grub</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const dndmonsters3 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-bulette.jpg"} width="125" height="125" alt="[Bulette]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-bulette.jpg"} alt="[Bulette]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Bulette</h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const dndmonsters3 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-mindflayer.jpg"} width="125" height="125" alt="[Mind Flayer]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-mindflayer.jpg"} alt="[Mind Flayer]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Mind Flayer</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const dndmonsters3 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-roper.jpg"} width="125" height="125" alt="[Roper]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-roper.jpg"} alt="[Roper]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Roper</h3>
 		<p className="ratingbody">

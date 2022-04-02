@@ -1,7 +1,7 @@
 const littlepeople = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-dog.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-dog.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Lucky the Dog</h3>
 <p>
@@ -10,7 +10,7 @@ const littlepeople = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-dad.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-dad.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">The Father</h3>
 <p>
@@ -19,7 +19,7 @@ const littlepeople = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-boy.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-boy.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">The Upset Freckled Boy Child</h3>
 <p>
@@ -28,7 +28,7 @@ const littlepeople = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-mom.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-mom.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">The Mother</h3>
 <p>
@@ -37,7 +37,7 @@ const littlepeople = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-girl.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/littlepeople-girl.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">The Little Girl</h3>
 <p>

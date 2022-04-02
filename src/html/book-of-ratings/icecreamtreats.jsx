@@ -1,7 +1,7 @@
 const icecreamtreats = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/sticktreat.gif"} width="100" height="100" alt="[Ice Cream on a Stick]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/sticktreat.gif"} alt="[Ice Cream on a Stick]"/></td>
 		<td> 
 		<h3 className="ratingsHeader">Ice Cream on a Stick</h3>
 <p>
@@ -10,7 +10,7 @@ const icecreamtreats = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/rectangletreat.gif"} width="100" height="100" alt="[Rectangular Ice Cream Sandwich]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/rectangletreat.gif"} alt="[Rectangular Ice Cream Sandwich]"/></td>
 		<td> 
 		<h3 className="ratingsHeader">Ice Cream Sandwiches</h3>
 <p>
@@ -19,7 +19,7 @@ const icecreamtreats = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cookietreat.gif"} width="100" height="100" alt="[Ice Cream Cookie Sandwich]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cookietreat.gif"} alt="[Ice Cream Cookie Sandwich]"/></td>
 		<td> 
 		<h3 className="ratingsHeader">Ice Cream Cookie Sandwiches</h3>
 <p>
@@ -28,7 +28,7 @@ const icecreamtreats = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/tubtreat.gif"} width="100" height="100" alt="[Little Ice Cream Sundae Tub]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/tubtreat.gif"} alt="[Little Ice Cream Sundae Tub]"/></td>
 		<td> 
 		<h3 className="ratingsHeader">Little Ice Cream "Sundae" Tubs</h3>
 <p>
@@ -37,7 +37,7 @@ const icecreamtreats = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/conetreat.gif"} width="100" height="100" alt="[Ice Cream Cone]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/conetreat.gif"} alt="[Ice Cream Cone]"/></td>
 		<td> 
 		<h3 className="ratingsHeader">Ice Cream Cones</h3>
 <p>

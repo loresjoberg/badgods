@@ -4,7 +4,7 @@ const frenchsuck = <div>
 </p>
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-chestnut.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-chestnut.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Cr&egrave;me de Marrons de L'ard&egrave;che</h3>
 <p>
@@ -16,7 +16,7 @@ const frenchsuck = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-chip.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-chip.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Mini Berlingot</h3>
 <p>
@@ -28,7 +28,7 @@ const frenchsuck = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-apple.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-apple.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Les Pom'Potes</h3>
 <p>
@@ -40,7 +40,7 @@ const frenchsuck = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-mango.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/frenchsuck-mango.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Fruit&eacute;</h3>
 <p>

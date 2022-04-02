@@ -1,0 +1,20 @@
+@import '../../scss/global';
+
+
+.FullScreenButtons {
+  position: fixed;
+  opacity: 0.5;
+  bottom: 3rem;
+  right: $sideMarginSmall;
+  cursor: pointer;
+  //background-color: gainsboro;
+
+  .enter-fullScreen-button {
+    display: block;
+  }
+
+  .exit-fullScreen-button {
+    color: white;
+    display: none;
+  }
+}

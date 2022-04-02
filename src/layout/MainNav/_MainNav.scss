@@ -1,0 +1,56 @@
+@import '../../scss/global';
+
+.MainNav {
+  //background-color: hotpink;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  z-index: $zLow;
+
+
+
+  .NavBox {
+    flex-grow: 1;
+
+    display: none;
+
+    &.previousBox {
+      outline: 2px solid red;
+      a {
+        width: 100%;
+        height: 100%;
+        cursor: url(../../../public/ui/left-arrow.svg), auto;
+      }
+    }
+
+    &.nextBox {
+      a {
+        cursor: url(../../../public/ui/right-arrow.svg), auto;
+
+      }
+    }
+  }
+
+
+  @media (screen and min-width: 600px) {
+    .NavBox {
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      justify-content: center;
+      align-items: center;
+      svg {
+        display: block;
+        top: calc(50vh - 3.5rem);
+        width: 100px;
+        height: 100px;
+        position: fixed;
+        opacity: 0;
+      }
+    }
+  }
+}

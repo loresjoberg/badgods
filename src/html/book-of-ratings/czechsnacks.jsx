@@ -4,7 +4,7 @@ const czechsnacks = <div>
 </p>
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-funky.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-funky.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Funky</h3>
 <p>
@@ -13,7 +13,7 @@ const czechsnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-telka.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-telka.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Telka Cha Cha</h3>
 <p>
@@ -22,7 +22,7 @@ const czechsnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-goldenfish.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-goldenfish.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Golden Fish Chips</h3>
 <p>
@@ -31,7 +31,7 @@ const czechsnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-krupky.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-krupky.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Krupky Aras&iacute;dov&eacute;</h3>
 <p>
@@ -40,7 +40,7 @@ const czechsnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-starchips.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/snack-starchips.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Star Chips Paprika</h3>
 <p>

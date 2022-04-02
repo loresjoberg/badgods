@@ -1,7 +1,7 @@
 const futurethings = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-car.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-car.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Flying Cars</h3>
 <p>
@@ -10,7 +10,7 @@ const futurethings = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-pill.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-pill.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Food Pills</h3>
 <p>
@@ -19,7 +19,7 @@ const futurethings = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-lasergun.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-lasergun.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Laser Guns</h3>
 <p>
@@ -28,7 +28,7 @@ const futurethings = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-jetpack.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-jetpack.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Jet Packs</h3>
 <p>
@@ -37,7 +37,7 @@ const futurethings = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-robot.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-robot.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Household Robots</h3>
 <p>
@@ -46,7 +46,7 @@ const futurethings = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-housewife.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/future-housewife.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Submissive Housewives</h3>
 <p>

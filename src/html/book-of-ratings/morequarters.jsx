@@ -1,7 +1,7 @@
 const morequarters = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-virginia.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-virginia.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Virginia</h3>
 <p>
@@ -10,7 +10,7 @@ const morequarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-newhampshire.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-newhampshire.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">New Hampshire</h3>
 <p>
@@ -19,7 +19,7 @@ const morequarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-southcarolina.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-southcarolina.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">South Carolina</h3>
 <p>
@@ -28,7 +28,7 @@ const morequarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-maryland.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-maryland.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Maryland</h3>
 <p>
@@ -37,7 +37,7 @@ const morequarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-massachusetts.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-massachusetts.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Massachusetts</h3>
 <p>

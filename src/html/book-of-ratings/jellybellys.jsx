@@ -1,7 +1,7 @@
 const jellybellys = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-popcorn.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-popcorn.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Buttered Popcorn</h3>
 <p>
@@ -10,7 +10,7 @@ const jellybellys = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-pineapple.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-pineapple.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Crushed Pineapple</h3>
 <p>
@@ -19,7 +19,7 @@ const jellybellys = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-jalapeno.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-jalapeno.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Jalape&ntilde;o</h3>
 <p>
@@ -28,7 +28,7 @@ const jellybellys = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-watermelon.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-watermelon.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Watermelon</h3>
 <p>
@@ -37,7 +37,7 @@ const jellybellys = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-cherry.gif"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/jellybelly-cherry.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Very Cherry</h3>
 <p>

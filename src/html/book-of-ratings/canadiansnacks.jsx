@@ -1,7 +1,7 @@
 const canadiansnacks = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-aero.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-aero.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Aero</h3>
 <p>
@@ -10,7 +10,7 @@ const canadiansnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-smarties.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-smarties.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Smarties</h3>
 <p>
@@ -19,7 +19,7 @@ const canadiansnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-crunchie.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-crunchie.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Crunchie</h3>
 <p>
@@ -28,7 +28,7 @@ const canadiansnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-coffeecrisp.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-coffeecrisp.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Coffee Crisp</h3>
 <p>
@@ -37,7 +37,7 @@ const canadiansnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-bigturk.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-bigturk.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Big Turk</h3>
 <p>
@@ -46,7 +46,7 @@ const canadiansnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-ketchupchips.jpg"} width="150" height="150" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/canadian-ketchupchips.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Ketchup Potato Chips</h3>
 <p>

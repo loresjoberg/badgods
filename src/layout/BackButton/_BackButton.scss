@@ -1,0 +1,16 @@
+@import '../../scss/global';
+
+.BackButton {
+  //background-color: silver;
+  position: fixed;
+  opacity: 0.5;
+  bottom: $footerHeight;
+  left: $sideMarginSmall;
+
+  cursor: pointer;
+  img {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+  }
+}

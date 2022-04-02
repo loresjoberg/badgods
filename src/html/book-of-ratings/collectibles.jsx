@@ -1,7 +1,7 @@
 const collectibles = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-tradingcard.jpg"} width="125" height="125" alt="[Trading Card]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-tradingcard.jpg"} alt="[Trading Card]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Trading Cards</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const collectibles = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-bobblehead.jpg"} width="125" height="125" alt="[Bobble Head]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-bobblehead.jpg"} alt="[Bobble Head]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Bobble Heads</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const collectibles = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-tshirt.jpg"} width="125" height="125" alt="[T-Shirt]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-tshirt.jpg"} alt="[T-Shirt]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">T-Shirts</h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const collectibles = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-pog.jpg"} width="125" height="125" alt="[Pog]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-pog.jpg"} alt="[Pog]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Pogs</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const collectibles = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-plate.jpg"} width="125" height="125" alt="[Plate]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/collectibles-plate.jpg"} alt="[Plate]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Plates</h3>
 		<p className="ratingbody">

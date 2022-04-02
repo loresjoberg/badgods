@@ -6,7 +6,7 @@ const magicitems = <div><h2>
 		<td> 
 		<table width="350">
 			<tr>
-				<td colSpan="2" align="center"><img alt="" src={"/images/item-coatoffreshpaint.png"}/></td>
+				<td colSpan="2" align="center"><img alt="" src={"/images/apocrypha/item-coatoffreshpaint.png"}/></td>
 			</tr>
 			<tr bgcolor="#ff8c00">
 				<td><b><font color="white" face="sans-serif">Coat of Fresh Paint</font></b></td>
@@ -35,7 +35,7 @@ const magicitems = <div><h2>
 		<td> 
 		<table width="350">
 			<tr>
-				<td colSpan="2" align="center"><img alt="" src={"/images/item-beltofscotch.png"}/></td>
+				<td colSpan="2" align="center"><img alt="" src={"/images/apocrypha/item-beltofscotch.png"}/></td>
 			</tr>
 			<tr bgcolor="#ff8c00">
 				<td><b><font color="white" face="sans-serif">Belt of Scotch</font></b></td>
@@ -63,7 +63,7 @@ const magicitems = <div><h2>
 		<td> 
 		<table   width="350">
 			<tr>
-				<td colSpan="2" align="center"><img alt="" src={"/images/item-teachingstaff.png"}/></td>
+				<td colSpan="2" align="center"><img alt="" src={"/images/apocrypha/item-teachingstaff.png"}/></td>
 			</tr>
 			<tr bgcolor="#ff8c00">
 				<td><b><font color="white" face="sans-serif">Teaching Staff</font></b></td>
@@ -98,7 +98,7 @@ const magicitems = <div><h2>
 		<td> 
 		<table   width="350">
 			<tr>
-				<td colSpan="2" align="center"><img alt="" src={"/images/item-polaricecap.png"}/></td>
+				<td colSpan="2" align="center"><img alt="" src={"/images/apocrypha/item-polaricecap.png"}/></td>
 			</tr>
 			<tr bgcolor="#ff8c00">
 				<td><b><font color="white" face="sans-serif">Polar Ice Cap</font></b></td>
@@ -123,7 +123,7 @@ const magicitems = <div><h2>
 		<td> 
 		<table   width="350">
 			<tr>
-				<td colSpan="2" align="center"><img alt="" src={"/images/item-ringofthedinnerbell.png"}/></td>
+				<td colSpan="2" align="center"><img alt="" src={"/images/apocrypha/item-ringofthedinnerbell.png"}/></td>
 			</tr>
 			<tr bgcolor="#ff8c00">
 				<td><b><font color="white" face="sans-serif">Ring of the Dinner Bell</font></b></td>
@@ -146,7 +146,7 @@ const magicitems = <div><h2>
 		<td> 
 		<table   width="350">
 			<tr>
-				<td colSpan="2" align="center"><img alt="" src={"/images/item-chokerofthechicken.png"}/></td>
+				<td colSpan="2" align="center"><img alt="" src={"/images/apocrypha/item-chokerofthechicken.png"}/></td>
 			</tr>
 			<tr bgcolor="#ff8c00">
 				<td><b><font color="white" face="sans-serif">Choker of the Chicken</font></b></td>

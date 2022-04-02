@@ -9,12 +9,13 @@ export type CatalogCoverProps = {
 
 export default function CatalogCover({volume}: CatalogCoverProps) {
   return (<div className={"CatalogCover"} data-value={volume._id}>
-    <div className={"imageWrapper"}>
-      <img className="coverImage" alt="volumeTitle" src={"/ui/cover-"+ volume._id +".jpg"}/>
-    </div>
-    <div className={"spine"}></div>
     <Link to={"/view/" + volume._id}>
+      <div className={"imageWrapper"}>
+        <img className="coverImage" alt="volumeTitle" src={"/ui/cover-" + volume._id + ".jpg"}/>
+      </div>
+      <div className={"spine"}></div>
       <div className={'volumeTitle'}>{volume.nomen}</div>
+
     </Link>
   </div>);
 }

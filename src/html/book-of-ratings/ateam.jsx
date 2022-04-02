@@ -1,7 +1,7 @@
 const ateam = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-murdock.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-murdock.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Howling Mad Murdock</h3>
 <p>
@@ -10,7 +10,7 @@ const ateam = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-face.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-face.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Face</h3>
 <p>
@@ -19,7 +19,7 @@ const ateam = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-ba.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-ba.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">B.A. Baracus</h3>
 <p>
@@ -28,7 +28,7 @@ const ateam = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-hannibal.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-hannibal.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Hannibal</h3>
 <p>
@@ -37,7 +37,7 @@ const ateam = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-girl.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ateam-girl.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">The Girl</h3>
 <p>

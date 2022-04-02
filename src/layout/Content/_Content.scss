@@ -1,51 +1,30 @@
 @import '../../scss/global';
 
-
-.fullscreen-enabled {
-  .Content {
-    position: relative;
-    display: block;
-    flex-direction: unset;
-    justify-content: unset;
-    overflow: auto;
-    //.platter {
-    //  position: absolute;
-    //}
-  }
-}
-
 .Content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: $maxWidth;
-  min-height: $pageHeight;
-
-  &.Content-image {
-    max-width: none;
-  }
-
-  &.Content-html {
-    max-width: $maxWidthHtml;
-    padding: 0 1rem;
-    background-color: white;
-  }
-
+  min-height: 100vh;
   img {
     max-width: 100%;
-    max-height: $pageHeight;
-    height: auto;
-    &.ratingsImage {
-      width: 100px;
-      max-width: none;
-      padding-top: 4rem;
-      padding-right: 1rem;
-    }
   }
-
-  .video {
-    max-width: 100%;
-    height: auto;
-  }
-
 }
+
+//.fullscreen-enabled {
+//  .Content {
+//    position: relative;
+//    display: block;
+//    flex-direction: unset;
+//    justify-content: unset;
+//    overflow: auto;
+//  }
+//}
+
+
+
+/*
+full: 821
+header: 65.3
+footer: 65.3
+stage: 698.9
+ */

@@ -1,7 +1,7 @@
 const fridgemagnets = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-poetry.gif"} width="150" height="150" alt="[Fridge Magnet]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-poetry.gif"} alt="[Fridge Magnet]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Poetry Sets</h3>
 <p>
@@ -10,7 +10,7 @@ const fridgemagnets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-frame.gif"} width="150" height="150" alt="[Fridge Magnet]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-frame.gif"} alt="[Fridge Magnet]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Picture Frames</h3>
 <p>
@@ -19,7 +19,7 @@ const fridgemagnets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-david.gif"} width="150" height="150" alt="[Fridge Magnet]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-david.gif"} alt="[Fridge Magnet]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Dress Up Naked Art</h3>
 <p>
@@ -28,7 +28,7 @@ const fridgemagnets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-sushi.gif"} width="150" height="150" alt="[Fridge Magnet]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-sushi.gif"} alt="[Fridge Magnet]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Plastic Magnetic Sushi</h3>
 <p>
@@ -37,7 +37,7 @@ const fridgemagnets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-pizza.gif"} width="150" height="150" alt="[Fridge Magnet]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-pizza.gif"} alt="[Fridge Magnet]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Pizza Ads</h3>
 <p>
@@ -46,7 +46,7 @@ const fridgemagnets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-letter.gif"} width="150" height="150" alt="[Fridge Magnet]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/fridge-letter.gif"} alt="[Fridge Magnet]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Multicolored Letters</h3>
 <p>

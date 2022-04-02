@@ -1,7 +1,7 @@
 const dollarstore3 = <div> 
 <table border="0">
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-dinosaurs.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-dinosaurs.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Magic Grow Dinosaurs</h3>
 <p>
@@ -10,7 +10,7 @@ const dollarstore3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-puzzle.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-puzzle.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Secret Puzzle</h3>
 <p>
@@ -19,7 +19,7 @@ const dollarstore3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-bonnets.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-bonnets.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Stormy Weather Rain Bonnets</h3>
 <p>
@@ -28,7 +28,7 @@ const dollarstore3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-boomerangs.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-boomerangs.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Boomerang Party Favors</h3>
 <p>
@@ -37,7 +37,7 @@ const dollarstore3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-fishingnet.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-fishingnet.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Fishing Net</h3>
 <p>
@@ -46,7 +46,7 @@ const dollarstore3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-diary.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-diary.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">My Favorite Diary</h3>
 <p>

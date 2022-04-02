@@ -1,7 +1,7 @@
 const dangersymbols = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-donottip.jpg"} width="125" height="125" alt="[Falling Vending Machine Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-donottip.jpg"} alt="[Falling Vending Machine Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Do Not Tip Or Rock</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const dangersymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-biohazard.jpg"} width="125" height="125" alt="[Biohazard Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-biohazard.jpg"} alt="[Biohazard Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Biohazard</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const dangersymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-radiation.jpg"} width="125" height="125" alt="[Radiation Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-radiation.jpg"} alt="[Radiation Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Radiation</h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const dangersymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-corrosive.jpg"} width="125" height="125" alt="[Corrosive Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-corrosive.jpg"} alt="[Corrosive Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Corrosive</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const dangersymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-poison.jpg"} width="125" height="125" alt="[Poison Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-poison.jpg"} alt="[Poison Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Poison</h3>
 		<p className="ratingbody">

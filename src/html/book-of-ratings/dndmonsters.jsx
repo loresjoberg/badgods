@@ -1,7 +1,7 @@
 const dndmonsters = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-displacerbeast.jpg"} width="125" height="125" alt="[Displacer Beast]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-displacerbeast.jpg"} alt="[Displacer Beast]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Displacer Beast</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const dndmonsters = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-beholder.jpg"} width="125" height="125" alt="[Beholder]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-beholder.jpg"} alt="[Beholder]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Beholder</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const dndmonsters = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-rustmonster.jpg"} width="125" height="125" alt="[Rust Monster]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-rustmonster.jpg"} alt="[Rust Monster]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Rust Monster</h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const dndmonsters = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-blinkdog.jpg"} width="125" height="125" alt="[Blink Dog]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-blinkdog.jpg"} alt="[Blink Dog]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Blink Dog</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const dndmonsters = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-githyanki.jpg"} width="125" height="125" alt="[Githyanki]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-githyanki.jpg"} alt="[Githyanki]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Githyanki</h3>
 		<p className="ratingbody">

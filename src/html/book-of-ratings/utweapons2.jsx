@@ -1,7 +1,7 @@
 const utweapons2 = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-impacthammer.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-impacthammer.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Impact Hammer</h3>
 <p>
@@ -10,7 +10,7 @@ const utweapons2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-enforcer.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-enforcer.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Enforcer</h3>
 <p>
@@ -19,7 +19,7 @@ const utweapons2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-minigun.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-minigun.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Minigun</h3>
 <p>
@@ -28,7 +28,7 @@ const utweapons2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-sniperrifle.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-sniperrifle.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Sniper Rifle</h3>
 <p>
@@ -37,7 +37,7 @@ const utweapons2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-pulsegun.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-pulsegun.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Pulse Gun</h3>
 <p>
@@ -46,7 +46,7 @@ const utweapons2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-redeemer.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-redeemer.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Redeemer</h3>
 <p>

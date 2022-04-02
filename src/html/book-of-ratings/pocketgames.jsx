@@ -1,7 +1,7 @@
 const pocketgames = <div> 
 <table>
 	<tr valign="top">
-		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-caterpillar.jpg"} width="100" height="175" alt=""/></td>
+		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-caterpillar.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Catch a Caterpillar</h3>
 <p>
@@ -10,7 +10,7 @@ const pocketgames = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-dragontrap.jpg"} width="100" height="175" alt=""/></td>
+		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-dragontrap.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Dragon Trap</h3>
 <p>
@@ -19,7 +19,7 @@ const pocketgames = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-copterfight.jpg"} width="175" height="100" alt=""/></td>
+		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-copterfight.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Copter Fight</h3>
 <p>
@@ -28,7 +28,7 @@ const pocketgames = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-golfgame.jpg"} width="100" height="175" alt=""/></td>
+		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-golfgame.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Golf Game</h3>
 <p>
@@ -37,7 +37,7 @@ const pocketgames = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-robotfactory.jpg"} width="100" height="175" alt=""/></td>
+		<td align="right"><img className={"ratingsImage"} src={"/images/book-of-ratings/pocketgame-robotfactory.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Robot Factory</h3>
 <p>

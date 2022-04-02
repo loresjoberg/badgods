@@ -1,7 +1,7 @@
 const dndmonsters2 = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-owlbear.jpg"} width="125" height="125" alt="[Owlbear]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-owlbear.jpg"} alt="[Owlbear]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Owlbear</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const dndmonsters2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-gelatinouscube.jpg"} width="125" height="125" alt="[Gelatinous Cube]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-gelatinouscube.jpg"} alt="[Gelatinous Cube]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Gelatinous Cube</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const dndmonsters2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-trapper.jpg"} width="125" height="125" alt="[Trapper]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-trapper.jpg"} alt="[Trapper]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Trapper</h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const dndmonsters2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-umberhulk.jpg"} width="125" height="125" alt="[Umber Hulk]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-umberhulk.jpg"} alt="[Umber Hulk]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Umber Hulk</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const dndmonsters2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-mimic.jpg"} width="125" height="125" alt="[Mimic]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dndmonster-mimic.jpg"} alt="[Mimic]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Mimic</h3>
 		<p className="ratingbody">

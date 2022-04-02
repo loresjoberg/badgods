@@ -1,7 +1,7 @@
 const starwarslegos = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legodarth.gif"} width="100" height="100" alt="[ Lego Darth ]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legodarth.gif"} alt="[ Lego Darth ]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Darth Vader</h3>
 <p>
@@ -10,7 +10,7 @@ const starwarslegos = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legoendortrooper.gif"} width="100" height="100" alt="[ Lego Endor Trooper ]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legoendortrooper.gif"} alt="[ Lego Endor Trooper ]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Forest Troopers</h3>
 <p>
@@ -19,7 +19,7 @@ const starwarslegos = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legobiggs.gif"} width="100" height="100" alt="[ Lego Biggs ]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legobiggs.gif"} alt="[ Lego Biggs ]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Biggs</h3>
 <p>
@@ -28,7 +28,7 @@ const starwarslegos = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legoboba.gif"} width="100" height="100" alt="[ Lego Boba Fett ]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legoboba.gif"} alt="[ Lego Boba Fett ]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Boba Fett</h3>
 <p>
@@ -37,7 +37,7 @@ const starwarslegos = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legofrozenhan.gif"} width="100" height="100" alt="[ Lego Frozen Han ]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legofrozenhan.gif"} alt="[ Lego Frozen Han ]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Frozen Han</h3>
 <p>
@@ -46,7 +46,7 @@ const starwarslegos = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legoluke.gif"} width="100" height="100" alt="[ Lego Luke ]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/legoluke.gif"} alt="[ Lego Luke ]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Tattooine Luke</h3>
 <p>

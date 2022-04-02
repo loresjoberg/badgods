@@ -1,7 +1,7 @@
 const dangersymbols2 = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-flammable.jpg"} width="125" height="125" alt="[Flammable Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-flammable.jpg"} alt="[Flammable Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Flammable</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const dangersymbols2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-explosive.jpg"} width="125" height="125" alt="[Explosive Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-explosive.jpg"} alt="[Explosive Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Explosive</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const dangersymbols2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-oxidizer.jpg"} width="125" height="125" alt="[Oxidizer Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-oxidizer.jpg"} alt="[Oxidizer Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Oxidizer</h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const dangersymbols2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-laser.jpg"} width="125" height="125" alt="[Laser Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-laser.jpg"} alt="[Laser Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Lasers</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const dangersymbols2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-shock.jpg"} width="125" height="125" alt="[Electric Shock Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-shock.jpg"} alt="[Electric Shock Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Electric Shock</h3>
 		<p className="ratingbody">
@@ -46,7 +46,7 @@ const dangersymbols2 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-generic.jpg"} width="125" height="125" alt="[Generic Symbol]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/danger-generic.jpg"} alt="[Generic Symbol]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Generic Danger</h3>
 		<p className="ratingbody">

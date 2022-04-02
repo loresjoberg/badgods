@@ -1,16 +1,11 @@
-const newagealbums = <div><h2>
-  Albums That Sound Like New Age Albums, But Seriously They're Not
-</h2>
-  <table align="center">
-    <tr>
-      <td><img src={"/images/nirvana.png"} width="350" height="350" alt="Nirvana"/></td>
-      <td><img src={"/images/livingcolour.png"} width="350" height="350" alt="Living Colour"/></td>
-    </tr>
-    <tr>
-      <td><img src={"/images/soundgarden.png"} width="350" height="350" alt="Soundgarden"/></td>
-      <td><img src={"/images/cypresshill.png"} width="350" height="350" alt="Cypress Hill"/></td>
-    </tr>
-  </table>
+const newagealbums = <div>
+  <h2>
+    Albums That Sound Like New Age Albums, But Seriously They're Not
+  </h2>
+  <img src={"/images/apocrypha/nirvana.png"} alt="Nirvana"/>
+  <img src={"/images/apocrypha/livingcolour.png"} alt="Living Colour"/>
+  <img width="100%" src={"/images/apocrypha/soundgarden.png"} alt="Soundgarden"/>
+  <img src={"/images/apocrypha/cypresshill.png"} alt="Cypress Hill"/>
 </div>
 
 export default newagealbums;

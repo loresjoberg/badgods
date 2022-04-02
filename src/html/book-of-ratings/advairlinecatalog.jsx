@@ -2,7 +2,7 @@ const advairlinecatalog =
   <div>
     <table>
       <tr valign="top">
-        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-aggressor.jpg"} width="100" height="100" alt=""/></td>
+        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-aggressor.jpg"} alt=""/></td>
         <td>
           <h3 className="ratingsHeader">Aggressor 2000</h3>
 <p>
@@ -14,7 +14,7 @@ const advairlinecatalog =
         </td>
       </tr>
       <tr valign="top">
-        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-globe.jpg"} width="100" height="100" alt=""/></td>
+        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-globe.jpg"} alt=""/></td>
         <td>
           <h3 className="ratingsHeader">World Museum Globe</h3>
 <p>
@@ -25,7 +25,7 @@ const advairlinecatalog =
         </td>
       </tr>
       <tr valign="top">
-        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-beefwellington.jpg"} width="100" height="100" alt=""/></td>
+        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-beefwellington.jpg"} alt=""/></td>
         <td>
           <h3 className="ratingsHeader">The Authentic Balducci Beef Wellington</h3>
 <p>
@@ -37,7 +37,7 @@ const advairlinecatalog =
         </td>
       </tr>
       <tr valign="top">
-        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-toothbrush.jpg"} width="100" height="100" alt=""/></td>
+        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-toothbrush.jpg"} alt=""/></td>
         <td>
           <h3 className="ratingsHeader">Time Machine</h3>
 <p>
@@ -49,7 +49,7 @@ const advairlinecatalog =
         </td>
       </tr>
       <tr valign="top">
-        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-cyberslam.jpg"} width="100" height="100" alt=""/></td>
+        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-cyberslam.jpg"} alt=""/></td>
         <td>
           <h3 className="ratingsHeader">CyberSlam</h3>
 <p>
@@ -61,7 +61,7 @@ const advairlinecatalog =
         </td>
       </tr>
       <tr valign="top">
-        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-cottoncandy.jpg"} width="100" height="100" alt=""/></td>
+        <td><img className={"ratingsImage"} src={"/images/book-of-ratings/airline-cottoncandy.jpg"} alt=""/></td>
         <td>
           <h3 className="ratingsHeader">Cotton Candy Machine</h3>
 <p>

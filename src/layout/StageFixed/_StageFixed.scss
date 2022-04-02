@@ -1,0 +1,15 @@
+@import '../../scss/global';
+
+.StageFixed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  //background-color: darkblue;
+  max-height: $pageHeight;
+  img {
+    max-height: $pageHeight;
+    max-width: 100%;
+  }
+
+}

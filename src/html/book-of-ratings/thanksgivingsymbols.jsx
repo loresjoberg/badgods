@@ -1,7 +1,7 @@
 const thanksgivingsymbols = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-turkey.gif"} width="125" height="125" alt="[Turkey]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-turkey.gif"} alt="[Turkey]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Turkeys</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const thanksgivingsymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-indiancorn.gif"} width="125" height="125" alt="[Indian Corn]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-indiancorn.gif"} alt="[Indian Corn]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Indian Corn</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const thanksgivingsymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-pilgrim.gif"} width="125" height="125" alt="[Pilgrim]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-pilgrim.gif"} alt="[Pilgrim]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Pilgrims</h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const thanksgivingsymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-cornucopia.gif"} width="125" height="125" alt="[Cornucopia]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-cornucopia.gif"} alt="[Cornucopia]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Cornucopia</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const thanksgivingsymbols = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-leaf.gif"} width="125" height="125" alt="[Leaf Corn]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/thanksgivingsymbols-leaf.gif"} alt="[Leaf Corn]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Autumn Leaves</h3>
 		<p className="ratingbody">

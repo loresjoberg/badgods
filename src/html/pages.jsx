@@ -143,7 +143,6 @@ import israelisnacks from "./book-of-ratings/israelisnacks";
 import jabberwocky from "./book-of-ratings/jabberwocky";
 import japanesesnacks from "./book-of-ratings/japanesesnacks";
 import jellybellys from "./book-of-ratings/jellybellys";
-import jugsauceelite from "./apocrypha/jugsauceelite";
 import keyboardsymbols from "./book-of-ratings/keyboardsymbols";
 import kidssongs from "./book-of-ratings/kidssongs";
 import kidvehicles from "./book-of-ratings/kidvehicles";
@@ -444,7 +443,6 @@ const pageList = {
   "jabberwocky": jabberwocky,
   "japanesesnacks": japanesesnacks,
   "jellybellys": jellybellys,
-  "jugsauceelite": jugsauceelite,
   "keyboardsymbols": keyboardsymbols,
   "kidssongs": kidssongs,
   "kidvehicles": kidvehicles,
@@ -605,6 +603,6 @@ const pageList = {
 };
 
 export const pageMe = (slug, title = '') => {
-  const titleBlock = title ? <h2>{title}</h2> : <span></span>;
-  return <div className={"platter"}>{titleBlock}{pageList[slug]}</div>;
+  const titleBlock = title ? <h2>{title}</h2> : null;
+  return <>{titleBlock}{pageList[slug]}</>;
 }

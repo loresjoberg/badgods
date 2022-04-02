@@ -1,6 +1,13 @@
 @import '../../scss/global';
 
 .NavBox {
+  &.previousBox {
+    //background-color: lavenderblush;
+
+  }
+  &.nextBox {
+    //background-color: bisque;
+  }
   a {
     color: black;
     display: block;

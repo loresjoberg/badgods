@@ -1,7 +1,7 @@
 const israelisnacks = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-egotrip.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-egotrip.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Ego Trip</h3>
 <p>
@@ -10,7 +10,7 @@ const israelisnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-smiley.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-smiley.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Some Variety of Happy Face Candies</h3>
 <p>
@@ -19,7 +19,7 @@ const israelisnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-marshmallow.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-marshmallow.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Marshmallow Head</h3>
 <p>
@@ -28,7 +28,7 @@ const israelisnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-toffee.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-toffee.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Fruit-Flavored Toffee</h3>
 <p>
@@ -37,7 +37,7 @@ const israelisnacks = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-hazelnut.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/israeli-hazelnut.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Chocolate Hazelnut Bar</h3>
 <p>

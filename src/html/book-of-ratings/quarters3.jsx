@@ -1,7 +1,7 @@
 const quarters3 = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-newyork.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-newyork.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">New York</h3>
 <p>
@@ -10,7 +10,7 @@ const quarters3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-northcarolina.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-northcarolina.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">North Carolina</h3>
 <p>
@@ -19,7 +19,7 @@ const quarters3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-rhodeisland.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-rhodeisland.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Rhode Island</h3>
 <p>
@@ -28,7 +28,7 @@ const quarters3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-vermont.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-vermont.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Vermont</h3>
 <p>
@@ -37,7 +37,7 @@ const quarters3 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-kentucky.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/quarter-kentucky.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Kentucky</h3>
 <p>

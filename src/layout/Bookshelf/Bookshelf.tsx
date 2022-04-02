@@ -4,6 +4,7 @@ import Header from "../Header/Header";
 import CatalogCover from "../CatalogCover/CatalogCover";
 import './_Bookshelf.scss';
 import axios from "axios";
+import StageScrolling from "../StageScrolling/StageScrolling";
 
 const restUrl = "https://badgods.com:3030";
 
@@ -22,12 +23,14 @@ export default function Bookshelf() {
     <Header title={''}
             activeVolumeSlug={''}
             volumes={volumes}/>
-    <div className={"Wall"}>
-      <div className={"Shelves"}>
-      {volumes.map(function (volume) {
-        return <CatalogCover key={volume._id} volume={volume}/>;
-      })}
+    <StageScrolling>
+      <div className={"Wall"}>
+        <div className={"Shelves volumes-" + volumes.length}>
+          {volumes.map(function (volume) {
+            return <CatalogCover key={volume._id} volume={volume}/>;
+          })}
+        </div>
       </div>
-    </div>
+    </StageScrolling>
   </div>);
 }

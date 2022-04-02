@@ -1,7 +1,7 @@
 const dollarstore2 = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-birds.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-birds.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Birds of a Feather 3-Pack</h3>
 <p>
@@ -10,7 +10,7 @@ const dollarstore2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-girlsurprise.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-girlsurprise.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">A Surprise For A Girl</h3>
 <p>
@@ -19,7 +19,7 @@ const dollarstore2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-playdoh.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-playdoh.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Play-Doh Neon Garden 2-Pack</h3>
 <p>
@@ -28,7 +28,7 @@ const dollarstore2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-bagholder.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-bagholder.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Paper Bag Organizer</h3>
 <p>
@@ -37,7 +37,7 @@ const dollarstore2 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-smallsoldiers.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/dollarstore-smallsoldiers.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Small Soldiers: Neighborhood Meltdown</h3>
 <p>

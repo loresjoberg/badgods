@@ -1,7 +1,7 @@
 const spiderpowers = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-webbing.gif"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-webbing.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Web Shooters</h3>
 <p>
@@ -10,7 +10,7 @@ const spiderpowers = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-strength.gif"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-strength.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Spider-Strength</h3>
 <p>
@@ -19,7 +19,7 @@ const spiderpowers = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-speed.gif"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-speed.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Spider-Speed</h3>
 <p>
@@ -28,7 +28,7 @@ const spiderpowers = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-sense.gif"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-sense.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Spider-Sense</h3>
 <p>
@@ -37,7 +37,7 @@ const spiderpowers = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-clinging.gif"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/spidey-clinging.gif"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Wall-Crawling</h3>
 <p>

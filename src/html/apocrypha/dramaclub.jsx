@@ -1,16 +1,9 @@
-const dramaclub = <div>
-	<table>
-  <tbody>
-  <tr>
-    <td><img src={"/images/adamadrama.png"} width="350" height="455" alt="Adama"/></td>
-    <td><img src={"/images/obamadrama.png"} width="350" height="455" alt="Obama"/></td>
-  </tr>
-  <tr>
-    <td><img src={"/images/osamadrama.png"} width="350" height="455" alt="Osama"/></td>
-    <td><img src={"/images/lamadrama.png"} width="350" height="455" alt="Dalai Lama"/></td>
-  </tr>
-  </tbody>
-</table>
+const dramaclub = <div style={{maxWidth: '100%'}}>
+  <img src={"/images/apocrypha/adamadrama.png"} alt="Adama"/>
+  <img src={"/images/apocrypha/obamadrama.png"} alt="Obama"/>
+
+  <img src={"/images/apocrypha/osamadrama.png"} alt="Osama"/>
+  <img src={"/images/apocrypha/lamadrama.png"} alt="Dalai Lama"/>
 </div>
 
 export default dramaclub;

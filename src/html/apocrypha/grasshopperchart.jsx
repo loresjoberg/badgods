@@ -1,6 +1,6 @@
 const grasshopperchart = <div><div data-style="width:625px;background-color:white;margin-left:auto;margin-right:auto;padding-top:10px;padding-bottom:10px">
 	<div data-style="text-align: center">
-		<img src={"/images/book-of-ratings/grasshopperchart.png"} width="600" height="566" alt="Chart"/>
+		<img src={"/images/apocrypha/grasshopperchart.png"} alt="Chart"/>
 	</div>
 	<div data-style="text-align:left;margin-left:20px;margin-right:20px;margin-top:20px;margin-bottom:20px">
 		Methodology: Went through each of Google's 569 results for <strong>"drink named after you" grasshopper</strong> and counted the names supplied for the grasshopper in question. (Google initially lists "about 437,000" results, but after 569, explains that the remaining entries are "very similar." Go fig.)

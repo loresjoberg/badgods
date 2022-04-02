@@ -1,7 +1,7 @@
 const monopolysets = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolystartrek.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolystartrek.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Star Trek: The Next Generation</h3>
 <p>
@@ -10,7 +10,7 @@ const monopolysets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopoly2000.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopoly2000.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Millennium Edition</h3>
 <p>
@@ -19,7 +19,7 @@ const monopolysets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolyharley.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolyharley.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Harley-Davidson</h3>
 <p>
@@ -28,7 +28,7 @@ const monopolysets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolyparks.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolyparks.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">National Parks</h3>
 <p>
@@ -37,7 +37,7 @@ const monopolysets = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolypuzzle.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/monopolypuzzle.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">3-D Puzzle Monopoly</h3>
 <p>

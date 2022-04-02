@@ -1,7 +1,7 @@
 const facialhair = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-mustache.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-mustache.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Mustache</h3>
 <p>
@@ -10,7 +10,7 @@ const facialhair = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-muttonchops.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-muttonchops.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Muttonchops</h3>
 <p>
@@ -19,7 +19,7 @@ const facialhair = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-sideburns.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-sideburns.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Sideburns</h3>
 <p>
@@ -28,7 +28,7 @@ const facialhair = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-fullbeard.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-fullbeard.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Full Beard</h3>
 <p>
@@ -37,7 +37,7 @@ const facialhair = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-goatee.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/loreface-goatee.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Goatee</h3>
 <p>

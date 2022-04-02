@@ -1,7 +1,7 @@
 const utweapons = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-rocketlauncher.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-rocketlauncher.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Rocket Launcher</h3>
 <p>
@@ -10,7 +10,7 @@ const utweapons = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-ripper.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-ripper.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Ripper</h3>
 <p>
@@ -19,7 +19,7 @@ const utweapons = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-biorifle.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-biorifle.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Biorifle</h3>
 <p>
@@ -28,7 +28,7 @@ const utweapons = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-flakcannon.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-flakcannon.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Flak Cannon</h3>
 <p>
@@ -37,7 +37,7 @@ const utweapons = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-shockrifle.jpg"} width="125" height="125" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/ut-shockrifle.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Shock Rifle</h3>
 <p>

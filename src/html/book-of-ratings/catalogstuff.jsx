@@ -1,7 +1,7 @@
 const catalogstuff = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-evacu8.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-evacu8.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Evac-U8 Emergency Smoke Hood</h3>
 <p>
@@ -10,7 +10,7 @@ const catalogstuff = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-thermometer.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-thermometer.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Remote Wireless Meat Themometer</h3>
 <p>
@@ -19,7 +19,7 @@ const catalogstuff = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-purifier.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-purifier.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Ionic Breeze Personal Air Purifier</h3>
 <p>
@@ -28,7 +28,7 @@ const catalogstuff = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-pachinko.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-pachinko.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Authentic Pachinko Game</h3>
 <p>
@@ -37,7 +37,7 @@ const catalogstuff = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-blimp.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-blimp.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Remote-Controlled Indoor Triple-Turbo Blimp</h3>
 <p>
@@ -46,7 +46,7 @@ const catalogstuff = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-crossword.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/catalog-crossword.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">The World's Largest Crossword Puzzle</h3>
 <p>

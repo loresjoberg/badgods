@@ -3,28 +3,31 @@
 .Header {
   position: fixed;
   top: 0;
-  left: $sideMargin;
-  right: $sideMargin;
+  left: 0;
+  right: 0;
+  //background-color: palegreen;
+  background-color: $seeThrough;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   column-gap: 1rem;
 
-  padding: 0.5rem;
+  padding: 0.5rem $sideMarginSmall;
+
+  @media (screen and screen and min-width: 600px) {
+    padding: 0.5rem $sideMargin;
+  }
   height: $headerHeight;
 
   z-index: $zHigh;
-  background-color: $seeThrough;
-  @media (min-width: 900px) {
-    background-color: transparent;
-  }
+
 
   .Header-cell {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    @media (min-width: 900px) {
+    @media (screen and min-width: 600px) {
       width: 12em;
     }
     max-width: calc(50% - 0.5rem);
@@ -46,8 +49,8 @@
 
   .Header-right {
     text-align: right;
-    font-size: calc(0.75rem + (1vw / 2));
-    @media (min-width: 900px) {
+    font-size: 0.75rem;
+    @media (screen and min-width: 600px) {
       max-width: 20vw;
       font-size: 1rem;
     }

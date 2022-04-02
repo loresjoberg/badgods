@@ -1,7 +1,7 @@
 const schoolsupplies = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-compass.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-compass.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Compasses</h3>
 <p>
@@ -10,7 +10,7 @@ const schoolsupplies = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-sharpener.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-sharpener.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Pencil Sharpeners</h3>
 <p>
@@ -19,7 +19,7 @@ const schoolsupplies = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-protractor.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-protractor.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Protractors</h3>
 <p>
@@ -28,7 +28,7 @@ const schoolsupplies = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-gluestick.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-gluestick.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Glue Sticks</h3>
 <p>
@@ -37,7 +37,7 @@ const schoolsupplies = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-scissors.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/school-scissors.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Roundy Scissors</h3>
 <p>

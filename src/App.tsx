@@ -6,7 +6,7 @@ import {useParams} from "react-router-dom";
 import Header from "./layout/Header/Header";
 import Main from "./layout/Main/Main";
 import Footer from "./layout/Footer/Footer";
-
+import MainNav from "./layout/MainNav/MainNav";
 
 const restUrl = "https://badgods.com:3030";
 
@@ -81,7 +81,6 @@ function App() {
   }, [folios, activeIndex]);
 
 
-
   const loadVolumes = () => {
     conLog('loadVolumes()')
     axios.get(restUrl + '/volumes').then((response) => {
@@ -111,12 +110,11 @@ function App() {
       <Header title={folios[activeIndex].nomen}
               activeVolumeSlug={activeVolumeSlug}
               volumes={volumes}/>
-      <main>
-        <Main activeFolio={folios[activeIndex]}
-              activeVolumeSlug={activeVolumeSlug}
-              nextSlug={nextSlug}
-              previousSlug={previousSlug}/>
-      </main>
+      <Main activeFolio={folios[activeIndex]}
+            activeVolumeSlug={activeVolumeSlug}
+            nextSlug={nextSlug}
+            previousSlug={previousSlug}/>
+      <MainNav activeVolumeSlug={activeVolumeSlug} nextSlug={nextSlug} previousSlug={previousSlug} />
       <Footer currentIndex={activeIndex}
               folios={folios}
               volumeSlug={activeVolumeSlug}

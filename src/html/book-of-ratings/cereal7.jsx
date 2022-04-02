@@ -1,7 +1,7 @@
 const cereal7 = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-kingvitaman.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-kingvitaman.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">King Vitaman</h3>
 <p>
@@ -10,7 +10,7 @@ const cereal7 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-teamcheerios.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-teamcheerios.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Team Cheerios</h3>
 <p>
@@ -19,7 +19,7 @@ const cereal7 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-pokemon.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-pokemon.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Pok&eacute;mon Cereal</h3>
 <p>
@@ -28,7 +28,7 @@ const cereal7 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-powerpuff.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-powerpuff.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Powerpuff Girls Cereal</h3>
 <p>
@@ -37,7 +37,7 @@ const cereal7 = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-reecespuffs.jpg"} width="100" height="100" alt=""/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/cereal7-reecespuffs.jpg"} alt=""/></td>
 		<td>
 		<h3 className="ratingsHeader">Reese's Puffs</h3>
 <p>

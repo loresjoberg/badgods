@@ -1,7 +1,7 @@
 const quarters4 = <div> 
 <table>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-tn.jpg"} width="125" height="125" alt="[Tennessee Coin]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-tn.jpg"} alt="[Tennessee Coin]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Tennessee</h3>
 		<p className="ratingbody">
@@ -10,7 +10,7 @@ const quarters4 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-oh.jpg"} width="125" height="125" alt="[Ohio Coin]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-oh.jpg"} alt="[Ohio Coin]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Ohio</h3>
 		<p className="ratingbody">
@@ -19,7 +19,7 @@ const quarters4 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-la.jpg"} width="125" height="125" alt="[Louisiana Coin]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-la.jpg"} alt="[Louisiana Coin]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Louisiana </h3>
 		<p className="ratingbody">
@@ -28,7 +28,7 @@ const quarters4 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-in.jpg"} width="125" height="125" alt="[Indiana Coin]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-in.jpg"} alt="[Indiana Coin]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Indiana</h3>
 		<p className="ratingbody">
@@ -37,7 +37,7 @@ const quarters4 = <div>
 		</td>
 	</tr>
 	<tr>
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-ms.jpg"} width="125" height="125" alt="[Mississippi Coin]" /></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/coin-ms.jpg"} alt="[Mississippi Coin]" /></td>
 		<td> 
 		<h3 className="ratingsHeader">Mississippi</h3>
 		<p className="ratingbody">

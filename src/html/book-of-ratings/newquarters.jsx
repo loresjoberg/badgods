@@ -1,7 +1,7 @@
 const newquarters = <div> 
 <table>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/conncoin.gif"} width="100" height="100" alt="[Connecticut Coin]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/conncoin.gif"} alt="[Connecticut Coin]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Connecticut</h3>
 <p>
@@ -10,7 +10,7 @@ const newquarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/njcoin.gif"} width="100" height="100" alt="[New Jersey Coin]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/njcoin.gif"} alt="[New Jersey Coin]"/></td>
 		<td>
 		<h3 className="ratingsHeader">New Jersey</h3>
 <p>
@@ -19,7 +19,7 @@ const newquarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/gacoin.gif"} width="100" height="100" alt="[Georgia Coin]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/gacoin.gif"} alt="[Georgia Coin]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Georgia</h3>
 <p>
@@ -28,7 +28,7 @@ const newquarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/delcoin.gif"} width="100" height="100" alt="[Delaware Coin]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/delcoin.gif"} alt="[Delaware Coin]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Delaware</h3>
 <p>
@@ -37,7 +37,7 @@ const newquarters = <div>
 		</td>
 	</tr>
 	<tr valign="top">
-		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/penncoin.gif"} width="100" height="100" alt="[Pennsylvania Coin]"/></td>
+		<td><img className={"ratingsImage"} src={"/images/book-of-ratings/penncoin.gif"} alt="[Pennsylvania Coin]"/></td>
 		<td>
 		<h3 className="ratingsHeader">Pennsylvania</h3>
 <p>
