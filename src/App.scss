@@ -1,7 +1,6 @@
 @import 'scss/global';
 
 html {
-  z-index: $zLow;
   font-family: 'ChaparralPro', serif;
 }
 
@@ -17,7 +16,7 @@ body {
 }
 
 
-.App {
+.App, .Scene {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -27,6 +26,19 @@ body {
   h1, h2, h3 {
     letter-spacing: normal;
   }
+
+  .fullscreen-enabled {
+    .Header {
+      display: none;
+    }
+    .Footer {
+      display: none;
+    }
+    .BackButton {
+      display: none;
+    }
+  }
+
 
 }
 

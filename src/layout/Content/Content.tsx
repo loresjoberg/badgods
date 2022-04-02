@@ -33,8 +33,8 @@ export default function Content({activeFolio, activeVolumeSlug}: ContentProps) {
   }, [activeFolio.slug, activeFolio.mediaType, activeFolio.nomen, activeVolumeSlug])
 
   return (
-    <div key={activeFolio.slug} className={"Content"}>
+    <main key={activeFolio.slug} className={"Content"}>
       {content}
-    </div>
+    </main>
   );
 }

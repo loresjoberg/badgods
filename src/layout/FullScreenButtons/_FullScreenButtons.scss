@@ -8,8 +8,6 @@
   right: $sideMarginSmall;
   cursor: pointer;
   z-index: $zMega;
-  //background-color: gainsboro;
-
   .enter-fullScreen-button {
     display: block;
   }
@@ -18,4 +16,16 @@
     color: white;
     display: none;
   }
+}
+
+.fullscreen-enabled {
+  .FullScreenButtons {
+    .enter-fullScreen-button {
+      display: none;
+    }
+    .exit-fullScreen-button {
+      display: block;
+    }
+  }
+
 }

@@ -6,8 +6,8 @@
   left: 0;
   right: 0;
   //background-color: palegreen;
-  //background-color: $seeThrough;
-
+  background-color: $seeThrough;
+  z-index: $zMega;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -21,8 +21,6 @@
   }
   height: $headerHeight;
 
-  z-index: $zHigh;
-
 
   .Header-cell {
     display: flex;
@@ -32,7 +30,6 @@
     @media (screen and min-width: 600px) {
       max-width: 14em;
     }
-    background-color: $seeThrough;
 
     max-width: calc(50% - 0.5rem);
   }

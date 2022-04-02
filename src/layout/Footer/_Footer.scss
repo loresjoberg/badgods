@@ -1,6 +1,8 @@
 @import '../../scss/global';
 
 .Footer {
+  z-index: $zMega;
+
   .NavBox.previousBox, .NavBox.nextBox {
     background-color: transparent;
   }
@@ -20,7 +22,6 @@
   }
   background-color: $seeThrough;
   //background-color: paleturquoise;
-  z-index: $zHigh;
 
 
   .NavBox {

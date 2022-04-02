@@ -4,9 +4,12 @@ import axios from 'axios';
 import {folioType, volumeType} from "./types";
 import {useParams} from "react-router-dom";
 import Header from "./layout/Header/Header";
-import Main from "./layout/Main/Main";
 import Footer from "./layout/Footer/Footer";
 import MainNav from "./layout/MainNav/MainNav";
+import {FullScreen, useFullScreenHandle} from "react-full-screen";
+import BackButton from "./layout/BackButton/BackButton";
+import FullScreenButtons from "./layout/FullScreenButtons/FullScreenButtons";
+import Content from "./layout/Content/Content";
 
 const restUrl = "https://badgods.com:3030";
 
@@ -27,6 +30,8 @@ function App() {
   const [activeVolumeSlug, setActiveVolumeSlug] = React.useState<string>('');
   const [previousSlug, setPreviousSlug] = React.useState<string>('');
   const [nextSlug, setNextSlug] = React.useState<string>('');
+
+  const handle = useFullScreenHandle();
 
 
   React.useEffect(() => {
@@ -103,23 +108,29 @@ function App() {
   }
 
 
-
   return (
     <div className="App">
-      <Header title={folios[activeIndex].nomen}
-              activeVolumeSlug={activeVolumeSlug}
-              volumes={volumes}/>
-      <MainNav activeVolumeSlug={activeVolumeSlug} nextSlug={nextSlug} previousSlug={previousSlug} />
+      <FullScreen handle={handle}>
+        <div className={"Scene"}>
+          <Header title={folios[activeIndex].nomen}
+                  activeVolumeSlug={activeVolumeSlug}
+                  volumes={volumes}/>
+          <MainNav activeVolumeSlug={activeVolumeSlug} nextSlug={nextSlug} previousSlug={previousSlug}/>
 
-      <Main activeFolio={folios[activeIndex]}
-            activeVolumeSlug={activeVolumeSlug}
-            nextSlug={nextSlug}
-            previousSlug={previousSlug}/>
-      <Footer currentIndex={activeIndex}
-              folios={folios}
-              volumeSlug={activeVolumeSlug}
-              nextSlug={nextSlug}
-              previousSlug={previousSlug}/>
+          <Content activeFolio={folios[activeIndex]}
+                   activeVolumeSlug={activeVolumeSlug}/>
+
+
+          <BackButton/>
+          {activeVolumeSlug !== 'bandwidth-theater' &&
+            <FullScreenButtons handle={handle}/>}
+          <Footer currentIndex={activeIndex}
+                  folios={folios}
+                  volumeSlug={activeVolumeSlug}
+                  nextSlug={nextSlug}
+                  previousSlug={previousSlug}/>
+        </div>
+      </FullScreen>
     </div>
   );
 
