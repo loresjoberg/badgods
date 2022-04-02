@@ -1,8 +1,6 @@
 @import '../../scss/global';
 
 .MainNav {
-  //background-color: hotpink;
-  opacity: 0.1;
   position: fixed;
   left: 0;
   right: 0;
@@ -11,8 +9,8 @@
   display: flex;
   flex-direction: row;
   .NavBox {
+
     flex-grow: 1;
-    display: none;
 
     &.previousBox {
       a {
@@ -28,6 +26,15 @@
 
       }
     }
+
+    svg {
+      display: block;
+      top: calc(50vh - 3.5rem);
+      width: 100px;
+      height: 100px;
+      position: fixed;
+      opacity: 0;
+    }
   }
 
 
@@ -35,17 +42,8 @@
     .NavBox {
       display: flex;
       flex-direction: row;
-      flex-grow: 1;
       justify-content: center;
       align-items: center;
-      svg {
-        display: block;
-        top: calc(50vh - 3.5rem);
-        width: 100px;
-        height: 100px;
-        position: fixed;
-        opacity: 0;
-      }
     }
   }
 }

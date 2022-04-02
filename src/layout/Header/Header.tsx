@@ -20,17 +20,20 @@ export default function Header({title, volumes, activeVolumeSlug}: HeaderProps) 
 
   return (
     <header className="Header">
-      <div className={"Header-left Header-cell"} >
+      <div className={"Header-left Header-cell"}>
         <Link to={"/"}>
           <img alt={"Bad Gods"} src={"/ui/bad-gods-logo.png"}/>
         </Link>
-        {!activeVolumeSlug &&
-          <div className={"byLine"}>by Lore Sj&ouml;berg</div>
-        }
+
       </div>
       <div className={"Header-right Header-cell"}>
         <div className={"title"}>
-          <span className={"titleSpan"}><div className={"volumeTitle"}>{volumeTitle}</div> <div>{title}</div></span>
+          {activeVolumeSlug ? <span className={"titleSpan"}>
+              <div className={"volumeTitle"}>{volumeTitle}</div>
+              <div>{title}</div>
+          </span>
+            : <div className={"byLine"}>by Lore Sj&ouml;berg</div>
+          }
         </div>
       </div>
     </header>

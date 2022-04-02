@@ -1,33 +1,45 @@
 @import 'scss/global';
 
-html {
-  font-family: 'ChaparralPro', serif;
-}
-
-body {
-  margin: 0 $sideMarginSmall;
-  @media (screen and min-width: 600px) {
-    margin: 0 $sideMargin;
-  }
-    min-height: 100vh;
-  #root {
-    min-height: 100vh;
-  }
-}
-
-
-.App, .Scene {
+.App {
   display: flex;
   flex-direction: row;
   justify-content: center;
   font-family: 'ChaparralPro', serif;
   min-height: 100vh;
 
+  .Header {
+    z-index: $zMega;
+  }
+
+  .Footer {
+    z-index: $zMega;
+  }
+
+  .Content {
+    //z-index: $zHigh;
+  }
+
+  .MainNav {
+    //z-index: $zLow;
+  }
+
+
+  .uiOverlay {
+    z-index: $zMega;
+  }
   h1, h2, h3 {
     letter-spacing: normal;
   }
 
   .fullscreen-enabled {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .StageScrolling {
+
+    }
+
     .Header {
       display: none;
     }

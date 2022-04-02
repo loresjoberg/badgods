@@ -1,4 +1,4 @@
-const lordofthewarcraft = <div><div className="html_box">
+const lordofthewarcraft = <div>
 	<h2>
 		An Except from <cite>The Fellowship of the Ring</cite>, Substituting Actual Names of <cite>World of Warcraft</cite> Characters
 	</h2>
@@ -17,7 +17,7 @@ const lordofthewarcraft = <div><div className="html_box">
 	<p className="main_text">
 		'Here,' said Furioso, turning to Pudwhacker, 'is Bankbooty, a man from the South." 
 	</p>
-</div>
+
 </div>
 
 export default lordofthewarcraft;

@@ -1,13 +1,12 @@
 @import '../../scss/global';
 
 .Content {
-  pointer-events: none;
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   min-height: 100vh;
-  z-index: $zHigh;
+
   img {
     max-width: 100%;
   }

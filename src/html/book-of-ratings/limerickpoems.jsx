@@ -1,4 +1,4 @@
-const limerickpoems = <div><div className="html_box">
+const limerickpoems = <div>
 	<h2>
 		Famous Poems Rewritten as Limericks
 	</h2>
@@ -53,6 +53,6 @@ const limerickpoems = <div><div className="html_box">
 		That's when you got a piggy-back ride." 
 	</p>
 </div>
-</div>
+
 
 export default limerickpoems;

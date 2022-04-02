@@ -64,15 +64,52 @@ $seeThrough: rgba(255,255,255,0.8);
 $sideMargin: 0.75rem;
 $sideMarginSmall: 0.5rem;
 
-$maxWidth: 32rem;
-$maxWidthHtml: 34rem;
 $headerHeight: 4rem;
 $footerHeight: 3.5rem;
+$readingWidth: 36rem;
 $pageHeight: calc(100vh - 7.5rem);
-
-$zLow: -1;
-$zBase: 1;
+$zLow: 1;
 $zMed: 10;
 $zHigh: 100;
 $zMega: 1000;
 $zUltra: 10000;
+
+html {
+  font-family: 'ChaparralPro', serif;
+}
+
+body {
+  margin: 0 $sideMarginSmall;
+  @media (screen and min-width: 600px) {
+    margin: 0 $sideMargin;
+  }
+  min-height: 100vh;
+  #root {
+    min-height: 100vh;
+  }
+}
+
+div.twoUp-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 1rem;
+  @media (screen and min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+}
+img.twoUp {
+  display: block;
+  width: 100%;
+  height: auto;
+
+  @media (screen and min-width: 600px) {
+    width: calc(50% - 0.5rem);
+  }
+
+}
+

@@ -1,7 +1,6 @@
 @import '../../scss/global';
 
 .Footer {
-  z-index: $zMega;
 
   .NavBox.previousBox, .NavBox.nextBox {
     background-color: transparent;
@@ -17,11 +16,10 @@
   bottom: 0;
   height: $footerHeight;
   padding: 0.25rem $sideMarginSmall;
-  @media (screen and screen and min-width: 600px) {
+  @media (screen and min-width: 600px) {
     padding: 0.25rem $sideMargin;
   }
   background-color: $seeThrough;
-  //background-color: paleturquoise;
 
 
   .NavBox {

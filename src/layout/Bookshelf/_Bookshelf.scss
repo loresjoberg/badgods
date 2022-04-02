@@ -8,7 +8,13 @@ $fiveAcross: 31.5rem;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  //background-color: darkorchid;
+  .Header {
+    z-index: $zMega;
+  }
+
+  .Footer {
+    z-index: $zMega;
+  }
   min-height: 100vh;
   .Wall {
     display: flex;

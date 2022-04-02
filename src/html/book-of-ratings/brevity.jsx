@@ -1,4 +1,4 @@
-const brevity = <div><div className="html_box">
+const brevity = <div>
 	<h2>
 		Brevity is the Soul of Wit
 	</h2>
@@ -35,7 +35,6 @@ const brevity = <div><div className="html_box">
 	<p>
 		My noseless dog smells terrible.
 	</p>
-</div>
 </div>
 
 export default brevity;

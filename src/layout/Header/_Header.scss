@@ -5,9 +5,7 @@
   top: 0;
   left: 0;
   right: 0;
-  //background-color: palegreen;
   background-color: $seeThrough;
-  z-index: $zMega;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,7 +13,7 @@
 
   padding: 0.5rem $sideMarginSmall;
 
-  @media (screen and screen and min-width: 600px) {
+  @media (screen and min-width: 600px) {
     padding: 0.5rem $sideMargin;
     column-gap: 10rem;
   }
@@ -43,18 +41,11 @@
     }
     img {
       height: 100%;
-      object-fit: contain;
-      object-position: left center;
+      //object-fit: contain;
+      //object-position: left center;
       cursor: pointer;
     }
-    .byLine {
-      color: #444;
-      position: absolute;
-      left: 0;
-      right: 1rem;
-      font-weight: bold;
-      top: calc(100% + 0.25rem);
-    }
+
 
   }
 
@@ -69,6 +60,12 @@
       color: #444;
       font-style: italic;
       font-weight: 600;
+
+      .byLine {
+        color: #666;
+        font-size: 1rem;
+
+      }
 
       .volumeTitle {
         font-weight: normal;

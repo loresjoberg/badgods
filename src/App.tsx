@@ -111,7 +111,6 @@ function App() {
   return (
     <div className="App">
       <FullScreen handle={handle}>
-        <div className={"Scene"}>
           <Header title={folios[activeIndex].nomen}
                   activeVolumeSlug={activeVolumeSlug}
                   volumes={volumes}/>
@@ -129,7 +128,6 @@ function App() {
                   volumeSlug={activeVolumeSlug}
                   nextSlug={nextSlug}
                   previousSlug={previousSlug}/>
-        </div>
       </FullScreen>
     </div>
   );

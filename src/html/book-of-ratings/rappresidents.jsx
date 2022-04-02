@@ -1,4 +1,4 @@
-const rappresidents = <div><div className="html_box">
+const rappresidents = <div>
 	<h2>
 		Presidents Who Had Pretty Good Rap Names, Using the Convention of Combining First Initial With First Syllable of Last Name
 	</h2>
@@ -9,7 +9,6 @@ const rappresidents = <div><div className="html_box">
 		Z-Tay<br />
 		C-Cool<br />
 	</p>
-</div>
 </div>
 
 export default rappresidents;

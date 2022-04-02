@@ -5,28 +5,26 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/CatalogButton.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/CatalogButton.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/CatalogButton.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogButton/_CatalogButton.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogDrop/CatalogDrop.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogDrop/CatalogDrop.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogDrop/CatalogDrop.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogDrop/_CatalogDrop.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/Content.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/dramaclub.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/apocrypha/dramaclub.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/magicitems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/apocrypha/magicitems.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/apocrypha/newagealbums.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/apocrypha/newagealbums.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/brevity.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/brevity.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/limerickpoems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/limerickpoems.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/lordofthewarcraft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/lordofthewarcraft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/nineinchnoels.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/nineinchnoels.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/rappresidents.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/rappresidents.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/BackButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/BackButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/CatalogCover/_CatalogCover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogCover/_CatalogCover.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Content/_Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/_Content.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenHandle/FullScreenHandle.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenHandle/FullScreenHandle.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenHandle/FullScreenHandle.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenHandle/_FullScreenHandle.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Main/_Main.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/MainNav/_MainNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainNav/_MainNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
     </list>
@@ -186,7 +184,7 @@
       <workItem from="1648861543109" duration="1745000" />
       <workItem from="1648863576020" duration="441000" />
       <workItem from="1648864029655" duration="67000" />
-      <workItem from="1648864107230" duration="21106000" />
+      <workItem from="1648864107230" duration="27061000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -335,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648910861375</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="scrolling and nav">
+      <created>1648916151686</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648916151686</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,6 +379,7 @@
     <MESSAGE value="Improved mobile view etc." />
     <MESSAGE value="Added my name" />
     <MESSAGE value="Added htaccess" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added htaccess" />
+    <MESSAGE value="scrolling and nav" />
+    <option name="LAST_COMMIT_MESSAGE" value="scrolling and nav" />
   </component>
 </project>

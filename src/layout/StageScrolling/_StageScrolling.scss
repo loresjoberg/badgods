@@ -1,26 +1,27 @@
 @import '../../scss/global';
 
 .StageScrolling {
+  position: relative;
   padding-top: $headerHeight;
-  background-color: paleturquoise;
-  padding-bottom: 6rem;
-  max-width: 36rem;
-  @media (screen and screen and min-width: 600px) {
+  padding-bottom: 6.5rem;
+  max-width: $readingWidth;
+  width: calc(80vw);
+
+  @media (screen and min-width: 600px) {
+    padding-bottom: $footerHeight;
+  }
+
+  @media (screen and min-width: 900px) {
     padding-bottom: $footerHeight;
   }
 }
 
 .fullscreen-enabled {
-  overflow: scroll;
-  //
-  //.Content {
-  //  opacity: 0.5;
-  //
-  //  .StageScrolling {
-  //    color: white;
-  //    margin-left: auto;
-  //    margin-right: auto;
-  //  }
-  //}
 
+  overflow: scroll;
+  .StageScrolling {
+    color: white;
+    position: relative;
+    padding: $headerHeight 0;
+  }
 }
