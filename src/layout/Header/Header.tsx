@@ -24,6 +24,9 @@ export default function Header({title, volumes, activeVolumeSlug}: HeaderProps) 
         <Link to={"/"}>
           <img alt={"Bad Gods"} src={"/ui/bad-gods-logo.png"}/>
         </Link>
+        {!activeVolumeSlug &&
+          <div className={"byLine"}>by Lore Sj&ouml;berg</div>
+        }
       </div>
       <div className={"Header-right Header-cell"}>
         <div className={"title"}>

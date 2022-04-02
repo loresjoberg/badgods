@@ -1,53 +1,53 @@
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Regular.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-Regular.otf") format('opentype');
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Italic.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-Italic.otf") format('opentype');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Bold.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-Bold.otf") format('opentype');
   font-weight: bold;
 }
 
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-BoldIt.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-BoldIt.otf") format('opentype');
   font-weight: bold;
   font-style: italic;
 
 }
 
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Semibold.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-Semibold.otf") format('opentype');
   font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-SemiboldIt.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-SemiboldIt.otf") format('opentype');
   font-weight: 600;
   font-style: italic;
 
 }
 
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-Light.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-Light.otf") format('opentype');
   font-weight: 300;
 }
 
 @font-face {
-  font-family: 'Chaparral Pro';
-  src: local("Chaparral Pro"), url("../fonts/ChaparralPro-LightIt.otf") format('opentype');
+  font-family: 'ChaparralPro';
+  src: local("ChaparralPro"), url("../fonts/ChaparralPro-LightIt.otf") format('opentype');
   font-weight: 300;
   font-style: italic;
 }
@@ -66,9 +66,9 @@ $sideMarginSmall: 0.5rem;
 
 $maxWidth: 32rem;
 $maxWidthHtml: 34rem;
-$headerHeight: 3.5rem;
+$headerHeight: 4rem;
 $footerHeight: 3.5rem;
-$pageHeight: calc(100vh - 7rem);
+$pageHeight: calc(100vh - 7.5rem);
 
 $zLow: 1;
 $zMed: 10;

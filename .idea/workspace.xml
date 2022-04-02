@@ -3,17 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/_Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/_Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Main/_Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Main/_Main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/MainNav/_MainNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainNav/_MainNav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +167,7 @@
       <workItem from="1648861543109" duration="1745000" />
       <workItem from="1648863576020" duration="441000" />
       <workItem from="1648864029655" duration="67000" />
-      <workItem from="1648864107230" duration="13123000" />
+      <workItem from="1648864107230" duration="14096000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -302,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648876167179</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Improved mobile view etc.">
+      <created>1648878374393</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648878374393</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,6 +338,7 @@
     <MESSAGE value="Removed fullscreen for Bandwidth Theater" />
     <MESSAGE value="Initializing Relevations" />
     <MESSAGE value="Improved mobile view" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved mobile view" />
+    <MESSAGE value="Improved mobile view etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improved mobile view etc." />
   </component>
 </project>

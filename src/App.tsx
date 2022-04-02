@@ -103,7 +103,6 @@ function App() {
   }
 
 
-  console.log('rendering');
 
   return (
     <div className="App">

@@ -38,7 +38,8 @@
   }
 
   .Header-left {
-
+    position: relative;
+    text-align: center;
     padding-right: 1rem;
     a {
       height: 100%;
@@ -48,6 +49,14 @@
       object-fit: contain;
       object-position: left center;
       cursor: pointer;
+    }
+    .byLine {
+      color: #444;
+      position: absolute;
+      left: 0;
+      right: 1rem;
+      font-weight: bold;
+      top: calc(100% + 0.25rem);
     }
 
   }
