@@ -7,7 +7,20 @@
   align-items: center;
   min-height: 100vh;
 
-  img {
-    max-width: 100%;
+  .swiper {
+    width: 100vw;
+    //width: 100%;
+    //max-width: 100vh;
+    //max-height: 100vh;
+    //// CSS Grid/Flexbox bug size workaround
+    //// @see https://github.com/kenwheeler/slick/issues/982
+    //min-height: 0;
+    //min-width: 0;
   }
-}
+
+
+
+  }
+
+
+

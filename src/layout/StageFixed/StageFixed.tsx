@@ -6,5 +6,5 @@ export type StageFixedProps = {
 }
 
 export default function StageFixed({children}: StageFixedProps) {
-  return (<div className={"StageFixed"}>{children}</div>);
+  return (<div className={"StageFixed Stage"}>{children}</div>);
 }

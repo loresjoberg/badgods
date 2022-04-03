@@ -2,23 +2,21 @@ import React from 'react';
 import ArrowCircleRight from "@mui/icons-material/ArrowCircleRight";
 import ArrowCircleLeft from "@mui/icons-material/ArrowCircleLeft";
 import './_NavBox.scss'
-import {Link} from "react-router-dom";
+import {useSwiper} from "swiper/react";
 
 export type NavBoxProps = {
-  toSlug: string;
   direction: string;
-  volumeSlug: string;
 }
 
-export default function NavBox({toSlug, volumeSlug, direction}: NavBoxProps) {
+export default function NavBox({direction}: NavBoxProps) {
 
-  const destination = toSlug !== '' ? '/view/' + volumeSlug + '/' + toSlug : '/';
-  return (<div className={direction + "Box NavBox"} >
-    <Link to={destination}>
-      {direction === 'previous' ?
-        <ArrowCircleLeft className={"leftArrow NavBox hoverIcon"}/> :
-        <ArrowCircleRight className={"rightArrow NavBox hoverIcon"}/>
-      }
-    </Link>
+  const swiper = useSwiper();
+  return (<div className={direction + "Box NavBox"} onClick={() => {
+    direction === 'previous' ? swiper.slidePrev() : swiper.slideNext();
+  }}>
+    {direction === 'previous' ?
+      <ArrowCircleLeft className={"leftArrow NavBox hoverIcon"}/> :
+      <ArrowCircleRight className={"rightArrow NavBox hoverIcon"}/>
+    }
   </div>);
 }

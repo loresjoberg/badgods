@@ -6,18 +6,14 @@ import PageSlider from "../PageSlider/PageSlider";
 
 export type FooterProps = {
   folios: folioType[];
-  previousSlug: string;
-  nextSlug: string;
   currentIndex: number;
-  volumeSlug: string;
 }
 
-export default function Footer({previousSlug, nextSlug, currentIndex, volumeSlug, folios}: FooterProps) {
+export default function Footer({currentIndex, folios}: FooterProps) {
   return (<div className={"Footer"}>
-      <NavBox key={'footerPrevious' + previousSlug} toSlug={previousSlug} direction={'previous'}
-              volumeSlug={volumeSlug}/>
+      <NavBox key={'footerPrevious' + currentIndex}  direction={'previous'}/>
       <PageSlider pageIndex={currentIndex} max={folios.length - 1} folios={folios}/>
-      <NavBox key={'footerNext' + nextSlug} toSlug={nextSlug} direction={'next'} volumeSlug={volumeSlug}/>
+      <NavBox key={'footerNext' + currentIndex} direction={'next'}/>
     </div>
   );
 }

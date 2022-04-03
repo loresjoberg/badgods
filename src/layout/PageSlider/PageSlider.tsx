@@ -1,8 +1,8 @@
 import React from 'react';
 import {Slider} from "@mui/material";
 import './_PageSlider.scss';
-import {useNavigate, useParams} from "react-router-dom";
 import {folioType} from "../../types";
+import {useSwiper} from "swiper/react";
 
 export type PageSliderProps = {
   pageIndex: number,
@@ -11,15 +11,15 @@ export type PageSliderProps = {
 }
 
 export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
+  const swiper = useSwiper();
 
   const [index, setIndex] = React.useState<number>(pageIndex);
 
-  let navigate = useNavigate();
-  let params = useParams();
 
   React.useEffect(() => {
+    console.log(swiper);
     setIndex(pageIndex);
-  }, [pageIndex]);
+  }, [pageIndex, swiper]);
 
   function valuetext(value: any) {
     return `${value}`;
@@ -30,6 +30,7 @@ export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
       index = index[0];
     }
     setIndex(index);
+    swiper.slideTo(index);
 
   }
 
@@ -38,16 +39,8 @@ export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
       index = index[0];
     }
 
-    const label = getSlug(index);
-    navigate('/view/' + params.volumeSlug + '/' + label)
+    swiper.slideTo(index);
 
-  }
-
-  const getSlug = (index: number) => {
-    if (folios.length > 0) {
-      return folios[index].slug;
-    }
-    return '';
   }
 
   const getLabel = (index: number) => {
