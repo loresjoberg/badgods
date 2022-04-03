@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/_BadGodsSwiper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FolioSlide/FolioSlide.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/FolioSlide/_FolioSlide.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/_Content.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +162,7 @@
       <workItem from="1648864029655" duration="67000" />
       <workItem from="1648864107230" duration="31393000" />
       <workItem from="1648930448958" duration="30597000" />
-      <workItem from="1649010209872" duration="2198000" />
+      <workItem from="1649010209872" duration="2744000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -352,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649000733212</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Scrolling works">
+      <created>1649014070230</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1649014070230</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -395,6 +389,7 @@
     <MESSAGE value="More size/fullscreen adjustments" />
     <MESSAGE value="Fixed scrolling" />
     <MESSAGE value="Sliding and clicking works." />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding and clicking works." />
+    <MESSAGE value="Scrolling works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Scrolling works" />
   </component>
 </project>

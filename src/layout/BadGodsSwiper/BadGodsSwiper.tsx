@@ -18,7 +18,7 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios}: B
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    console.log('activeIndex', activeIndex, url);
+    navigate(url);
   }, [url])
 
   const goTo = (slug: string) => {
@@ -32,7 +32,9 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios}: B
   });
 
   const whileMoving = (elements: Element[]) => {
-    elements.forEach((element) => {element.className = element.className + " inTransit"});
+    elements.forEach((element) => {
+      element.className = element.className + " inTransit"
+    });
   }
 
   return (<Swiper
@@ -46,13 +48,24 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios}: B
       // onProgress={(swiper,progress) => {
       //   console.log('onProgress', progress);
       // }}
-      onSliderFirstMove={(swiper,event) => {
+      onTouchMove={(swiper, event) => {
+        console.log('onTouchMove');
         const slides = [
           document.getElementsByClassName('swiper-slide-active ')[0],
           document.getElementsByClassName('swiper-slide-prev ')[0],
           document.getElementsByClassName('swiper-slide-next')[0],
-          ];
+        ];
         whileMoving(slides);
+      }}
+      onTouchEnd={(swiper, event) => {
+        console.log('onTouchEnd');
+
+        const slides = document.getElementsByClassName('FolioSlide');
+        Array.prototype.forEach.call(slides, (slide) => {
+          if (slide.classList.contains("inTransit")) {
+            slide.classList.remove("inTransit");
+          }
+        })
       }}
       onActiveIndexChange={(swiper) => {
         // console.log('activeIndexChange');
