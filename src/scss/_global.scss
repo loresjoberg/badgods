@@ -66,6 +66,7 @@ $sideMarginSmall: 0.5rem;
 
 $headerHeight: 4rem;
 $footerHeight: 3.5rem;
+$pageBufferBottom: 5.5rem;
 $readingWidth: 36rem;
 $pageHeight: calc(100vh - 7.5rem);
 $zLow: 1;
@@ -83,9 +84,9 @@ body {
   @media (screen and min-width: 600px) {
     margin: 0 $sideMargin;
   }
-  min-height: 100vh;
+  min-height: auto; // changed from vh
   #root {
-    min-height: 100vh;
+    min-height: auto; // changed from vh
   }
 }
 

@@ -3,48 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/advairlinecatalog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/advairlinecatalog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/ateam.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/ateam.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/canadiansnacks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/canadiansnacks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/catalogstuff.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/catalogstuff.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/cereal7.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/cereal7.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/collectibles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/collectibles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/czechsnacks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/czechsnacks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dangersymbols2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dndmonsters3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore2.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/dollarstore4.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/facialhair.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/facialhair.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/frenchsuck.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/frenchsuck.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/fridgemagnets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/fridgemagnets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/futurethings.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/futurethings.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/icecreamtreats.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/icecreamtreats.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/israelisnacks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/israelisnacks.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/jellybellys.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/jellybellys.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/lawrating.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/lawrating.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/littlepeople.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/littlepeople.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/monopolysets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/monopolysets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/moreairlinecatalog.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/moreairlinecatalog.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/morequarters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/morequarters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/newquarters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/newquarters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/pocketgames.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/pocketgames.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/postcards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/postcards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/quarters3.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/quarters3.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/quarters4.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/quarters4.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/quarters5.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/quarters5.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/schoolsupplies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/schoolsupplies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/spiderpowers.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/spiderpowers.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/starwarslegos.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/starwarslegos.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/thanksgivingsymbols.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/thanksgivingsymbols.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons2.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/book-of-ratings/utweapons2.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/_BadGodsSwiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/_BadGodsSwiper.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +174,7 @@
       <workItem from="1648864029655" duration="67000" />
       <workItem from="1648864107230" duration="31393000" />
       <workItem from="1648930448958" duration="30597000" />
-      <workItem from="1649010209872" duration="4799000" />
+      <workItem from="1649010209872" duration="9491000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -394,7 +365,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649014658487</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Touch and mouse interactions working.">
+      <created>1649016910672</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1649016910672</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,6 +417,7 @@
     <MESSAGE value="Sliding and clicking works." />
     <MESSAGE value="Scrolling works" />
     <MESSAGE value="Hiding scrollbar on swipe." />
-    <option name="LAST_COMMIT_MESSAGE" value="Hiding scrollbar on swipe." />
+    <MESSAGE value="Touch and mouse interactions working." />
+    <option name="LAST_COMMIT_MESSAGE" value="Touch and mouse interactions working." />
   </component>
 </project>

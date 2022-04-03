@@ -15,7 +15,7 @@ $fiveAcross: 31.5rem;
   .Footer {
     z-index: $zMega;
   }
-  min-height: 100vh;
+  min-height: auto; // changed from vh
   .Wall {
     display: flex;
     flex-direction: column;

@@ -1,15 +1,13 @@
 @import '../../scss/global';
 
-.Stage {
-  //position: relative;
-  //display: flex;
-  //flex-direction: column;
-  //align-items: center;
-  //min-height: 100vh;
-  //width: 100vw;
-  //
-  //img {
-  //  max-width: 100%;
-  //}
+.StageWrapper {
+  width: 95vw;
+  margin: auto;
+  .Stage {
+    //width: 90vw;
+  //  padding-top: $headerHeight;
+  //  padding-bottom: $footerHeight;
+  }
 }
+
 

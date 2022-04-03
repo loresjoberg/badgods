@@ -27,6 +27,7 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios}: B
 
   const slides = folios.map((folio) => {
     return <SwiperSlide className={"FolioSlide"} key={folio.slug}>
+
       <Stage activeFolio={folio} activeVolumeSlug={activeVolumeSlug}/>
     </SwiperSlide>
   });

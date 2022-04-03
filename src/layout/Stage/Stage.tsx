@@ -5,6 +5,7 @@ import './_Stage.scss';
 import StageFixed from "../StageFixed/StageFixed";
 import StageScrolling from "../StageScrolling/StageScrolling";
 import 'swiper/css/bundle';
+import Div100vh from "react-div-100vh";
 
 export type StageProps = {
   activeVolumeSlug: string;
@@ -34,9 +35,9 @@ export default function Stage({activeFolio, activeVolumeSlug}: StageProps) {
   }, [activeFolio.slug, activeFolio.mediaType, activeFolio.nomen, activeVolumeSlug])
 
   return (
-    <div className={"StageWrapper"}>
+    <Div100vh className={"StageWrapper"}>
       {content}
-    </div>
+    </Div100vh>
   );
 
 }
