@@ -31,10 +31,42 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios}: B
     </SwiperSlide>
   });
 
-  const whileMoving = (elements: Element[]) => {
-    elements.forEach((element) => {
-      element.className = element.className + " inTransit"
+  const whileMoving = () => {
+console.log('whileMoving');
+
+    const active = document.getElementsByClassName('swiper-slide-active ')[0] || null;
+    const prev = document.getElementsByClassName('swiper-slide-prev ')[0] || null;
+    const next = document.getElementsByClassName('swiper-slide-next')[0] || null;
+
+    const slides = [];
+
+    if (active) {
+      slides.push(active);
+    }
+
+    if (prev) {
+      slides.push(prev);
+    }
+
+    if (next) {
+      slides.push(next);
+    }
+    console.log('whileMoving', slides);
+    slides.forEach((slide) => {
+
+      slide.className = slide.className + " inTransit";
     });
+  }
+
+  const afterStopping = () => {
+    console.log('afterStopping');
+
+    const slides = document.getElementsByClassName('FolioSlide');
+    Array.prototype.forEach.call(slides, (slide) => {
+      if (slide.classList.contains("inTransit")) {
+        slide.classList.remove("inTransit");
+      }
+    })
   }
 
   return (<Swiper
@@ -45,37 +77,16 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios}: B
       slidesPerView={"auto"}
       navigation
       initialSlide={activeIndex}
-      // onProgress={(swiper,progress) => {
-      //   console.log('onProgress', progress);
-      // }}
-      onTouchMove={(swiper, event) => {
-        console.log('onTouchMove');
-        const slides = [
-          document.getElementsByClassName('swiper-slide-active ')[0],
-          document.getElementsByClassName('swiper-slide-prev ')[0],
-          document.getElementsByClassName('swiper-slide-next')[0],
-        ];
-        whileMoving(slides);
+      onSliderMove={(swiper, event) => {
+        console.log(event);
+        whileMoving();
       }}
-      onTouchEnd={(swiper, event) => {
-        console.log('onTouchEnd');
+      onTransitionEnd={(swiper) => {
+       afterStopping();
+       goTo(folios[swiper.activeIndex].slug);
+      }}
 
-        const slides = document.getElementsByClassName('FolioSlide');
-        Array.prototype.forEach.call(slides, (slide) => {
-          if (slide.classList.contains("inTransit")) {
-            slide.classList.remove("inTransit");
-          }
-        })
-      }}
-      onActiveIndexChange={(swiper) => {
-        // console.log('activeIndexChange');
-      }}
-      onSlideChangeTransitionEnd={(value) => {
-        // console.log('slideChangeTransitionEnd');
-
-        const slideSlug = folios[value.activeIndex].slug;
-        goTo(slideSlug);
-      }}>
+    >
       {slides}
       <Footer currentIndex={activeIndex}
               folios={folios}/>

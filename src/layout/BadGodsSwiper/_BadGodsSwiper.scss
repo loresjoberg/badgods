@@ -14,12 +14,13 @@
         overflow: hidden;
       }
       .StageWrapper {
-
+        .Stage {
+          width: 95vw;
+        }
         .Stage.StageScrolling {
           //background-color: seagreen;
           max-width: $readingWidth;
           margin: auto;
-
             padding-top: $headerHeight;
             padding-bottom: 6.5rem;
         }
