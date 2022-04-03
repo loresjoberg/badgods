@@ -2,21 +2,18 @@ import React from 'react';
 import './App.scss';
 import axios from 'axios';
 import {folioType, volumeType} from "./types";
-import {useNavigate, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import Header from "./layout/Header/Header";
-import Footer from "./layout/Footer/Footer";
 import {FullScreen, useFullScreenHandle} from "react-full-screen";
 import BackButton from "./layout/BackButton/BackButton";
 import FullScreenButtons from "./layout/FullScreenButtons/FullScreenButtons";
-import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css/bundle';
-import Stage from "./layout/Stage/Stage";
-import {Navigation, Scrollbar} from "swiper";
+
+import BadGodsSwiper from "./layout/BadGodsSwiper/BadGodsSwiper";
 
 const restUrl = "https://badgods.com:3030";
 
 const verbose = false;
-
 
 function conLog(...values: any) {
   if (verbose) {
@@ -31,7 +28,6 @@ function App() {
   const [activeIndex, setActiveIndex] = React.useState<number>(-1);
   const [activeVolumeSlug, setActiveVolumeSlug] = React.useState<string>('');
   const handle = useFullScreenHandle();
-  const navigate = useNavigate();
 
   React.useEffect(() => {
     conLog('useEffect[]')
@@ -42,7 +38,7 @@ function App() {
     conLog('useEffect[params.volumeSlug]')
     setActiveVolumeSlug(params.volumeSlug || volumes[0]._id);
 
-  }, [params.volumeSlug])
+  }, [params.volumeSlug, volumes])
 
   React.useEffect(() => {
     conLog('useEffect[volumes, params.volumeSlug]');
@@ -95,17 +91,7 @@ function App() {
     return null;
   }
 
-  const setUrl = (slug: string) => {
-    conLog('pushHistory', slug);
-    navigate('/view/' + activeVolumeSlug + "/" + slug);
-  }
 
-  const slides = folios.map((folio) => {
-    return <SwiperSlide key={folio.slug}>
-      <Stage activeFolio={folio}
-             activeVolumeSlug={activeVolumeSlug}></Stage>
-    </SwiperSlide>
-  })
 
   return (
     <div className="App">
@@ -113,20 +99,7 @@ function App() {
         <Header title={folios[activeIndex].nomen}
                 activeVolumeSlug={activeVolumeSlug}
                 volumes={volumes}/>
-        <Swiper
-          modules={[Navigation, Scrollbar]}
-          spaceBetween={0}
-          slidesPerView={"auto"}
-          navigation
-          initialSlide={activeIndex}
-          onSlideChangeTransitionEnd={(value) => {
-            const slideSlug = folios[value.activeIndex].slug;
-            setUrl(slideSlug);
-          }}>
-          {slides}
-          <Footer currentIndex={activeIndex}
-                  folios={folios}/>
-        </Swiper>
+        <BadGodsSwiper activeIndex={activeIndex} activeVolumeSlug={activeVolumeSlug} folios={folios}/>
         <BackButton/>
         {activeVolumeSlug !== 'bandwidth-theater' &&
           <FullScreenButtons handle={handle}/>}

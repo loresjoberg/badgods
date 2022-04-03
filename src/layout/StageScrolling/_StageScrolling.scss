@@ -1,29 +1,26 @@
 @import '../../scss/global';
 
-.StageScrolling {
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  padding-top: $headerHeight;
-  padding-bottom: 6.5rem;
-  max-width: $readingWidth;
-  //width: calc(80vw);
+//.StageScrolling {
+//  margin-left: auto;
+//  margin-right: auto;
+//  padding-top: $headerHeight;
+//  padding-bottom: 6.5rem;
+//  max-width: $readingWidth;
+//  @media (screen and min-width: 600px) {
+//    padding-bottom: $footerHeight;
+//  }
+//
+//  @media (screen and min-width: 900px) {
+//    padding-bottom: $footerHeight;
+//  }
+//}
 
-  @media (screen and min-width: 600px) {
-    padding-bottom: $footerHeight;
-  }
-
-  @media (screen and min-width: 900px) {
-    padding-bottom: $footerHeight;
-  }
-}
-
-.fullscreen-enabled {
-
-  overflow: scroll;
-  .StageScrolling {
-    color: white;
-    position: relative;
-    padding: $headerHeight 0;
-  }
-}
+//.fullscreen-enabled {
+//
+//  overflow: scroll;
+//  .StageScrolling {
+//    color: white;
+//    position: relative;
+//    padding: $headerHeight 0;
+//  }
+//}

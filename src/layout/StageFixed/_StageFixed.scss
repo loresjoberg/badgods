@@ -1,21 +1,21 @@
 @import '../../scss/global';
 
-.StageFixed {
-  justify-self: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  //max-width: calc(80vw);
-
-  img {
-    max-height: $pageHeight;
-    max-width: 100%;
-  }
-  video {
-    max-height: $pageHeight;
-    max-width: 40rem;
-  }
-
-}
+//.StageFixed {
+//  justify-self: center;
+//  display: flex;
+//  flex-direction: column;
+//  justify-content: center;
+//  align-items: center;
+//  height: 100vh;
+//  //max-width: calc(80vw);
+//
+//  img {
+//    max-height: $pageHeight;
+//    max-width: 100%;
+//  }
+//  video {
+//    max-height: $pageHeight;
+//    max-width: 40rem;
+//  }
+//
+//}

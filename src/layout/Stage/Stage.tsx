@@ -6,7 +6,6 @@ import StageFixed from "../StageFixed/StageFixed";
 import StageScrolling from "../StageScrolling/StageScrolling";
 import 'swiper/css/bundle';
 
-
 export type StageProps = {
   activeVolumeSlug: string;
   activeFolio: folioType;
@@ -35,9 +34,9 @@ export default function Stage({activeFolio, activeVolumeSlug}: StageProps) {
   }, [activeFolio.slug, activeFolio.mediaType, activeFolio.nomen, activeVolumeSlug])
 
   return (
-    <>
+    <div className={"StageWrapper"}>
       {content}
-    </>
+    </div>
   );
 
 }

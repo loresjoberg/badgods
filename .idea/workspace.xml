@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/_BadGodsSwiper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/FolioSlide/FolioSlide.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/FolioSlide/_FolioSlide.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/Content.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Content/_Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Content/_Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/MainNav/MainNav.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/MainNav/MainNav.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/MainNav/MainNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainNav/MainNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/StageFixed.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/StageFixed.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Content/Content.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Content/_Content.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/StageScrolling.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/StageScrolling.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +77,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/layout" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -106,8 +101,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/layout" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/public/ui" />
@@ -179,7 +174,8 @@
       <workItem from="1648863576020" duration="441000" />
       <workItem from="1648864029655" duration="67000" />
       <workItem from="1648864107230" duration="31393000" />
-      <workItem from="1648930448958" duration="21847000" />
+      <workItem from="1648930448958" duration="30597000" />
+      <workItem from="1649010209872" duration="2198000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -349,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648926533698</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Sliding and clicking works.">
+      <created>1649000733212</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1649000733212</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +394,7 @@
     <MESSAGE value="scrolling and nav" />
     <MESSAGE value="More size/fullscreen adjustments" />
     <MESSAGE value="Fixed scrolling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed scrolling" />
+    <MESSAGE value="Sliding and clicking works." />
+    <option name="LAST_COMMIT_MESSAGE" value="Sliding and clicking works." />
   </component>
 </project>

@@ -1,0 +1,61 @@
+@import '../../scss/global';
+
+.BadGodsSwiper {
+  max-width: 100vw;
+  .swiper-wrapper {
+    .FolioSlide {
+
+
+      //background-color: fuchsia;
+      height: 100vh;
+      overflow: auto;
+
+      &.inTransit {
+        overflow: hidden;
+      }
+      .StageWrapper {
+
+        .Stage.StageScrolling {
+          //background-color: seagreen;
+          max-width: $readingWidth;
+          margin: auto;
+
+            padding-top: $headerHeight;
+            padding-bottom: 6.5rem;
+        }
+      }
+
+
+      //height: 100vh;
+      ////noinspection CssInvalidPropertyValue
+      //overflow: -moz-scrollbars-none;
+
+      //&::-webkit-scrollbar {
+      //  display: none;
+      //}
+    }
+
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    height: 100vw;
+    width: 20vw;
+    top: 0;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .swiper-button-prev {
+    cursor: url(../../../public/ui/left-arrow.svg), auto;
+
+  }
+
+  .swiper-button-next {
+    cursor: url(../../../public/ui/right-arrow.svg), auto;
+  }
+}
+
+
+
