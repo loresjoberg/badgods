@@ -8,7 +8,7 @@ import {FullScreen, useFullScreenHandle} from "react-full-screen";
 import BackButton from "./layout/BackButton/BackButton";
 import FullScreenButtons from "./layout/FullScreenButtons/FullScreenButtons";
 import 'swiper/css/bundle';
-
+import { useDeviceData, isIPhone13 } from 'react-device-detect';
 import BadGodsSwiper from "./layout/BadGodsSwiper/BadGodsSwiper";
 import {Swiper} from "swiper";
 
@@ -31,10 +31,11 @@ function App() {
   const [activeIndex, setActiveIndex] = React.useState<number>(-1);
   const [activeVolumeSlug, setActiveVolumeSlug] = React.useState<string>('');
   const handle = useFullScreenHandle();
-
+  const deviceData = useDeviceData('');
   React.useEffect(() => {
     conLog('useEffect[]')
     loadVolumes();
+    console.log('deviceData', );
   }, [])
 
   React.useEffect(() => {
@@ -94,13 +95,13 @@ function App() {
 
   return (
     <div className="App">
+
       <FullScreen handle={handle}>
         <Header title={folios[activeIndex].nomen}
                 activeVolumeSlug={activeVolumeSlug}
                 volumes={volumes}/>
         <BadGodsSwiper handleInit={setSwiper} activeIndex={activeIndex} activeVolumeSlug={activeVolumeSlug} folios={folios}/>
-        <BackButton/>
-        {activeVolumeSlug !== 'bandwidth-theater' &&
+        {activeVolumeSlug !== 'bandwidth-theater' && deviceData.device.model !== 'iPhone' &&
           <FullScreenButtons handle={handle}/>}
 
       </FullScreen>

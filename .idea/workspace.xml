@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/_BadGodsSwiper.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/_BadGodsSwiper.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,7 @@
       <workItem from="1648864029655" duration="67000" />
       <workItem from="1648864107230" duration="31393000" />
       <workItem from="1648930448958" duration="30597000" />
-      <workItem from="1649010209872" duration="14245000" />
+      <workItem from="1649010209872" duration="16054000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -397,7 +398,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649035355486</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Centered video">
+      <created>1649040873005</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1649040873005</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +426,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="All sorts of stuff" />
     <MESSAGE value="Fixed data url" />
     <MESSAGE value="updated field names, deleted sql" />
     <MESSAGE value="Changed url to localhost" />
@@ -443,6 +450,7 @@
     <MESSAGE value="Changed Relevations to Toadstones" />
     <MESSAGE value="Back and forward buttons enabled" />
     <MESSAGE value="Hid scrollbar, again" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hid scrollbar, again" />
+    <MESSAGE value="Centered video" />
+    <option name="LAST_COMMIT_MESSAGE" value="Centered video" />
   </component>
 </project>
