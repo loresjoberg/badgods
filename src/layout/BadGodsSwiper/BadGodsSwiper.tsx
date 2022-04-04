@@ -16,15 +16,15 @@ export type BadGodsSwiperProps = {
 
 export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, handleInit}: BadGodsSwiperProps) {
   const [url, setUrl] = React.useState<string>('');
+  const [moving, setMoving] = React.useState<boolean>(false);
 
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    console.log('navigate', url, window.location.pathname);
+    // console.log('navigate', url, window.location.pathname);
     if (url !== window.location.pathname) {
-      console.log('nav');
+      // console.log('nav');
       navigate(url);
-
     }
   }, [url])
 
@@ -40,37 +40,42 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, ha
 
   const whileMoving = () => {
 
-    const active = document.getElementsByClassName('swiper-slide-active ')[0] || null;
-    const prev = document.getElementsByClassName('swiper-slide-prev ')[0] || null;
-    const next = document.getElementsByClassName('swiper-slide-next')[0] || null;
-
-    const slides = [];
-
-    if (active) {
-      slides.push(active);
+    if (moving) {
+      return;
     }
-
-    if (prev) {
-      slides.push(prev);
+    setMoving(true);
+    const swiper = document.getElementsByClassName('swiper')[0];
+    if (swiper) {
+      swiper.className = swiper.className + " inTransit";
     }
-
-    if (next) {
-      slides.push(next);
-    }
+    // const active = document.getElementsByClassName('swiper-slide-active ')[0] || null;
+    // const prev = document.getElementsByClassName('swiper-slide-prev ')[0] || null;
+    // const next = document.getElementsByClassName('swiper-slide-next')[0] || null;
+    //
+    // const slides = [];
+    //
+    // if (active) {
+    //   slides.push(active);
+    // }
+    //
+    // if (prev) {
+    //   slides.push(prev);
+    // }
+    //
+    // if (next) {
+    //   slides.push(next);
+    // }
     slides.forEach((slide) => {
-
-      slide.className = slide.className + " inTransit";
     });
   }
 
   const afterStopping = () => {
+  setMoving(false);
+    const swiper = document.getElementsByClassName('swiper')[0];
 
-    const slides = document.getElementsByClassName('FolioSlide');
-    Array.prototype.forEach.call(slides, (slide) => {
-      if (slide.classList.contains("inTransit")) {
-        slide.classList.remove("inTransit");
+      if (swiper.classList.contains("inTransit")) {
+        swiper.classList.remove("inTransit");
       }
-    })
   }
 
   return (<Swiper
@@ -83,14 +88,24 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, ha
       virtual
       initialSlide={activeIndex}
       onSliderMove={() => {
+        console.log('move');
         whileMoving();
       }}
       onSwiper={(swiper) => {
         handleInit(swiper)
       }}
       onTransitionEnd={(swiper) => {
+        console.log('transition end');
         afterStopping();
         goTo(folios[swiper.activeIndex].slug);
+      }}
+      onTransitionStart={(swiper) => {
+        console.log('transition start');
+        whileMoving();
+      }}
+      onBeforeSlideChangeStart={(swiper) => {
+        console.log('beforeSlideChangeStart');
+        // whileMoving();
       }}
     >
       {slides}

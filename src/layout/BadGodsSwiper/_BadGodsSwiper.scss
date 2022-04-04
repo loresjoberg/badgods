@@ -4,18 +4,20 @@
   max-width: 100vw;
   height: 100vh;
 
-  .swiper-wrapper {
-    .FolioSlide {
+  .FolioSlide {
 
-      overflow: auto;
-
-      &.inTransit {
-        overflow: hidden;
-      }
-
-    }
+    overflow: auto;
 
   }
+
+  &.inTransit {
+    .FolioSlide{
+      overflow: hidden;
+    }
+  }
+
+
+
 
   .swiper-button-prev, .swiper-button-next {
     height: 100vw;
