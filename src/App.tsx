@@ -103,7 +103,7 @@ function App() {
         <BadGodsSwiper handleInit={setSwiper} activeIndex={activeIndex} activeVolumeSlug={activeVolumeSlug} folios={folios}/>
         {activeVolumeSlug !== 'bandwidth-theater' && deviceData.device.model !== 'iPhone' &&
           <FullScreenButtons handle={handle}/>}
-
+        <BackButton/>
       </FullScreen>
     </div>
   );
