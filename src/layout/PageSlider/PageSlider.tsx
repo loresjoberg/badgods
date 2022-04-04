@@ -17,7 +17,6 @@ export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
 
 
   React.useEffect(() => {
-    console.log(swiper);
     setIndex(pageIndex);
   }, [pageIndex, swiper]);
 

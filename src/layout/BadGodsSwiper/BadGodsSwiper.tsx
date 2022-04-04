@@ -1,7 +1,7 @@
 import React from 'react';
 import './_BadGodsSwiper.scss';
 import {folioType} from "../../types";
-import {Navigation, Scrollbar} from "swiper";
+import {Navigation, Scrollbar, Virtual} from "swiper";
 import Footer from "../Footer/Footer";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {useNavigate} from "react-router-dom";
@@ -11,29 +11,34 @@ export type BadGodsSwiperProps = {
   folios: folioType[];
   activeIndex: number;
   activeVolumeSlug: string;
+  handleInit: Function;
 }
 
-export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios}: BadGodsSwiperProps) {
+export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, handleInit}: BadGodsSwiperProps) {
   const [url, setUrl] = React.useState<string>('');
+
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    navigate(url);
+    console.log('navigate', url, window.location.pathname);
+    if (url !== window.location.pathname) {
+      console.log('nav');
+      navigate(url);
+
+    }
   }, [url])
 
   const goTo = (slug: string) => {
     setUrl('/view/' + activeVolumeSlug + "/" + slug);
   }
 
-  const slides = folios.map((folio) => {
-    return <SwiperSlide className={"FolioSlide"} key={folio.slug}>
-
+  const slides = folios.map((folio, index) => {
+    return <SwiperSlide className={"FolioSlide"} key={folio.slug} virtualIndex={index}>
       <Stage activeFolio={folio} activeVolumeSlug={activeVolumeSlug}/>
     </SwiperSlide>
   });
 
   const whileMoving = () => {
-console.log('whileMoving');
 
     const active = document.getElementsByClassName('swiper-slide-active ')[0] || null;
     const prev = document.getElementsByClassName('swiper-slide-prev ')[0] || null;
@@ -52,7 +57,6 @@ console.log('whileMoving');
     if (next) {
       slides.push(next);
     }
-    console.log('whileMoving', slides);
     slides.forEach((slide) => {
 
       slide.className = slide.className + " inTransit";
@@ -60,7 +64,6 @@ console.log('whileMoving');
   }
 
   const afterStopping = () => {
-    console.log('afterStopping');
 
     const slides = document.getElementsByClassName('FolioSlide');
     Array.prototype.forEach.call(slides, (slide) => {
@@ -73,20 +76,22 @@ console.log('whileMoving');
   return (<Swiper
       id={"BadGodsSwiper"}
       className={"BadGodsSwiper"}
-      modules={[Navigation, Scrollbar]}
+      modules={[Navigation, Scrollbar, Virtual]}
       spaceBetween={0}
-      slidesPerView={"auto"}
+      slidesPerView={1}
       navigation
+      virtual
       initialSlide={activeIndex}
-      onSliderMove={(swiper, event) => {
-        console.log(event);
+      onSliderMove={() => {
         whileMoving();
       }}
-      onTransitionEnd={(swiper) => {
-       afterStopping();
-       goTo(folios[swiper.activeIndex].slug);
+      onSwiper={(swiper) => {
+        handleInit(swiper)
       }}
-
+      onTransitionEnd={(swiper) => {
+        afterStopping();
+        goTo(folios[swiper.activeIndex].slug);
+      }}
     >
       {slides}
       <Footer currentIndex={activeIndex}

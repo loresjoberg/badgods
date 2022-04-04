@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.scss';
 import axios from 'axios';
 import {folioType, volumeType} from "./types";
@@ -10,6 +10,7 @@ import FullScreenButtons from "./layout/FullScreenButtons/FullScreenButtons";
 import 'swiper/css/bundle';
 
 import BadGodsSwiper from "./layout/BadGodsSwiper/BadGodsSwiper";
+import {Swiper} from "swiper";
 
 const restUrl = "https://badgods.com:3030";
 
@@ -23,6 +24,8 @@ function conLog(...values: any) {
 
 function App() {
   const params = useParams();
+  const [swiper, setSwiper] = useState<Swiper>();
+
   const [volumes, setVolumes] = React.useState<volumeType[]>([]);
   const [folios, setFolios] = React.useState<folioType[]>([]);
   const [activeIndex, setActiveIndex] = React.useState<number>(-1);
@@ -61,13 +64,10 @@ function App() {
   }, [folios, params]);
 
   React.useEffect(() => {
-    if (folios.length > 0 && activeIndex >= 0) {
-      folios.forEach((folio) => {
-        conLog('folio', folio, 'folios', folios, 'activeIndex', activeIndex);
-
-      })
+    if (swiper) {
+      swiper.slideTo(activeIndex)
     }
-  }, [folios, activeIndex]);
+  }, [activeIndex, swiper]);
 
 
   const loadVolumes = () => {
@@ -92,14 +92,13 @@ function App() {
   }
 
 
-
   return (
     <div className="App">
       <FullScreen handle={handle}>
         <Header title={folios[activeIndex].nomen}
                 activeVolumeSlug={activeVolumeSlug}
                 volumes={volumes}/>
-        <BadGodsSwiper activeIndex={activeIndex} activeVolumeSlug={activeVolumeSlug} folios={folios}/>
+        <BadGodsSwiper handleInit={setSwiper} activeIndex={activeIndex} activeVolumeSlug={activeVolumeSlug} folios={folios}/>
         <BackButton/>
         {activeVolumeSlug !== 'bandwidth-theater' &&
           <FullScreenButtons handle={handle}/>}
