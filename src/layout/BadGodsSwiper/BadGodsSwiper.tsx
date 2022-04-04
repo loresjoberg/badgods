@@ -84,6 +84,7 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, ha
       modules={[Navigation, Scrollbar, Virtual]}
       spaceBetween={0}
       slidesPerView={1}
+      simulateTouch={false}
       navigation
       virtual
       initialSlide={activeIndex}
