@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/BadModal/_BadModal.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +166,8 @@
       <workItem from="1648864029655" duration="67000" />
       <workItem from="1648864107230" duration="31393000" />
       <workItem from="1648930448958" duration="30597000" />
-      <workItem from="1649010209872" duration="16255000" />
+      <workItem from="1649010209872" duration="17676000" />
+      <workItem from="1649166681522" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -409,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649045849217</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Restored back button">
+      <created>1649085929260</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1649085929260</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +442,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="updated field names, deleted sql" />
     <MESSAGE value="Changed url to localhost" />
     <MESSAGE value="Changed favicon" />
     <MESSAGE value="Changed favicons" />
@@ -455,6 +466,7 @@
     <MESSAGE value="Hid scrollbar, again" />
     <MESSAGE value="Centered video" />
     <MESSAGE value="Hiding fullscreen on iPhones" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hiding fullscreen on iPhones" />
+    <MESSAGE value="Restored back button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restored back button" />
   </component>
 </project>

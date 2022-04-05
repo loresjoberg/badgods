@@ -1,7 +1,7 @@
 import React from 'react';
 import './_BadGodsSwiper.scss';
 import {folioType} from "../../types";
-import {Navigation, Scrollbar, Virtual} from "swiper";
+import SwiperCore, {Navigation, Scrollbar, Virtual, Keyboard} from "swiper";
 import Footer from "../Footer/Footer";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {useNavigate} from "react-router-dom";
@@ -17,16 +17,14 @@ export type BadGodsSwiperProps = {
 export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, handleInit}: BadGodsSwiperProps) {
   const [url, setUrl] = React.useState<string>('');
   const [moving, setMoving] = React.useState<boolean>(false);
-
+  SwiperCore.use([Keyboard]);
   const navigate = useNavigate();
 
   React.useEffect(() => {
-    // console.log('navigate', url, window.location.pathname);
     if (url !== window.location.pathname) {
-      // console.log('nav');
       navigate(url);
     }
-  }, [url])
+  }, [url, navigate])
 
   const goTo = (slug: string) => {
     setUrl('/view/' + activeVolumeSlug + "/" + slug);
@@ -48,23 +46,6 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, ha
     if (swiper) {
       swiper.className = swiper.className + " inTransit";
     }
-    // const active = document.getElementsByClassName('swiper-slide-active ')[0] || null;
-    // const prev = document.getElementsByClassName('swiper-slide-prev ')[0] || null;
-    // const next = document.getElementsByClassName('swiper-slide-next')[0] || null;
-    //
-    // const slides = [];
-    //
-    // if (active) {
-    //   slides.push(active);
-    // }
-    //
-    // if (prev) {
-    //   slides.push(prev);
-    // }
-    //
-    // if (next) {
-    //   slides.push(next);
-    // }
     slides.forEach((slide) => {
     });
   }
@@ -87,6 +68,8 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, ha
       simulateTouch={false}
       navigation
       virtual
+      keyboard={{enabled: true}}
+      onKeyPress={() => {console.log('keypress')}}
       initialSlide={activeIndex}
       onSliderMove={() => {
         console.log('move');
