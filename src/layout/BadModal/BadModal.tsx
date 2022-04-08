@@ -1,14 +1,34 @@
 import React from 'react';
-import NavBox from "../NavBox/NavBox";
 import './_BadModal.scss';
-import {Modal} from "@mui/material";
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle, List, ListItem, ListItemText,
+} from "@mui/material";
+import {folioType} from "../../types";
 
-export default function BadModal() {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+export type BadModalProps = {
+  folios: folioType[];
+}
 
-  return (<Modal open={open}>
-    <div>Content</div>
-  </Modal>);
+export default function BadModal({folios}: BadModalProps) {
+
+
+  return (<Dialog
+    scroll={"paper"}
+    open={true}>
+      <DialogTitle>
+        Table of Contents
+      </DialogTitle>
+    <DialogContent>
+      <List>
+        {folios.map((folio) => (
+          <ListItem button onClick={() => {}} key={folio.slug}>
+            <ListItemText primary={folio.nomen} />
+          </ListItem>
+        ))}
+      </List>
+    </DialogContent>
+
+  </Dialog>);
 }

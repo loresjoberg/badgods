@@ -1,15 +1,12 @@
 @import '../../scss/global';
 
-.BackButton {
+.BadTableOfContents-Icon-Wrapper {
   position: fixed;
   opacity: $iconOpacity;
-  bottom: 4rem;
+  top: 4rem;
   left: 1rem;
-
   cursor: pointer;
-  img {
+  .enter-fullScreen-button {
     display: block;
-    width: 1.75rem;
-    height: 1.75rem;
   }
 }

@@ -3,6 +3,7 @@ import {Slider} from "@mui/material";
 import './_PageSlider.scss';
 import {folioType} from "../../types";
 import {useSwiper} from "swiper/react";
+import SliderLabel from "../SliderLabel/SliderLabel";
 
 export type PageSliderProps = {
   pageIndex: number,
@@ -14,7 +15,6 @@ export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
   const swiper = useSwiper();
 
   const [index, setIndex] = React.useState<number>(pageIndex);
-
 
   React.useEffect(() => {
     setIndex(pageIndex);
@@ -51,6 +51,9 @@ export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
 
   return (
     <Slider
+      components={{
+        ValueLabel: SliderLabel,
+      }}
       aria-label="Page"
       className={"PageSlider"}
       value={index}

@@ -605,4 +605,15 @@ const pageList = {
 export const pageMe = (slug, title = '') => {
   const titleBlock = title ? <h2>{title}</h2> : null;
   return <>{titleBlock}{pageList[slug]}</>;
+};
+
+export const textMe = (slug) => {
+  return pageList[slug];
+}
+
+export const getNodeText = (slug) => {
+  const node = pageList[slug];
+  if (['string', 'number'].includes(typeof node)) return node
+  if (node instanceof Array) return node.map(getNodeText).join('')
+  if (typeof node === 'object' && node) return getNodeText(node.props.children)
 }

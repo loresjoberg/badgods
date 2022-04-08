@@ -1,15 +1,12 @@
 @import '../../scss/global';
 
-.BackButton {
+.BadSearch-Icon-Wrapper {
   position: fixed;
   opacity: $iconOpacity;
-  bottom: 4rem;
-  left: 1rem;
-
+  top: 4rem;
+  right: 1.5rem;
   cursor: pointer;
-  img {
+  .enter-fullScreen-button {
     display: block;
-    width: 1.75rem;
-    height: 1.75rem;
   }
 }

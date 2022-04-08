@@ -2,12 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BadModal/_BadModal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/_BadTableOfContents.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/SliderLabel/SliderLabel.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout/SliderLabel/_SliderLabel.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/html/pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/BackButton.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/BackButton.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +46,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -93,10 +115,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/layout" />
+      <recent name="$PROJECT_DIR$/src/layout/Header" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/public/ui" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images/apocrypha" />
@@ -167,7 +189,9 @@
       <workItem from="1648864107230" duration="31393000" />
       <workItem from="1648930448958" duration="30597000" />
       <workItem from="1649010209872" duration="17676000" />
-      <workItem from="1649166681522" duration="358000" />
+      <workItem from="1649166681522" duration="2034000" />
+      <workItem from="1649218003206" duration="5527000" />
+      <workItem from="1649344445662" duration="7042000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -421,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649085929260</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Keyboard working">
+      <created>1649167255955</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1649167255955</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +473,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changed url to localhost" />
     <MESSAGE value="Changed favicon" />
     <MESSAGE value="Changed favicons" />
     <MESSAGE value="changed localhost back to badgods.com to avoid CORS errors" />
@@ -467,6 +497,7 @@
     <MESSAGE value="Centered video" />
     <MESSAGE value="Hiding fullscreen on iPhones" />
     <MESSAGE value="Restored back button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restored back button" />
+    <MESSAGE value="Keyboard working" />
+    <option name="LAST_COMMIT_MESSAGE" value="Keyboard working" />
   </component>
 </project>

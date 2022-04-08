@@ -11,6 +11,11 @@ import 'swiper/css/bundle';
 import {useDeviceData} from 'react-device-detect';
 import BadGodsSwiper from "./layout/BadGodsSwiper/BadGodsSwiper";
 import {Swiper} from "swiper";
+import BadSearch from "./layout/BadSearch/BadSearch";
+import BadTableOfContents from "./layout/BadTableofContents/BadTableOfContents";
+import Footer from "./layout/Footer/Footer";
+import {createTheme} from '@mui/material/styles';
+import {ThemeProvider} from "@emotion/react";
 
 const restUrl = "https://badgods.com:3030";
 
@@ -22,15 +27,25 @@ function conLog(...values: any) {
   }
 }
 
+
+const theme = createTheme({
+  palette: {
+    secondary: {
+      main: '#888',
+    },
+  },
+});
+
 function App() {
   const params = useParams();
   const [swiper, setSwiper] = useState<Swiper>();
-
   const [volumes, setVolumes] = React.useState<volumeType[]>([]);
   const [folios, setFolios] = React.useState<folioType[]>([]);
   const [activeIndex, setActiveIndex] = React.useState<number>(-1);
   const [activeVolumeSlug, setActiveVolumeSlug] = React.useState<string>('');
-  const handle = useFullScreenHandle();
+
+
+  const fullScreenHandle = useFullScreenHandle();
   const deviceData = useDeviceData('');
   React.useEffect(() => {
     conLog('useEffect[]')
@@ -94,18 +109,30 @@ function App() {
 
 
   return (
-    <div className="App">
-      <FullScreen handle={handle}>
-        <Header title={folios[activeIndex].nomen}
-                activeVolumeSlug={activeVolumeSlug}
-                volumes={volumes}/>
-        <BadGodsSwiper handleInit={setSwiper} activeIndex={activeIndex} activeVolumeSlug={activeVolumeSlug}
-                       folios={folios}/>
-        {activeVolumeSlug !== 'bandwidth-theater' && deviceData.device.model !== 'iPhone' &&
-          <FullScreenButtons handle={handle}/>}
-        <BackButton/>
-      </FullScreen>
-    </div>
+    <ThemeProvider theme={theme}>
+      <div className="App">
+
+        <FullScreen handle={fullScreenHandle}>
+          <Header title={folios[activeIndex].nomen}
+                  activeVolumeSlug={activeVolumeSlug}
+                  volumes={volumes}/>
+          <BadGodsSwiper handleInit={setSwiper}
+                         activeIndex={activeIndex}
+                         activeVolumeSlug={activeVolumeSlug}
+                         folios={folios}>
+            <>
+              <Footer currentIndex={activeIndex} folios={folios}/>
+              <BackButton/>
+              <BadSearch/>
+              <BadTableOfContents folios={folios}/>
+            </>
+          </BadGodsSwiper>
+          {activeVolumeSlug !== 'bandwidth-theater' && deviceData.device.model !== 'iPhone' &&
+            <FullScreenButtons handle={fullScreenHandle}/>}
+        </FullScreen>
+      </div>
+
+    </ThemeProvider>
   );
 
 }

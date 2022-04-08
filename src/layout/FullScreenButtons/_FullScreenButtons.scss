@@ -2,7 +2,7 @@
 
 .FullScreenButtons {
   position: fixed;
-  opacity: 0.5;
+  opacity: $iconOpacity;
   bottom: 3rem;
   right: $sideMarginSmall;
   cursor: pointer;

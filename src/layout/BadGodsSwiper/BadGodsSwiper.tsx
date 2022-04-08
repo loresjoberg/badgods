@@ -1,8 +1,7 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
 import './_BadGodsSwiper.scss';
 import {folioType} from "../../types";
 import SwiperCore, {Navigation, Scrollbar, Virtual, Keyboard} from "swiper";
-import Footer from "../Footer/Footer";
 import {Swiper, SwiperSlide} from "swiper/react";
 import {useNavigate} from "react-router-dom";
 import Stage from "../Stage/Stage";
@@ -12,9 +11,10 @@ export type BadGodsSwiperProps = {
   activeIndex: number;
   activeVolumeSlug: string;
   handleInit: Function;
+  children: ReactElement;
 }
 
-export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, handleInit}: BadGodsSwiperProps) {
+export default function BadGodsSwiper({children, activeIndex, activeVolumeSlug, folios, handleInit}: BadGodsSwiperProps) {
   const [url, setUrl] = React.useState<string>('');
   const [moving, setMoving] = React.useState<boolean>(false);
   SwiperCore.use([Keyboard]);
@@ -93,8 +93,8 @@ export default function BadGodsSwiper({activeIndex, activeVolumeSlug, folios, ha
       }}
     >
       {slides}
-      <Footer currentIndex={activeIndex}
-              folios={folios}/>
+      {children}
+
     </Swiper>
   );
 }
