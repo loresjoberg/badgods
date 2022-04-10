@@ -22,12 +22,12 @@ export default function BadGodsSwiper({children, activeIndex, activeVolumeSlug, 
 
   React.useEffect(() => {
     if (url !== window.location.pathname) {
-      navigate(url);
+      //navigate(url);
     }
   }, [url, navigate])
 
   const goTo = (slug: string) => {
-    setUrl('/view/' + activeVolumeSlug + "/" + slug);
+    //setUrl('/view/' + activeVolumeSlug + "/" + slug);
   }
 
   const slides = folios.map((folio, index) => {
@@ -73,19 +73,19 @@ export default function BadGodsSwiper({children, activeIndex, activeVolumeSlug, 
       initialSlide={activeIndex}
       onSliderMove={() => {
         console.log('move');
-        whileMoving();
+        //whileMoving();
       }}
       onSwiper={(swiper) => {
-        handleInit(swiper)
+        //handleInit(swiper)
       }}
       onTransitionEnd={(swiper) => {
         console.log('transition end');
-        afterStopping();
-        goTo(folios[swiper.activeIndex].slug);
+        //afterStopping();
+        //goTo(folios[swiper.activeIndex].slug);
       }}
       onTransitionStart={(swiper) => {
         console.log('transition start');
-        whileMoving();
+        //whileMoving();
       }}
       onBeforeSlideChangeStart={(swiper) => {
         console.log('beforeSlideChangeStart');

@@ -1,10 +1,11 @@
 import React from 'react';
 import './_BadSearch.scss';
 import SearchIcon from '@mui/icons-material/Search';
-import {Dialog, DialogContent, DialogTitle, TextField} from "@mui/material";
+import {Dialog, DialogContent, DialogTitle, ListItem, ListItemText, TextField} from "@mui/material";
 import {useSwiper} from "swiper/react";
 import axios from "axios";
 import {folioType} from "../../types";
+import {Link} from "react-router-dom";
 
 const restUrl = "https://badgods.com:3030";
 const styles = {
@@ -18,7 +19,6 @@ export type BadSearchProps = {}
 
 export default function BadSearch({}: BadSearchProps) {
 
-  const swiper = useSwiper();
   const [open, setOpen] = React.useState(false);
   const [searchResults, setSearchResults] = React.useState<folioType[]>([])
 
@@ -39,11 +39,6 @@ export default function BadSearch({}: BadSearchProps) {
   const handleClose = () => {
     setOpen(false);
   };
-
-  // const handleClickTitle = (index: number) => {
-  //   swiper.slideTo(index)
-  //   handleClose();
-  // }
 
   return (<>
     <div className={"BadSearch-Icon-Wrapper uiOverlay"}>
@@ -72,8 +67,12 @@ export default function BadSearch({}: BadSearchProps) {
         maxHeight: "40vh",
         height: "40vh",
       }}>
-        {searchResults.map((result: folioType) => {
-          return <div key={result.slug}>{result.nomen}</div>
+        {searchResults.map((folio: folioType) => {
+          return <Link to={"/view/speak-with-monsters/chimera"} key={folio.slug}>
+            <ListItem key={folio.slug}>
+            <ListItemText primary={folio.nomen} />
+            </ListItem>
+          </Link>
         })}
       </DialogContent>
 

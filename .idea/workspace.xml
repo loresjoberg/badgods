@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/_BadTableOfContents.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/SliderLabel/SliderLabel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout/SliderLabel/_SliderLabel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Unknown.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/l-utils.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/html/pages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/html/pages.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/BackButton.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/BackButton.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,14 +24,27 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="SCSS File" />
         <option value="HTML File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="search" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -90,7 +89,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/layout" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -114,9 +113,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/layout" />
       <recent name="$PROJECT_DIR$/src/layout/Header" />
-      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -146,6 +145,12 @@
     <configuration name="JS Debug" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Spec Footer.it exists" />
+        <item itemvalue="Jest.Spec Footer.it exists" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -192,6 +197,9 @@
       <workItem from="1649166681522" duration="2034000" />
       <workItem from="1649218003206" duration="5527000" />
       <workItem from="1649344445662" duration="7042000" />
+      <workItem from="1649426539730" duration="3426000" />
+      <workItem from="1649552751904" duration="402000" />
+      <workItem from="1649553167838" duration="5592000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -463,7 +471,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="search" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="search" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

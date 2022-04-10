@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Bookshelf from "./layout/Bookshelf/Bookshelf";
 import './fonts/ChaparralPro-Regular.otf';
 import './fonts/ChaparralPro-Bold.otf';
+import Unknown from "./Unknown";
 
 
 ReactDOM.render(
@@ -15,7 +16,8 @@ ReactDOM.render(
         <Route path="/view/:volumeSlug/:folioSlug" element={<App/>}/>
         <Route path="/view/:volumeSlug/" element={<App/>}/>
         <Route path="/" element={<Bookshelf/>}/>
-      </Routes>
+        <Route path='*' element={<Unknown/>}/>
+        </Routes>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
