@@ -6,13 +6,18 @@
   padding-top: $headerHeight;
   padding-bottom: 6.5rem;
   max-width: $readingWidth;
-  @media (screen and min-width: 600px) {
-    padding-bottom: $pageBufferBottom;
+
+  .StageScrolling-Inner {
+    padding-bottom: 6.5rem;
+    @media (screen and min-width: 600px) {
+      padding-bottom: $pageBufferBottom;
+    }
+
+    @media (screen and min-width: 900px) {
+      padding-bottom: $pageBufferBottom;
+    }
   }
 
-  @media (screen and min-width: 900px) {
-    padding-bottom: $pageBufferBottom;
-  }
 }
 
 .fullscreen-enabled {
