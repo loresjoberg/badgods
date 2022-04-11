@@ -11,6 +11,21 @@
     a {
       opacity: 0;
     }
+
+    &.previousBox {
+      a {
+        width: 100%;
+        height: 100%;
+        cursor: url(../../../public/ui/left-arrow.svg), auto;
+      }
+    }
+
+    &.nextBox {
+      a {
+        cursor: url(../../../public/ui/right-arrow.svg), auto;
+
+      }
+    }
   }
   .Stage {
     z-index: $zLow;
