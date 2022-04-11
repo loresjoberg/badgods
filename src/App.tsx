@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './App.scss';
 import {folioType, volumeType} from "./scripts/types";
-import {Link, useParams} from "react-router-dom";
+import {useParams} from "react-router-dom";
 import 'swiper/css/bundle';
 import {createTheme} from '@mui/material/styles';
 import {ThemeProvider} from "@emotion/react";
@@ -40,7 +40,6 @@ const nullFolio: folioType = {
 function App() {
   const params = useParams();
   const fullscreen = useFullScreenHandle();
-  const flipTo = useFlipTo();
   const [volumes, setVolumes] = useState<volumeType[]>([]);
   const [activeVolume, setActiveVolume] = useState<volumeType>(nullVolume);
   const [folios, setFolios] = useState<folioType[]>([])
@@ -65,19 +64,9 @@ function App() {
     setActiveFolio(folios.find(folio => folio.slug === params.folioSlug) ?? nullFolio);
   }, [folios, params])
 
-  const linkFolio = params.folioSlug === 'chimera' ? 'asenator' : 'chimera';
-  const linkVolume = params.folioSlug === 'chimera' ? 'lore-brand-comics' : 'speak-with-monsters';
   const isReady = Boolean(activeVolume._id !== '' && activeFolio.slug !== '');
-  const testButtons = <>
-    <div className={"upperLeft"}>
-      <Link to={'/view/' + linkVolume + '/' + linkFolio}>Elsewhere</Link>
-    </div>
-    <div className={"upperRight"} onClick={() => {
-      flipTo(linkVolume, linkFolio)
-    }}>
-      Clickwise
-    </div>
-  </>
+
+
   return (isReady ?
       <ThemeProvider theme={theme}>
         <div className="App">
@@ -89,13 +78,8 @@ function App() {
           <BackButton/>
           <FullScreenButtons handle={fullscreen}/>
         </div>
-      </ThemeProvider> :
-      <div>
-        <div>Volume Slug: {params.volumeSlug ?? 'NO VOLUME SLUG'}</div>
-        <div>Folio Slug: {params.folioSlug ?? 'NO FOLIO SLUG'}</div>
-        <div>Active Volume: {activeVolume ? activeVolume._id : 'NO ACTIVE VOLUME'}</div>
-        <div>Active Folio: {activeFolio ? activeFolio.slug : 'NO ACTIVE FOLIO'}</div>
-      </div>
+      </ThemeProvider>
+      : <h1>Loading...</h1>
   );
 
 }

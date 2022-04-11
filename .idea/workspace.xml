@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scripts/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/types.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -458,7 +453,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649167255955</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Working without swipe or big button areas.">
+      <created>1649653324254</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1649653324254</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +513,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Changed favicon" />
     <MESSAGE value="Changed favicons" />
     <MESSAGE value="changed localhost back to badgods.com to avoid CORS errors" />
     <MESSAGE value="Changed http:// to https://" />
@@ -536,6 +537,7 @@
     <MESSAGE value="Hiding fullscreen on iPhones" />
     <MESSAGE value="Restored back button" />
     <MESSAGE value="Keyboard working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Keyboard working" />
+    <MESSAGE value="Working without swipe or big button areas." />
+    <option name="LAST_COMMIT_MESSAGE" value="Working without swipe or big button areas." />
   </component>
 </project>
