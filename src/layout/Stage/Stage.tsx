@@ -1,6 +1,6 @@
 import React, {ReactElement} from 'react';
 import {pageMe} from "../../html/pages";
-import {folioType} from "../../types";
+import {folioType} from "../../scripts/types";
 import './_Stage.scss';
 import StageFixed from "../StageFixed/StageFixed";
 import StageScrolling from "../StageScrolling/StageScrolling";

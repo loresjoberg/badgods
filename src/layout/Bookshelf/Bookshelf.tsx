@@ -1,5 +1,5 @@
 import React from 'react';
-import {volumeType} from "../../types";
+import {volumeType} from "../../scripts/types";
 import Header from "../Header/Header";
 import CatalogCover from "../CatalogCover/CatalogCover";
 import './_Bookshelf.scss';

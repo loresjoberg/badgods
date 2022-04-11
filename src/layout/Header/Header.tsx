@@ -1,6 +1,6 @@
 import React from 'react';
 import './_Header.scss';
-import {volumeType} from "../../types";
+import {volumeType} from "../../scripts/types";
 import {Link} from "react-router-dom";
 
 export type HeaderProps = {

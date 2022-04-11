@@ -6,8 +6,8 @@ import './_MainNav.scss';
 export default function MainNav() {
   return (<div className="MainNav">
     <NavBox key={"NavBoxPrev"}
-            direction={'previous'}/>
+            direction={'previous'} link={''}/>
     <NavBox key={"NavBoxNext"}
-            direction={'next'}/>
+            direction={'next'} link={''}/>
   </div>);
 }

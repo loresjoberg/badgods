@@ -14,3 +14,8 @@ export type volumeType = {
   nomen: string,
   precedence: number
 };
+
+export type pageType = {
+  volume: string,
+  folio: string,
+}

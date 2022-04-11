@@ -1,24 +1,25 @@
 import React from 'react';
 import {Slider} from "@mui/material";
 import './_PageSlider.scss';
-import {folioType} from "../../types";
-import {useSwiper} from "swiper/react";
+import {folioType} from "../../scripts/types";
 import SliderLabel from "../SliderLabel/SliderLabel";
+import {useNavigate} from "react-router-dom";
 
 export type PageSliderProps = {
   pageIndex: number,
+  volumeSlug: string,
   folios: folioType[],
   max: number
 }
 
-export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
-  const swiper = useSwiper();
+export default function PageSlider({pageIndex, folios, max, volumeSlug}: PageSliderProps) {
 
+  const navigate = useNavigate();
   const [index, setIndex] = React.useState<number>(pageIndex);
 
   React.useEffect(() => {
     setIndex(pageIndex);
-  }, [pageIndex, swiper]);
+  }, [pageIndex]);
 
   function valuetext(value: any) {
     return `${value}`;
@@ -26,20 +27,15 @@ export default function PageSlider({pageIndex, folios, max}: PageSliderProps) {
 
   function handleChange(event: any, index: number | number[]) {
     if (Array.isArray(index)) {
-      index = index[0];
+      return;
     }
-    setIndex(index);
-    swiper.slideTo(index);
+    const newFolio = folios[index];
+    navigate('/view/' + volumeSlug + '/' + newFolio.slug)
 
   }
 
   function handleCommit(event: any, index: number | number[]) {
-    if (Array.isArray(index)) {
-      index = index[0];
-    }
-
-    swiper.slideTo(index);
-
+    return;
   }
 
   const getLabel = (index: number) => {

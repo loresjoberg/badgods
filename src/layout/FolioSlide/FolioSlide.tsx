@@ -1,6 +1,6 @@
 import React from 'react';
 import './_FolioSlide.scss';
-import {folioType} from "../../types";
+import {folioType} from "../../scripts/types";
 import {SwiperSlide} from "swiper/react";
 import Stage from "../Stage/Stage";
 

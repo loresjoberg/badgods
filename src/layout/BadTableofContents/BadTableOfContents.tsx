@@ -2,7 +2,7 @@ import React from 'react';
 import './_BadTableOfContents.scss';
 import Toc from '@mui/icons-material/Toc';
 import {Button, Dialog, DialogContent, DialogTitle, List, ListItem, ListItemText} from "@mui/material";
-import {folioType} from "../../types";
+import {folioType} from "../../scripts/types";
 import {useSwiper} from "swiper/react";
 
 export type BadTableOfContentsProps = {

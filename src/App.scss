@@ -6,6 +6,18 @@
   justify-content: center;
   font-family: 'ChaparralPro', serif;
   min-height: auto;
+
+  .upperLeft {
+    position: absolute;
+    top: 100px;
+    left: 100px
+  }
+
+  .upperRight {
+    position: absolute;
+    top: 100px;
+    right: 100px
+  }
   .Header {
     z-index: $zMega;
   }
@@ -14,14 +26,9 @@
     z-index: $zMega;
   }
 
-  .Content {
-    //z-index: $zHigh;
-  }
-
   .MainNav {
-    //z-index: $zLow;
+    z-index: $zLow;
   }
-
 
   .uiOverlay {
     z-index: $zMega;

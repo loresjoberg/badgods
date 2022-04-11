@@ -5,7 +5,7 @@ import {
   DialogContent,
   DialogTitle, List, ListItem, ListItemText,
 } from "@mui/material";
-import {folioType} from "../../types";
+import {folioType} from "../../scripts/types";
 
 export type BadModalProps = {
   folios: folioType[];

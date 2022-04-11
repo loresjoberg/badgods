@@ -4,7 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import {Dialog, DialogContent, DialogTitle, ListItem, ListItemText, TextField} from "@mui/material";
 import {useSwiper} from "swiper/react";
 import axios from "axios";
-import {folioType} from "../../types";
+import {folioType} from "../../scripts/types";
 import {Link} from "react-router-dom";
 
 const restUrl = "https://badgods.com:3030";
