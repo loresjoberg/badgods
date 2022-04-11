@@ -6,7 +6,6 @@ import StageFixed from "../StageFixed/StageFixed";
 import StageScrolling from "../StageScrolling/StageScrolling";
 import 'swiper/css/bundle';
 import Div100vh from "react-div-100vh";
-import StageNav from "../StageNav/StageNav";
 import NavBox from "../NavBox/NavBox";
 
 export type StageProps = {
