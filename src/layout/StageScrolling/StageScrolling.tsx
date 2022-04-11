@@ -6,5 +6,5 @@ export type StageScrollingProps = {
 }
 
 export default function StageScrolling({children}: StageScrollingProps) {
-  return (<div className={"StageScrolling Stage"}>{children}</div>);
+  return (<div className={"StageScrolling Stage"}><div className={"StageScrolling-Inner"}>{children}</div></div>);
 }
