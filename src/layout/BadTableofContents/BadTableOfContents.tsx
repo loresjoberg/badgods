@@ -35,6 +35,7 @@ export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
         <DialogTitle>
           Table of Contents
           <Button
+            onClick={() => {flipTo()}}
             color={"secondary"}
             variant={"outlined"}
             size={"small"}

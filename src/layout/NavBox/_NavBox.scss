@@ -1,16 +1,12 @@
 @import '../../scss/global';
 
 .NavBox {
-  &.previousBox {
-    //background-color: lavenderblush;
 
-  }
-  &.nextBox {
-    //background-color: bisque;
-  }
   a {
     color: black;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
     height: 100%;
   }

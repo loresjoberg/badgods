@@ -14,7 +14,6 @@ import FullScreenButtons from "./layout/FullScreenButtons/FullScreenButtons";
 import {useFullScreenHandle} from "react-full-screen";
 import BadSearch from "./layout/BadSearch/BadSearch";
 import BadTableOfContents from "./layout/BadTableofContents/BadTableOfContents";
-import {useFlipTo} from "./scripts/hooks";
 
 const theme = createTheme({
   palette: {
@@ -60,7 +59,6 @@ function App() {
       setActiveFolio(folios[0] ?? nullFolio);
       return;
     }
-
     setActiveFolio(folios.find(folio => folio.slug === params.folioSlug) ?? nullFolio);
   }, [folios, params])
 
@@ -71,7 +69,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <div className="App">
           <Header activeVolumeSlug={activeVolume._id} title={activeFolio.nomen} volumes={volumes}/>
-          <Stage activeFolio={activeFolio} activeVolumeSlug={activeVolume._id}/>
+          <Stage activeFolio={activeFolio} activeVolumeSlug={activeVolume._id} folios={folios}/>
           <Footer activeFolio={activeFolio} folios={folios} activeVolumeSlug={activeVolume._id}/>
           <BadSearch/>
           <BadTableOfContents folios={folios}/>

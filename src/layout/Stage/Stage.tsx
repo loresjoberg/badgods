@@ -6,13 +6,16 @@ import StageFixed from "../StageFixed/StageFixed";
 import StageScrolling from "../StageScrolling/StageScrolling";
 import 'swiper/css/bundle';
 import Div100vh from "react-div-100vh";
+import StageNav from "../StageNav/StageNav";
+import NavBox from "../NavBox/NavBox";
 
 export type StageProps = {
   activeVolumeSlug: string;
   activeFolio: folioType;
+  folios: folioType[];
 }
 
-export default function Stage({activeFolio, activeVolumeSlug}: StageProps) {
+export default function Stage({activeFolio, activeVolumeSlug, folios}: StageProps) {
   const [content, setContent] = React.useState<ReactElement>(<span></span>);
 
   React.useEffect(() => {
@@ -34,10 +37,12 @@ export default function Stage({activeFolio, activeVolumeSlug}: StageProps) {
     }
   }, [activeFolio.slug, activeFolio.mediaType, activeFolio.nomen, activeVolumeSlug])
 
-  return (
+  return (<>
     <Div100vh className={"StageWrapper"}>
+      <NavBox key={"NavBoxPrev"} direction={'previous'} activeFolio={activeFolio} folios={folios}/>
       {content}
+      <NavBox key={"NavBoxNext"} direction={'next'} activeFolio={activeFolio} folios={folios}/>
     </Div100vh>
-  );
+  </>);
 
 }

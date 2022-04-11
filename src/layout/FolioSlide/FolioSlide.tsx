@@ -12,6 +12,6 @@ export type BadGodsSlideProps = {
 export default function FolioSlide({activeVolumeSlug, folio}: BadGodsSlideProps) {
 
   return (<SwiperSlide key={folio.slug}>
-      <Stage activeFolio={folio} activeVolumeSlug={activeVolumeSlug}/>
+      <Stage activeFolio={folio} activeVolumeSlug={activeVolumeSlug} folios={[]}/>
   </SwiperSlide>);
 }

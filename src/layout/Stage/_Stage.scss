@@ -1,12 +1,20 @@
 @import '../../scss/global';
 
 .StageWrapper {
-  width: 95vw;
+  width: 100vw;
   margin: auto;
+  display: flex;
+  flex-direction: row;
+
+  .NavBox {
+    flex-grow: 1;
+    a {
+      opacity: 0;
+    }
+  }
   .Stage {
-    //width: 90vw;
-  //  padding-top: $headerHeight;
-  //  padding-bottom: $footerHeight;
+    z-index: $zLow;
+    flex-basis: content;
   }
 }
 
