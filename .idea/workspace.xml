@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/scripts/client.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/hooks.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadGodsSwiper/BadGodsSwiper.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadModal/BadModal.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/CatalogCover/CatalogCover.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogCover/CatalogCover.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FolioSlide/FolioSlide.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FolioSlide/FolioSlide.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/MainNav/MainNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/MainNav/MainNav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/PageSlider/PageSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/SliderLabel/SliderLabel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/SliderLabel/SliderLabel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/types.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/l-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/l-utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/types.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/scripts/types.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -488,7 +475,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="search" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -506,12 +493,12 @@
             <list>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="search" />
+                  <option value="master" />
                 </option>
               </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
-                  <option value="master" />
+                  <option value="search" />
                 </option>
               </RecentGroup>
             </list>

@@ -5,7 +5,7 @@ export type folioType = {
   slug: string,
   nomen: string,
   mediaType: string,
-  sectionId: string,
+  volume: string,
   postDate: string,
 };
 

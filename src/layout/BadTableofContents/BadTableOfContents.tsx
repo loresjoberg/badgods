@@ -3,7 +3,7 @@ import './_BadTableOfContents.scss';
 import Toc from '@mui/icons-material/Toc';
 import {Button, Dialog, DialogContent, DialogTitle, List, ListItem, ListItemText} from "@mui/material";
 import {folioType} from "../../scripts/types";
-import {useSwiper} from "swiper/react";
+import {useFlipTo} from "../../scripts/hooks";
 
 export type BadTableOfContentsProps = {
   folios: folioType[];
@@ -11,7 +11,7 @@ export type BadTableOfContentsProps = {
 
 export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
 
-  const swiper = useSwiper();
+  const flipTo = useFlipTo();
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen =  () => {
@@ -21,11 +21,6 @@ export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
   const handleClose = () => {
     setOpen(false);
   };
-
-  const handleClickTitle = (index: number) => {
-    swiper.slideTo(index)
-    handleClose();
-  }
   
   return (<>
       <div className={"BadTableOfContents-Icon-Wrapper uiOverlay"}>
@@ -34,7 +29,9 @@ export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
       <Dialog
         onClose={handleClose}
         scroll={"paper"}
-        open={open}>
+        open={open}
+        fullWidth={true}
+      >
         <DialogTitle>
           Table of Contents
           <Button
@@ -51,9 +48,10 @@ export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
         </DialogTitle>
         <DialogContent dividers={true}>
           <List>
-            {folios.map((folio: folioType, index: number) => (
+            {folios.map((folio: folioType) => (
               <ListItem button onClick={() => {
-                handleClickTitle(index)
+                flipTo(folio.volume, folio.slug);
+                handleClose();
               }} key={folio.slug}>
                 <ListItemText primary={folio.nomen} />
               </ListItem>

@@ -2,23 +2,15 @@ import React from 'react';
 import './_BadSearch.scss';
 import SearchIcon from '@mui/icons-material/Search';
 import {Dialog, DialogContent, DialogTitle, ListItem, ListItemText, TextField} from "@mui/material";
-import {useSwiper} from "swiper/react";
 import axios from "axios";
 import {folioType} from "../../scripts/types";
-import {Link} from "react-router-dom";
+import {useFlipTo} from "../../scripts/hooks";
 
 const restUrl = "https://badgods.com:3030";
-const styles = {
-  dialogPaper: {
-    minHeight: '80vh',
-    maxHeight: '80vh',
-  },
-};
 
-export type BadSearchProps = {}
+export default function BadSearch() {
 
-export default function BadSearch({}: BadSearchProps) {
-
+  const flipTo = useFlipTo();
   const [open, setOpen] = React.useState(false);
   const [searchResults, setSearchResults] = React.useState<folioType[]>([])
 
@@ -68,11 +60,15 @@ export default function BadSearch({}: BadSearchProps) {
         height: "40vh",
       }}>
         {searchResults.map((folio: folioType) => {
-          return <Link to={"/view/speak-with-monsters/chimera"} key={folio.slug}>
+          return <div className="searchLink" onClick={() => {
+            flipTo(folio.volume, folio.slug);
+            setSearchResults([]);
+            handleClose()
+          }} key={folio.slug}>
             <ListItem key={folio.slug}>
             <ListItemText primary={folio.nomen} />
             </ListItem>
-          </Link>
+          </div>
         })}
       </DialogContent>
 
