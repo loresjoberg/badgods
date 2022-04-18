@@ -74,7 +74,9 @@ $zMed: 10;
 $zHigh: 100;
 $zMega: 1000;
 $zUltra: 10000;
-$iconOpacity: 0.2;
+$iconOpacity: 0.5;
+$iconHoverOpacity: 1;
+$iconColor: #888;
 
 html {
   font-family: 'ChaparralPro', serif;
@@ -115,3 +117,14 @@ img.twoUp {
 
 }
 
+.hoverable {
+  .hoverIcon {
+    color: $iconColor;
+    opacity: $iconOpacity;
+  }
+  &:hover {
+    .hoverIcon {
+      opacity: $iconHoverOpacity;
+    }
+  }
+}

@@ -1,6 +1,4 @@
 import React, {ReactElement} from 'react';
-// import ArrowCircleRight from "@mui/icons-material/ArrowCircleRight";
-// import ArrowCircleLeft from "@mui/icons-material/ArrowCircleLeft";
 import './_SliderLabel.scss'
 // import {useSwiper} from "swiper/react";
 import {Tooltip} from "@mui/material";

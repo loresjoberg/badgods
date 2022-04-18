@@ -38,9 +38,9 @@ export default function Stage({activeFolio, activeVolumeSlug, folios}: StageProp
 
   return (<>
     <Div100vh className={"StageWrapper"}>
-      <NavBox key={"NavBoxPrev"} direction={'previous'} activeFolio={activeFolio} folios={folios}/>
+      <NavBox key={"NavBoxPrev hoverable"} className="hoverable" direction={'previous'} activeFolio={activeFolio} folios={folios}/>
       {content}
-      <NavBox key={"NavBoxNext"} direction={'next'} activeFolio={activeFolio} folios={folios}/>
+      <NavBox key={"NavBoxNext hoverable"} className="hoverable" direction={'next'} activeFolio={activeFolio} folios={folios}/>
     </Div100vh>
   </>);
 

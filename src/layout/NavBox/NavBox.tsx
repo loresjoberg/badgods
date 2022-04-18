@@ -1,6 +1,6 @@
 import React from 'react';
-import ArrowCircleRight from "@mui/icons-material/ArrowCircleRight";
-import ArrowCircleLeft from "@mui/icons-material/ArrowCircleLeft";
+import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight"
+import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft"
 import './_NavBox.scss'
 import {Link} from "react-router-dom";
 import {folioType} from "../../scripts/types";
@@ -9,9 +9,10 @@ export type NavBoxProps = {
   direction: string;
   folios: folioType[];
   activeFolio: folioType;
+  className?: string;
 }
 
-export default function NavBox({direction, folios, activeFolio}: NavBoxProps) {
+export default function NavBox({direction, folios, activeFolio, className}: NavBoxProps) {
 
   const currentIndex = folios.findIndex(folio => folio.slug === activeFolio.slug) ?? 0;
 
@@ -29,11 +30,11 @@ export default function NavBox({direction, folios, activeFolio}: NavBoxProps) {
     return '/view/' + folios[folioIndex].volume + '/' + folios[folioIndex].slug;
   }
 
-  return (<div className={direction + "Box NavBox"}>
+  return (<div className={direction + "Box NavBox " + className }>
     <Link to={direction === 'previous' ? getPreviousLink() : getNextLink()}>
       {direction === 'previous' ?
-        <ArrowCircleLeft className={"leftArrow hoverIcon"}/> :
-        <ArrowCircleRight className={"rightArrow hoverIcon"}/>
+        <KeyboardArrowLeft className={"leftArrow hoverIcon"}/> :
+        <KeyboardArrowRight className={"rightArrow hoverIcon"}/>
       }
     </Link>
   </div>);

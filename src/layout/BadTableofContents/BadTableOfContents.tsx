@@ -23,8 +23,8 @@ export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
   };
   
   return (<>
-      <div className={"BadTableOfContents-Icon-Wrapper uiOverlay"}>
-        <Toc className={"BadTableOfContents-Icon"} fontSize={"large"} onClick={handleClickOpen}/>
+      <div className={"BadTableOfContents-Icon-Wrapper uiOverlay hoverable"}>
+        <Toc className={"BadTableOfContents-Icon hoverIcon"} fontSize={"large"} onClick={handleClickOpen}/>
       </div>
       <Dialog
         onClose={handleClose}

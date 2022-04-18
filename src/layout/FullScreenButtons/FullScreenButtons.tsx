@@ -10,10 +10,10 @@ export type FullscreenbuttonsProps = {
 
 export default function FullScreenButtons({handle}: FullscreenbuttonsProps) {
   return (<div className={"FullScreenButtons uiOverlay"}>
-    <div className="exit-fullScreen-button fullScreenButton" onClick={handle.exit}>
+    <div className="exit-fullScreen-button fullScreenButton hoverable" onClick={handle.exit}>
       <FullscreenExit fontSize={"large"}/>
     </div>
-    <div className="enter-fullScreen-button fullScreenButton" onClick={handle.enter}>
+    <div className="enter-fullScreen-button fullScreenButton hoverable" onClick={handle.enter}>
       <FullscreenIcon className="hoverIcon" fontSize={"large"}/>
     </div>
   </div>);

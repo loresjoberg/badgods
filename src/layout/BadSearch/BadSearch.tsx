@@ -33,8 +33,8 @@ export default function BadSearch() {
   };
 
   return (<>
-    <div className={"BadSearch-Icon-Wrapper uiOverlay"}>
-      <SearchIcon className={"BadSearch-Icon"} fontSize={"large"} onClick={handleClickOpen}/>
+    <div className={"BadSearch-Icon-Wrapper uiOverlay hoverable"}>
+      <SearchIcon className={"BadSearch-Icon hoverIcon"} fontSize={"large"} onClick={handleClickOpen}/>
     </div>
     <Dialog
       onClose={handleClose}
