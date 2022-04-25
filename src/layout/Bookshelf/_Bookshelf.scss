@@ -5,9 +5,10 @@ $fiveAcross: 31.5rem;
 
 .Bookshelf {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   .Header {
     z-index: $zMega;
   }
@@ -15,12 +16,7 @@ $fiveAcross: 31.5rem;
   .Footer {
     z-index: $zMega;
   }
-  min-height: auto; // changed from vh
   .Wall {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    //background-color: darkorange;
     .Shelves {
       margin-left: auto;
       margin-right: auto;

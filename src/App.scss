@@ -1,59 +1,65 @@
 @import 'scss/global';
 
 .App {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  font-family: 'ChaparralPro', serif;
-  min-height: auto;
 
-  .upperLeft {
-    position: absolute;
-    top: 100px;
-    left: 100px
-  }
+  @media (screen and min-width: 600px) {
 
-  .upperRight {
-    position: absolute;
-    top: 100px;
-    right: 100px
-  }
-  .Header {
-    z-index: $zMega;
-  }
 
-  .Footer {
-    z-index: $zMega;
-  }
-
-  .MainNav {
-    z-index: $zLow;
-  }
-
-  .uiOverlay {
-    z-index: $zMega;
-  }
-  h1, h2, h3 {
-    letter-spacing: normal;
-  }
-
-  .fullscreen-enabled {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: 'ChaparralPro', serif;
+    min-height: auto;
 
+    .upperLeft {
+      position: absolute;
+      top: 100px;
+      left: 100px
+    }
+
+    .upperRight {
+      position: absolute;
+      top: 100px;
+      right: 100px
+    }
     .Header {
-      display: none;
+      z-index: $zMega;
     }
+
     .Footer {
-      display: none;
+      z-index: $zMega;
     }
-    .BackButton {
-      display: none;
+
+    .MainNav {
+      z-index: $zLow;
     }
+
+    .uiOverlay {
+      z-index: $zMega;
+    }
+    h1, h2, h3 {
+      letter-spacing: normal;
+    }
+
+    .fullscreen-enabled {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .Header {
+        display: none;
+      }
+
+      .Footer {
+        display: none;
+      }
+
+      .BackButton {
+        display: none;
+      }
+    }
+
   }
-
-
 }
 
 

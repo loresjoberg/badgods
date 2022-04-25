@@ -1,28 +1,33 @@
 @import '../../scss/global';
 
 .FullScreenButtons {
-  position: fixed;
-  bottom: 3rem;
-  right: $sideMarginSmall;
-  cursor: pointer;
-  .enter-fullScreen-button {
+  display: none;
+
+  @media (screen and min-width: 600px) {
     display: block;
-  }
-
-  .exit-fullScreen-button {
-    color: white;
-    display: none;
-  }
-}
-
-.fullscreen-enabled {
-  .FullScreenButtons {
+    position: fixed;
+    bottom: $footerHeight;
+    right: $sideMarginSmall;
+    cursor: pointer;
     .enter-fullScreen-button {
-      display: none;
-    }
-    .exit-fullScreen-button {
       display: block;
     }
+
+    .exit-fullScreen-button {
+      color: white;
+      display: none;
+    }
   }
 
+  .fullscreen-enabled {
+    .FullScreenButtons {
+      .enter-fullScreen-button {
+        display: none;
+      }
+
+      .exit-fullScreen-button {
+        display: block;
+      }
+    }
+  }
 }

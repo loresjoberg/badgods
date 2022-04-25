@@ -21,18 +21,18 @@ export default function Stage({activeFolio, activeVolumeSlug, folios}: StageProp
     if (activeFolio.mediaType === 'image') {
       setContent(<StageFixed>
         <img alt="" src={`/images/${activeVolumeSlug}/${activeFolio.slug}.png`}/>
-      </StageFixed>);
+      </StageFixed>)
     } else if (activeFolio.mediaType === 'html') {
       const title = (activeVolumeSlug === 'book-of-ratings') ? activeFolio.nomen : '';
       setContent(<StageScrolling>
         {pageMe(activeFolio.slug, title)}
-      </StageScrolling>);
+      </StageScrolling>)
     } else if (activeFolio.mediaType === 'video') {
       setContent(<StageFixed>
         <video key={activeFolio.slug} className={"video"} controls preload={"metadata"}>
           <source src={`/video/${activeFolio.slug}.mp4`} type="video/mp4"/>
         </video>
-      </StageFixed>);
+      </StageFixed>)
     }
   }, [activeFolio.slug, activeFolio.mediaType, activeFolio.nomen, activeVolumeSlug])
 
@@ -42,6 +42,6 @@ export default function Stage({activeFolio, activeVolumeSlug, folios}: StageProp
       {content}
       <NavBox key={"NavBoxNext hoverable"} className="hoverable" direction={'next'} activeFolio={activeFolio} folios={folios}/>
     </Div100vh>
-  </>);
+  </>)
 
 }

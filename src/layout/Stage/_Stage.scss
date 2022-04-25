@@ -1,35 +1,72 @@
 @import '../../scss/global';
 
 .StageWrapper {
-  width: 100vw;
+  width: 90vw;
   margin: auto;
-  display: flex;
-  flex-direction: row;
 
   .NavBox {
-    flex-grow: 1;
-    a {
-      color: #888;
-      align-items: center;
-      flex-direction: row;
-    }
-
-    &.previousBox {
-      a {
-        justify-content: left;
-      }
-    }
-
-    &.nextBox {
-      a {
-        justify-content: right;
-      }
-    }
+    display: none;
   }
-  .Stage {
-    z-index: $zLow;
-    flex-basis: content;
+
+  @media (screen and min-width: 900px) {
+
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+
+    .Stage {
+      z-index: $zLow;
+      flex-basis: content;
+    }
+
+
+    .NavBox {
+
+      display: block;
+      flex-grow: 1;
+
+      &.previousBox {
+        a {
+          position: fixed;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          justify-content: left;
+        }
+      }
+
+      &.nextBox {
+        a {
+          position: fixed;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          justify-content: right;
+        }
+      }
+
+      a {
+        color: #888;
+        align-items: center;
+        flex-direction: row;
+
+        &:hover {
+          .hoverIcon {
+            transform: scale(1.0);
+          }
+        }
+
+        .MuiSvgIcon-root {
+          font-size: 2.5rem;
+
+        }
+      }
+    }
   }
 }
+
+
+
+
 
 

@@ -1,15 +1,22 @@
 @import '../../scss/global';
 
 .BackButton {
-  position: fixed;
-  opacity: $iconOpacity;
-  bottom: 4rem;
-  left: 1rem;
+  display: none;
 
-  cursor: pointer;
-  img {
+  @media (screen and min-width: 600px) {
     display: block;
-    width: 1.75rem;
-    height: 1.75rem;
+    position: fixed;
+    opacity: $iconOpacity;
+    bottom: $footerHeight;
+    left: 1rem;
+
+    padding-bottom: 0.75rem;
+    cursor: pointer;
+    img {
+      display: block;
+      width: 1.75rem;
+      height: 1.75rem;
+    }
   }
+
 }

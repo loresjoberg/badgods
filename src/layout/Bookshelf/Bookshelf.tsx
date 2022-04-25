@@ -5,6 +5,7 @@ import CatalogCover from "../CatalogCover/CatalogCover";
 import './_Bookshelf.scss';
 import axios from "axios";
 import StageScrolling from "../StageScrolling/StageScrolling";
+import StageFixed from "../StageFixed/StageFixed";
 
 const restUrl = "https://badgods.com:3030";
 
@@ -20,12 +21,11 @@ export default function Bookshelf() {
 
   }
 
-
   return (<div className="Bookshelf">
     <Header title={''}
             activeVolumeSlug={''}
             volumes={volumes}/>
-    <StageScrolling>
+    <StageFixed>
       <div className={"Wall"}>
         <div className={"Shelves volumes-" + volumes.length}>
           {volumes.map(function (volume) {
@@ -33,6 +33,6 @@ export default function Bookshelf() {
           })}
         </div>
       </div>
-    </StageScrolling>
+    </StageFixed>
   </div>);
 }

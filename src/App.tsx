@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import './App.scss';
 import {folioType, volumeType} from "./scripts/types";
 import {useParams} from "react-router-dom";
-import 'swiper/css/bundle';
 import {createTheme} from '@mui/material/styles';
 import {ThemeProvider} from "@emotion/react";
 import {loadFoliosForVolume, loadVolumes} from "./scripts/client";
@@ -78,7 +77,7 @@ function App() {
         </div>
       </ThemeProvider>
       : <h1>Loading...</h1>
-  );
+  )
 
 }
 

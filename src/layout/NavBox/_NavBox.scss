@@ -2,16 +2,21 @@
 
 .NavBox {
 
-  flex-grow: 1;
-
   a {
     color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
   }
 
+  @media (screen and 600px) {
+    flex-grow: 1;
+
+    a {
+      color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+    }
+  }
 
 }

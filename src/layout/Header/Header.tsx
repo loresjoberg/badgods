@@ -37,5 +37,5 @@ export default function Header({title, volumes, activeVolumeSlug}: HeaderProps) 
         </div>
       </div>
     </header>
-  );
+  )
 }

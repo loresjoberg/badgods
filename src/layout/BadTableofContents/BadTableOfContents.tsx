@@ -27,6 +27,7 @@ export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
         <Toc className={"BadTableOfContents-Icon hoverIcon"} fontSize={"large"} onClick={handleClickOpen}/>
       </div>
       <Dialog
+        className={"TableOfContentsDialog"}
         onClose={handleClose}
         scroll={"paper"}
         open={open}
@@ -35,6 +36,7 @@ export default function BadTableOfContents({folios}: BadTableOfContentsProps) {
         <DialogTitle>
           Table of Contents
           <Button
+            className={"ViewLibraryButton"}
             onClick={() => {flipTo()}}
             color={"secondary"}
             variant={"outlined"}

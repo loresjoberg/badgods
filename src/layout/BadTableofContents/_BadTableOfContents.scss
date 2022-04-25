@@ -2,10 +2,23 @@
 
 .BadTableOfContents-Icon-Wrapper {
   position: fixed;
-  top: 4rem;
-  left: 1rem;
+  right: 0.5rem;
+  top: 0.25rem;
   cursor: pointer;
-  .enter-fullScreen-button {
-    display: block;
+
+
+  @media(screen and min-width: 600px) {
+    top: 4rem;
+    left: 1rem;
   }
+}
+
+.TableOfContentsDialog {
+  .ViewLibraryButton {
+    display: none;
+    @media (screen and min-width: 600px) {
+      display: block;
+    }
+  }
+
 }

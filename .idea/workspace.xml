@@ -3,18 +3,27 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/ui/bad-gods-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/ui/bad-gods-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BackButton/BackButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/BackButton.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/BadSearch.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/BadTableOfContents.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/BadTableofContents/_BadTableOfContents.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/_BadTableOfContents.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/FullScreenButtons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/Bookshelf.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Bookshelf/_Bookshelf.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/CatalogCover/_CatalogCover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/CatalogCover/_CatalogCover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/NavBox/NavBox.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/SliderLabel/SliderLabel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/SliderLabel/SliderLabel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/NavBox/_NavBox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/NavBox/_NavBox.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/Stage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageFixed/_StageFixed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/StageScrolling/_StageScrolling.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +215,7 @@
       <workItem from="1649552751904" duration="402000" />
       <workItem from="1649553167838" duration="5592000" />
       <workItem from="1649716702540" duration="11000" />
-      <workItem from="1650241523196" duration="2402000" />
+      <workItem from="1650241523196" duration="15654000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -516,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649657208508</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Working with new icons">
+      <created>1650251881256</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1650251881256</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -569,7 +585,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="changed localhost back to badgods.com to avoid CORS errors" />
     <MESSAGE value="Changed http:// to https://" />
     <MESSAGE value="Removed fullscreen for Bandwidth Theater" />
     <MESSAGE value="Initializing Relevations" />
@@ -594,6 +609,7 @@
     <MESSAGE value="Keyboard working" />
     <MESSAGE value="Working without swipe or big button areas." />
     <MESSAGE value="Working enough to upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working enough to upload" />
+    <MESSAGE value="Working with new icons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working with new icons" />
   </component>
 </project>
