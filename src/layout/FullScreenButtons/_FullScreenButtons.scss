@@ -7,7 +7,8 @@
     display: block;
     position: fixed;
     bottom: $footerHeight;
-    right: $sideMarginSmall;
+    right: $sideMargin;
+    width: $iconWidth;
     cursor: pointer;
     .enter-fullScreen-button {
       display: block;

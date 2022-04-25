@@ -7,8 +7,9 @@
   cursor: pointer;
 
   @media(screen and min-width: 600px) {
-    top: 4rem;
-    right: 1.5rem;
+    top: $headerHeight;
+    right: $sideMargin;
+    width: $iconWidth;
   }
 }
 

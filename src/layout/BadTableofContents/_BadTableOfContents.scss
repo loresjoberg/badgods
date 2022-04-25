@@ -8,8 +8,9 @@
 
 
   @media(screen and min-width: 600px) {
-    top: 4rem;
-    left: 1rem;
+    top: $headerHeight;
+    left: $sideMargin;
+    width: $iconWidth;
   }
 }
 

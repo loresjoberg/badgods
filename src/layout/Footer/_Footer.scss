@@ -11,12 +11,16 @@
   right: 0;
   bottom: 0;
   height: $footerHeight;
+  @media (screen and min-width: 600px) {
+    align-items: center;
+  }
 
   .NavBox {
     flex-grow: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 
     .MuiSvgIcon-root.leftArrow, .MuiSvgIcon-root.rightArrow {
       width: $footerHeight;
@@ -26,18 +30,11 @@
 
   .PageSlider {
     display: none;
-  }
+    @media (screen and min-width: 600px) {
+      display: block;
+      margin: 0 1rem;
 
-  @media (screen and min-width: 600px) {
-
-    //align-items: center;
-    //
-    //padding: 0.25rem $sideMargin;
-    //
-    //.NavBox {
-    //  align-items: center;
-    //  opacity: 0.6;
-    //}
+    }
   }
 
 

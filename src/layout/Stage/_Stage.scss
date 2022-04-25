@@ -22,43 +22,38 @@
 
     .NavBox {
 
-      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       flex-grow: 1;
 
-      &.previousBox {
-        a {
-          position: fixed;
-          left: 0;
-          top: 0;
-          bottom: 0;
-          justify-content: left;
-        }
-      }
 
       &.nextBox {
+        text-align: right;
         a {
-          position: fixed;
-          right: 0;
-          top: 0;
-          bottom: 0;
           justify-content: right;
         }
       }
 
       a {
+        display: flex;
+        height: 100%;
         color: #888;
         align-items: center;
         flex-direction: row;
-
+        .hoverIcon {
+          opacity: 0;
+        }
         &:hover {
           .hoverIcon {
+            opacity: $iconHoverOpacity;
+
             transform: scale(1.0);
           }
         }
 
         .MuiSvgIcon-root {
           font-size: 2.5rem;
-
         }
       }
     }
