@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BackButton/_BackButton.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadSearch/_BadSearch.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BadTableofContents/_BadTableOfContents.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BadTableofContents/_BadTableOfContents.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Footer/_Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/FullScreenButtons/_FullScreenButtons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Header/_Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Header/_Header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_global.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +194,9 @@
       <workItem from="1649552751904" duration="402000" />
       <workItem from="1649553167838" duration="5592000" />
       <workItem from="1649716702540" duration="11000" />
-      <workItem from="1650241523196" duration="17575000" />
+      <workItem from="1650241523196" duration="18468000" />
+      <workItem from="1651118377842" duration="7000" />
+      <workItem from="1651422404173" duration="26000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -525,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650854477791</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Fixed arrows, etc.">
+      <created>1650856783872</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1650856783872</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +580,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Removed fullscreen for Bandwidth Theater" />
     <MESSAGE value="Initializing Relevations" />
     <MESSAGE value="Improved mobile view" />
     <MESSAGE value="Improved mobile view etc." />
@@ -603,6 +604,7 @@
     <MESSAGE value="Working enough to upload" />
     <MESSAGE value="Working with new icons" />
     <MESSAGE value="Releasing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Releasing" />
+    <MESSAGE value="Fixed arrows, etc." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed arrows, etc." />
   </component>
 </project>
