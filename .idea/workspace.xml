@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/Stage/_Stage.scss" afterDir="false" />
-    </list>
+    <list default="true" id="e4c30610-ddfb-4e16-9a75-81980254cd3c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +193,7 @@
       <workItem from="1649716702540" duration="11000" />
       <workItem from="1650241523196" duration="18468000" />
       <workItem from="1651118377842" duration="7000" />
-      <workItem from="1651422404173" duration="26000" />
+      <workItem from="1651422404173" duration="324000" />
     </task>
     <task id="LOCAL-00001" summary="Nearly working">
       <created>1647729358464</created>
@@ -527,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650856783872</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Centered images at 600-900">
+      <created>1651422590058</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1651422590058</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +584,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initializing Relevations" />
     <MESSAGE value="Improved mobile view" />
     <MESSAGE value="Improved mobile view etc." />
     <MESSAGE value="Added my name" />
@@ -605,6 +608,7 @@
     <MESSAGE value="Working with new icons" />
     <MESSAGE value="Releasing" />
     <MESSAGE value="Fixed arrows, etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed arrows, etc." />
+    <MESSAGE value="Centered images at 600-900" />
+    <option name="LAST_COMMIT_MESSAGE" value="Centered images at 600-900" />
   </component>
 </project>
